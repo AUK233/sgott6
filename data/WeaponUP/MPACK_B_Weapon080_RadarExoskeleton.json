@@ -1,0 +1,374 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {
+      "name": "xgs_scene_object_class",
+      "type": "str",
+      "value": "Weapon_Accessory"
+    },
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 13},
+                {"type": "double", "value": 3}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 16},
+                {"type": "double", "value": 1.75}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 500},
+                {"type": "double", "value": 2}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 302},
+                {"type": "double", "value": 6}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 305},
+                {"type": "double", "value": 1.2000000476837158}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "レーダー・スケルトン"},
+    {"name": "name.en", "type": "str", "value": "Radar Exoskeleton"},
+    {"name": "name.cn", "type": "str", "value": "雷達裝甲"},
+    {"name": "name.kr", "type": "str", "value": "레이더 스켈레톤"},
+    {"name": "name.sc", "type": "str", "value": "雷达装甲"},
+    {"name": "WeaponIcon", "type": "str", "value": "app:/weapon/icon/none"},
+    {"name": "BaseAnimation", "type": "str", "value": "none"},
+    {"name": "AimAnimation", "type": "str", "value": ""},
+    {"name": "ChangeAnimation", "type": "str", "value": ""},
+    {"name": "ReloadAnimation", "type": "str", "value": ""},
+    {"name": "AmmoCount", "type": "double", "value": 0},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 0},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {"name": "ReloadTime", "type": "double", "value": -1},
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}, {"type": "double", "value": 0}]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 1},
+    {"name": "FireBurstCount", "type": "double", "value": 0},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {"name": "FireVector", "type": "ptr", "value": null},
+    {"name": "FireSe", "type": "ptr", "value": null},
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": ""},
+    {"name": "AmmoModel", "type": "double", "value": 0},
+    {"name": "AmmoSpeed", "type": "double", "value": 0},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 0},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 0},
+    {"name": "AmmoAlive", "type": "double", "value": 0},
+    {"name": "AmmoDamage", "type": "double", "value": 0},
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 0},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 1},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {"name": "Ammo_CustomParameter", "type": "ptr", "value": null},
+    {"name": "Ammo_EquipVoice", "type": "ptr", "value": null},
+    {"name": "AmmoHitSe", "type": "ptr", "value": null},
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    }
+  ],
+  "meta": {
+    "id": "MPACK_B_Weapon080",
+    "level": 108.74999761581421,
+    "category": 209,
+    "unlockState": 0,
+    "dropRateModifier": 3,
+    "StarRating": null,
+    "nonRequest": 1,
+    "DLCWeapon": 2,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "锁定速度"},
+              {"type": "str", "value": "+200%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "锁定距离"},
+              {"type": "str", "value": "+75%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "行走速度"},
+              {"type": "str", "value": "200%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "连续喷射"},
+              {"type": "str", "value": "6次"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "横向喷射速度"},
+              {"type": "str", "value": "120%"}
+            ]
+          }
+        ],
+        "Text": "针对导引武器调整的新型装甲。搭载导引辅助装置。可提升飞弹的导引距离和速度。"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "鎖定速度"},
+              {"type": "str", "value": "+200%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "鎖定距離"},
+              {"type": "str", "value": "+75%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "行走速度"},
+              {"type": "str", "value": "200%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "連續噴射"},
+              {"type": "str", "value": "6次"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "橫向噴射速度"},
+              {"type": "str", "value": "120%"}
+            ]
+          }
+        ],
+        "Text": "針對導引武器調整的新型裝甲。搭載導引輔助裝置。可提升飛彈的導引距離和速度。"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Lock-on Speed"},
+              {"type": "str", "value": "+200%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Lock-on Range"},
+              {"type": "str", "value": "+75%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Walking Speed"},
+              {"type": "str", "value": "200%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Consecutive Boosts"},
+              {"type": "str", "value": "6"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Horizontal Boost Speed"},
+              {"type": "str", "value": "120%"}
+            ]
+          }
+        ],
+        "Text": "New powered exoskeleton designed to use guided weapons. Equipped with a guidance aid software that improves the distance and speed of missiles."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ロックオン速度"},
+              {"type": "str", "value": "+200%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ロックオン距離"},
+              {"type": "str", "value": "+75%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "歩行速度"},
+              {"type": "str", "value": "200%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "連続ブースト"},
+              {"type": "str", "value": "6回"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "横方向のブースト速度"},
+              {"type": "str", "value": "120%"}
+            ]
+          }
+        ],
+        "Text": "誘導兵器用に調整された新型スケルトン。誘導補助装置を搭載。ミサイルの誘導距離、速度を向上させる。"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "조준 속도"},
+              {"type": "str", "value": "+200%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "조준 거리"},
+              {"type": "str", "value": "+75%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "보행 속도"},
+              {"type": "str", "value": "200%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "연속 부스트"},
+              {"type": "str", "value": "6번"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "가로 방향 부스트 속도"},
+              {"type": "str", "value": "120%"}
+            ]
+          }
+        ],
+        "Text": "유도 병기용으로 조정된 신형 스켈레톤. 유도 보조 장치를 탑재하여 미사일 유도 거리, 속도가 향상되었다."
+      }
+    }
+  }
+}

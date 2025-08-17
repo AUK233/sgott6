@@ -1,0 +1,574 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {"name": "xgs_scene_object_class", "type": "str", "value": "Weapon_Sub"},
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {"name": "animation", "type": "str", "value": "vehicle_call"},
+        {"name": "whole_body", "type": "double", "value": 1},
+        {"name": "animation_speed", "type": "double", "value": 1}
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "フリージャー１"},
+    {"name": "name.en", "type": "str", "value": "Freed 1"},
+    {"name": "name.cn", "type": "str", "value": "奔馳裝甲機車１"},
+    {"name": "name.kr", "type": "str", "value": "프리저 1"},
+    {"name": "name.sc", "type": "str", "value": "奔驰装甲机车１"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/car02.dds"
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/e_throw_marker01.rab"},
+            {"type": "str", "value": "e_throw_marker01.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/e_throw_marker01.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300020002002a00240000005c00000080000000c0000000000001001800000001000000300000000200000028000000840000008a00000002000000440000005400000044000000000000006400000020000000200000007e0000000000000010000000100000006400000000000000babababa0000000000000000000000000000803f0000a0400000a0400000a0400000803f53474f000201000000000000200000000000000020000000000000002000000030003100000062006f00640079000000680069006400650000007300740061006e006400620079000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms_r"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "throw"},
+    {"name": "AimAnimation", "type": "str", "value": "aim_no_ik"},
+    {"name": "ChangeAnimation", "type": "str", "value": "throw_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "throw_reload1"},
+    {"name": "AmmoCount", "type": "double", "value": 1},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 2},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {
+      "name": "ReloadTime",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 3500},
+        {"type": "double", "value": 21},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 120},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {
+      "name": "FireVector",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.25},
+        {"type": "double", "value": 1.100000023841858}
+      ]
+    },
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Engineer_Vehicle_throw"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": "SmokeCandleBullet01"},
+    {
+      "name": "AmmoModel",
+      "type": "str",
+      "value": "app:/WEAPON/e_throw_marker01.rab"
+    },
+    {"name": "AmmoSpeed", "type": "double", "value": 0.4000000059604645},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 1},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 1},
+    {"name": "AmmoAlive", "type": "double", "value": 1800},
+    {"name": "AmmoDamage", "type": "double", "value": 150},
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 40},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 1},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.5}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.05000000074505806},
+        {"type": "double", "value": 180},
+        {"type": "double", "value": 120},
+        {"type": "double", "value": 1},
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Object/v508_transport.sgo"},
+            {"type": "str", "value": "app:/object/v509_transportbox.sgo"},
+            {"type": "str", "value": "app:/Object/v503_bike.sgo"},
+            {
+              "type": "ptr",
+              "value": [
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 2.200000047683716},
+                    {"type": "double", "value": 1.100000023841858}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {"type": "double", "value": 0.6499999761581421},
+                        {"type": "double", "value": 0.6000000238418579},
+                        {"type": "double", "value": 0.800000011920929}
+                      ]
+                    },
+                    {"type": "double", "value": 30},
+                    {"type": "double", "value": 0.05999999865889549},
+                    {"type": "double", "value": 2},
+                    {"type": "double", "value": 0.05999999865889549}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 20000},
+                    {"type": "double", "value": 1.6660000085830688}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_503_bike_gun_l.sgo"
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "str", "value": "BodyRecoil"},
+                            {
+                              "type": "ptr",
+                              "value": [
+                                {"type": "double", "value": 0},
+                                {"type": "double", "value": 0}
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_503_bike_gun_r.sgo"
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "str", "value": "BodyRecoil"},
+                            {
+                              "type": "ptr",
+                              "value": [
+                                {"type": "double", "value": 0},
+                                {"type": "double", "value": 0}
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {"type": "str", "value": "app:/weapon/v_fuel01.sgo"}
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "輸送部隊目標確認"},
+            {"type": "str", "value": "輸送部隊発射"},
+            {"type": "str", "value": "輸送部隊攻撃後レンジャー"}
+          ]
+        },
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "Ammo_EquipVoice",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "輸送部隊出撃直後レンジャー"},
+        {"type": "str", "value": "輸送部隊支援不能"}
+      ]
+    },
+    {
+      "name": "AmmoHitSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Engineer_Vehicle_smoke"},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    },
+    {
+      "name": "resource",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "app:/WEAPON/e_throw_marker01.rab"},
+        {"type": "str", "value": "app:/Object/v508_transport.sgo"},
+        {"type": "str", "value": "app:/object/v509_transportbox.sgo"},
+        {"type": "str", "value": "app:/Object/v503_bike.sgo"},
+        {"type": "str", "value": "app:/weapon/v_503_bike_gun_l.sgo"},
+        {"type": "str", "value": "app:/weapon/v_503_bike_gun_r.sgo"},
+        {"type": "str", "value": "app:/weapon/v_fuel01.sgo"}
+      ]
+    }
+  ],
+  "meta": {
+    "id": "aWeapon338",
+    "level": 2.9999999329447746,
+    "category": 10,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [{"type": "double", "value": 8}],
+    "nonRequest": 1,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "请求"},
+              {"type": "str", "value": "$0pt（起始值100％)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 3500},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐用度"},
+              {"type": "str", "value": "330"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "燃料"},
+              {"type": "str", "value": "20000.0"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "燃费"},
+              {"type": "str", "value": "1.666"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操纵席：</font>驾驶\n轻型机炮（左） <font color=%dq%#00ffff%dq%>（弹数：1200  伤害：16.5  射程：160.0m）</font>\n轻型机炮（右） <font color=%dq%#00ffff%dq%>（弹数：1200  伤害：16.5  射程：160.0m）</font>\n\n军用机车。以在战场上使用为前提制造，车身全体有装甲保护。左右两侧搭载轻型机枪。可高速在战场上奔驰，凭借火力歼灭敌人。\n\n但由于还在进行测试中，还有一些问题尚未解决。受重装甲化的影响使得引擎输出不足。因此燃料箱体积比原定设计还要小，难以长时间使用。此外，较难稳定车体平衡，并使用较小口径的武器。\n\n身处地底也可进行请求。\n\n需要在战场上取得一定的功绩（击破多数敌人）才能请求投落。（伙伴的击破数也能列入功绩计算）"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "請求"},
+              {"type": "str", "value": "$0pt（起始值100％)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 3500},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐用度"},
+              {"type": "str", "value": "330"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "燃料"},
+              {"type": "str", "value": "20000.0"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "燃費"},
+              {"type": "str", "value": "1.666"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操縱席：</font>駕駛\n輕型機砲（左） <font color=%dq%#00ffff%dq%>（彈數：1200  傷害：16.5  射程：160.0m）</font>\n輕型機砲（右） <font color=%dq%#00ffff%dq%>（彈數：1200  傷害：16.5  射程：160.0m）</font>\n\n軍用機車。以在戰場上使用為前提製造，車身全體有裝甲保護。左右兩側搭載輕型機鎗。可高速在戰場上奔馳，憑藉火力殲滅敵人。\n\n但由於還在進行測試中，還有一些問題尚未解決。受重裝甲化的影響使得引擎輸出不足。因此燃料箱體積比原定設計還要小，難以長時間使用。此外，較難穩定車體平衡，並使用較小口徑的武器。\n\n身處地底也可進行請求。\n\n需要在戰場上取得一定的功績（擊破多數敵人）才能請求投落。（夥伴的擊破數也能列入功績計算）"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Re-request"},
+              {"type": "str", "value": "$0pt(Default 100 %)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 3500},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Durability"},
+              {"type": "str", "value": "330"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Fuel"},
+              {"type": "str", "value": "20000.0"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Fuel Cost"},
+              {"type": "str", "value": "1.666"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>Bike:</font> Driver\nLight Machine Gun (Left) <font color=%dq%#00ffff%dq%>(Shots:1200 Damage:16.5 Range:160.0m)</font>\nLight Machine Gun (Right) <font color=%dq%#00ffff%dq%>(Shots:1200 Damage:16.5 Range:160.0m)</font>\n\nA military motorcycle fully armored and equipped with light machine guns on the flanks since it's produced for combat use. Able to gallop on the battlefield and eliminate enemies with its firepower.\n\nSince it's still under tests and adjustments, there are some issues unsolved. The engine output is insufficient because it's been heavily armored, and the size of the fuel tank is thus smaller than planned, making it difficult to run for a long time. Other than that, its body balance is lost, and has to be equipped with smaller-caliber weapons.\n\nAble to request underground.\n\nIn order to re-request this, you need to achieve a certain number of credits during the mission by defeating enemies. Your allies' kills will also help you earn credits."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "要請"},
+              {"type": "str", "value": "$0pt (初期値 100％)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 3500},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐久度"},
+              {"type": "str", "value": "330"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "燃料"},
+              {"type": "str", "value": "20000.0"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "燃費"},
+              {"type": "str", "value": "1.666"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操縦席：</font>運転\n軽機関銃（左） <font color=%dq%#00ffff%dq%>（弾数：1200  ダメージ：16.5  射程：160.0ｍ）</font>\n軽機関銃（右） <font color=%dq%#00ffff%dq%>（弾数：1200  ダメージ：16.5  射程：160.0ｍ）</font>\n\n軍用オートバイ。戦場での運用を前提としているため、車体全体が装甲で保護されている。車体左右には軽機関銃を搭載。高速で戦場を駆け抜け、火力を以って敵を殲滅することができる。\n\nただし、まだ実用テスト中であるため、いくつかの問題を抱えている。重装甲化の影響でエンジン出力が不足。そのため、燃料タンクは予定より小型化され、長時間の運用は難しくなっている。また、車体バランスが安定しにくく、武装は小口径に抑えられた。\n\n地底での要請が許されている。\n\n投下を要請するためには、戦場で一定の功績（多数の敵を撃破）が必要である。（功績は仲間による撃破も含まれる）"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "요청"},
+              {"type": "str", "value": "$0pt(초기 값100%)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 3500},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "내구도"},
+              {"type": "str", "value": "330"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "연료"},
+              {"type": "str", "value": "20000.0"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "연비"},
+              {"type": "str", "value": "1.666"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>조종석:</font> 운전\n경기관총(좌)<font color=%dq%#00ffff%dq%>(장탄 수: 1200  대미지: 16.5  사거리: 160.0m )</font>\n경기관총(우)<font color=%dq%#00ffff%dq%>(장탄 수: 1200  대미지: 16.5  사거리: 160.0m )</font>\n\n군용 오토바이. 전쟁터에서 운용할 목적으로 만들어졌기 때문에 차체 전체가 장갑으로 덮여 있다. 차체 양옆에는 경기관총이 장착되어 있다. 빠른 속도로 전쟁터를 누비며 화력으로 적을 섬멸할 수 있다.\n\n단, 아직 시범 운용 단계인 탓에 몇 가지 문제점이 있다. 우선 중장갑화에 따른 엔진 출력 부족으로 연료 탱크가 당초 계획보다 작아져 장시간 운용이 어려워졌다. 또한, 차체 밸런스가 불안정해 무장이 소구경으로 축소됐다.\n\n지하에서도 요청할 수 있다.\n\n투하를 요청하려면 전쟁터에서 어느 정도 공적(많은 적을 격파)을 쌓아야 한다. (동료가 격파한 적도 공적에 포함된다)"
+      }
+    }
+  }
+}

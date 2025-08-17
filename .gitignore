@@ -1,0 +1,4 @@
+*.SGO
+*.sgo
+node_modules/*
+release/*

@@ -1,0 +1,563 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {"name": "xgs_scene_object_class", "type": "str", "value": "Weapon_Sub"},
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {"name": "animation", "type": "str", "value": "vehicle_call"},
+        {"name": "whole_body", "type": "double", "value": 1},
+        {"name": "animation_speed", "type": "double", "value": 1}
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 0},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "Ｂ６５１タイタンＭ３"},
+    {"name": "name.en", "type": "str", "value": "B651 Titan M3"},
+    {"name": "name.cn", "type": "str", "value": "Ｂ６５１泰坦Ｍ３"},
+    {"name": "name.kr", "type": "str", "value": "B651 타이탄 Ｍ3"},
+    {"name": "name.sc", "type": "str", "value": "Ｂ６５１泰坦Ｍ３"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/tank03.dds"
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/e_throw_marker01.rab"},
+            {"type": "str", "value": "e_throw_marker01.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/e_throw_marker01.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300020002002a00240000005c00000080000000c0000000000001001800000001000000300000000200000028000000840000008a00000002000000440000005400000044000000000000006400000020000000200000007e0000000000000010000000100000006400000000000000babababa0000000000000000000000000000803f0000a0400000a0400000a0400000803f53474f000201000000000000200000000000000020000000000000002000000030003100000062006f00640079000000680069006400650000007300740061006e006400620079000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms_r"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "throw"},
+    {"name": "AimAnimation", "type": "str", "value": "aim_no_ik"},
+    {"name": "ChangeAnimation", "type": "str", "value": "throw_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "throw_reload1"},
+    {"name": "AmmoCount", "type": "double", "value": 1},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 2},
+    {"name": "ReloadInit", "type": "double", "value": 0.5},
+    {
+      "name": "ReloadTime",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 15000},
+        {"type": "double", "value": 21},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 120},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {
+      "name": "FireVector",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.25},
+        {"type": "double", "value": 1.100000023841858}
+      ]
+    },
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Engineer_Vehicle_throw"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": "SmokeCandleBullet01"},
+    {
+      "name": "AmmoModel",
+      "type": "str",
+      "value": "app:/WEAPON/e_throw_marker01.rab"
+    },
+    {"name": "AmmoSpeed", "type": "double", "value": 0.4000000059604645},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 1},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 1},
+    {"name": "AmmoAlive", "type": "double", "value": 1800},
+    {"name": "AmmoDamage", "type": "double", "value": 4800},
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 40},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 1},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.5}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.05000000074505806},
+        {"type": "double", "value": 180},
+        {"type": "double", "value": 120},
+        {"type": "double", "value": 1},
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Object/v508_transport.sgo"},
+            {"type": "str", "value": "app:/object/v509_transportbox.sgo"},
+            {"type": "str", "value": "app:/Object/Vehicle404_bigtank.sgo"},
+            {
+              "type": "ptr",
+              "value": [
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 23},
+                    {"type": "double", "value": 23}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 0.05000000074505806},
+                    {"type": "double", "value": 16},
+                    {"type": "double", "value": 0.02500000037252903},
+                    {"type": "double", "value": 0.28999999165534973},
+                    {"type": "double", "value": 0.15000000596046448},
+                    {"type": "double", "value": 0.5}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_404bigtank_mainCannon.sgo"
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 1},
+                            {"type": "double", "value": 3}
+                          ]
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 10},
+                            {"type": "double", "value": 0.009999999776482582},
+                            {"type": "double", "value": 0.10000000149011612}
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_404bigtank_subCannonSolid.sgo"
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 0.05000000074505806},
+                            {"type": "double", "value": 0.5}
+                          ]
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 50},
+                            {"type": "double", "value": 0.009999999776482582},
+                            {"type": "double", "value": 0.10000000149011612}
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_404bigtank_subCannonSolid.sgo"
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 0.05000000074505806},
+                            {"type": "double", "value": 0.5}
+                          ]
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 50},
+                            {"type": "double", "value": 0.009999999776482582},
+                            {"type": "double", "value": 0.10000000149011612}
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_404bigtank_gatling.sgo"
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 0},
+                            {"type": "double", "value": 0}
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_404bigtank_sidemissile_l.sgo"
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 0},
+                            {"type": "double", "value": 0}
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_404bigtank_sidemissile_r.sgo"
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 0},
+                            {"type": "double", "value": 0}
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "輸送部隊目標確認"},
+            {"type": "str", "value": "輸送部隊発射"},
+            {"type": "str", "value": "輸送部隊攻撃後"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ammo_EquipVoice",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "輸送部隊出撃直後"},
+        {"type": "str", "value": "輸送部隊支援不能"}
+      ]
+    },
+    {
+      "name": "AmmoHitSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Engineer_Vehicle_smoke"},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    },
+    {
+      "name": "resource",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "app:/WEAPON/e_throw_marker01.rab"},
+        {"type": "str", "value": "app:/Object/v508_transport.sgo"},
+        {"type": "str", "value": "app:/object/v509_transportbox.sgo"},
+        {"type": "str", "value": "app:/Object/Vehicle404_bigtank.sgo"},
+        {"type": "str", "value": "app:/weapon/v_404bigtank_mainCannon.sgo"},
+        {"type": "str", "value": "app:/weapon/v_404bigtank_subCannonSolid.sgo"},
+        {"type": "str", "value": "app:/weapon/v_404bigtank_subCannonSolid.sgo"},
+        {"type": "str", "value": "app:/weapon/v_404bigtank_gatling.sgo"},
+        {"type": "str", "value": "app:/weapon/v_404bigtank_sidemissile_l.sgo"},
+        {"type": "str", "value": "app:/weapon/v_404bigtank_sidemissile_r.sgo"}
+      ]
+    }
+  ],
+  "meta": {
+    "id": "eWeapon434",
+    "level": 83.74999761581421,
+    "category": 306,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [{"type": "double", "value": 8}],
+    "nonRequest": 0,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "请求"},
+              {"type": "str", "value": "$0pt（起始值50％)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 15000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐用度"},
+              {"type": "str", "value": "110400"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操纵席：</font>驾驶\n镇魂炮 <font color=%dq%#00ffff%dq%>（弹数：10  伤害：17250.0 爆炸范围：半径30.0m）</font>\n机枪 <font color=%dq%#00ffff%dq%>（弹数：900  伤害：230.0  射程：480.0m）</font>\n\n<font color=%dq%#80ff80%dq%>炮手席(右)：</font>滑膛炮 <font color=%dq%#00ffff%dq%>（弹数：80  伤害：[贯穿]1840.0  射程：900.0m）</font>\n飞弹发射器（右） <font color=%dq%#00ffff%dq%>（弹数：48  伤害：2300.0  射程：240.0m）</font>\n\n<font color=%dq%#80ff80%dq%>炮手席(左)：</font>滑膛炮 <font color=%dq%#00ffff%dq%>（弹数：80  伤害：[贯穿]1840.0  射程：900.0m）</font>\n飞弹发射器（左） <font color=%dq%#00ffff%dq%>（弹数：48  伤害：2300.0  射程：240.0m）</font>\n\n搭乘者３名。\n全长２５公尺的巨大战车。是为了制霸地面战而开发的“行动要塞”。具备战舰级的主炮，并搭载２个旋转炮塔。车身覆盖厚实装甲板，具有优异的防御能力。只不过车体重量沉重，行走速度并不快。\n\n主炮为ＥＤＦ的最新锐武器“镇魂炮”。原本是开发为舰炮，但在缩短炮管后可搭载于战车上。但由于缩短炮管使得初速稍微下降，需要技术才能命中。\n\n主炮上方搭载２门副炮。可发射具有强大贯穿力的穿甲弹，一次射穿多个敌人。虽然主炮、副炮都是旋转炮塔，但由于副炮设置在主炮的上方，所以主炮旋转时，副炮的方向也会改变。\n为了防止敌人靠近，左右两侧装备了“飞弹发射器”。\n\n需要在战场上取得一定的功绩（击破多数敌人）才能请求投落。（伙伴的击破数也能列入功绩计算）"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "請求"},
+              {"type": "str", "value": "$0pt（起始值50％)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 15000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐用度"},
+              {"type": "str", "value": "110400"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操縱席：</font>駕駛\n鎮魂砲 <font color=%dq%#00ffff%dq%>（彈數：10  傷害：17250.0 爆炸範圍：半徑30.0m）</font>\n機鎗 <font color=%dq%#00ffff%dq%>（彈數：900  傷害：230.0  射程：480.0m）</font>\n\n<font color=%dq%#80ff80%dq%>砲手席(右)：</font>滑膛砲 <font color=%dq%#00ffff%dq%>（彈數：80  傷害：[貫穿]1840.0  射程：900.0m）</font>\n飛彈發射器（右） <font color=%dq%#00ffff%dq%>（彈數：48  傷害：2300.0  射程：240.0m）</font>\n\n<font color=%dq%#80ff80%dq%>砲手席(左)：</font>滑膛砲 <font color=%dq%#00ffff%dq%>（彈數：80  傷害：[貫穿]1840.0  射程：900.0m）</font>\n飛彈發射器（左） <font color=%dq%#00ffff%dq%>（彈數：48  傷害：2300.0  射程：240.0m）</font>\n\n搭乘者３名。\n全長２５公尺的巨大戰車。是為了制霸地面戰而開發的“行動要塞”。具備戰艦級的主砲，並搭載２個旋轉砲塔。車身覆蓋厚實裝甲板，具有優異的防禦能力。只不過車體重量沉重，行走速度並不快。\n\n主砲為ＥＤＦ的最新銳武器“鎮魂砲”。原本是開發為艦砲，但在縮短砲管後可搭載於戰車上。但由於縮短砲管使得初速稍微下降，需要技術才能命中。\n\n主砲上方搭載２門副砲。可發射具有強大貫穿力的穿甲彈，一次射穿多個敵人。雖然主砲、副砲都是旋轉砲塔，但由於副砲設置在主砲的上方，所以主砲旋轉時，副砲的方向也會改變。\n為了防止敵人靠近，左右兩側裝備了「飛彈發射器」。\n\n需要在戰場上取得一定的功績（擊破多數敵人）才能請求投落。（夥伴的擊破數也能列入功績計算）"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Re-request"},
+              {"type": "str", "value": "$0pt(Default 50 %)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 15000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Durability"},
+              {"type": "str", "value": "110400"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>Pilot Seat:</font> Driver\nRequiem Cannon <font color=%dq%#00ffff%dq%>(Shots:10 Damage:17250.0 Blast Range:Radius 30.0m)</font>\nMachine Gun <font color=%dq%#00ffff%dq%>(Shots:900 Damage:230.0 Range:480.0m)</font>\n\n<font color=%dq%#80ff80%dq%>Gunner Seat (Right):</font> Smooth-Bore Gun <font color=%dq%#00ffff%dq%>(Shots:80 Damage:[PT]1840.0 Range:900.0m)</font>\nMissile Launcher (Right) <font color=%dq%#00ffff%dq%>(Shots:48 Damage:2300.0 Range:240.0m)</font>\n\n<font color=%dq%#80ff80%dq%>Gunner Seat (Left):</font> Smooth-Bore Gun <font color=%dq%#00ffff%dq%>(Shots:80 Damage:[PT]1840.0 Range:900.0m)</font>\nMissile Launcher (Left) <font color=%dq%#00ffff%dq%>(Shots:48 Damage:2300.0 Range:240.0m)</font>\n\n3 people.\nA huge combat vehicle, spanning a massive 25 meters. Basically a mobile fortress developed for land combat. Equipped with a main battleship-class cannon and two rotating turrets, as well as thick armor. The trade-off, however, is that all of these features add to its weight, making it a bit sluggish.\n\nIts main cannon is the EDF's state-of-the-art Requiem Cannon, originally developed as a naval gun but then equipped on tanks after reducing the size of its barrel. This has resulted in a further reduction to its initial velocity, so some skill is necessary to hit the desired target.\n\nThere are two sub-cannons located on the top of the main cannon. It can fire armor-piercing ammunition and one shot can hit many enemies. The main cannon and sub-cannons all rotate. The sub-cannons are located on the top of the main cannon so when the main cannon rotates, the direction of the sub-cannons will also change. It is equipped with a missile launcher on the left and right to prevent enemies from approaching.\n\nIn order to re-request this, you need to achieve a certain number of credits during the mission by defeating enemies. Your allies' kills will also help you earn credits."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "要請"},
+              {"type": "str", "value": "$0pt (初期値 50％)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 15000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐久度"},
+              {"type": "str", "value": "110400"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操縦席：</font>運転\nレクイエム砲 <font color=%dq%#00ffff%dq%>（弾数：10  ダメージ：17250.0 爆破範囲：半径30.0ｍ）</font>\n機関銃 <font color=%dq%#00ffff%dq%>（弾数：900  ダメージ：230.0  射程：480.0ｍ）</font>\n\n<font color=%dq%#80ff80%dq%>ガンナー席(右)：</font>滑腔砲 <font color=%dq%#00ffff%dq%>（弾数：80  ダメージ：[貫通]1840.0  射程：900.0ｍ）</font>\nミサイルランチャー（右） <font color=%dq%#00ffff%dq%>（弾数：48  ダメージ：2300.0  射程：240.0ｍ）</font>\n\n<font color=%dq%#80ff80%dq%>ガンナー席(左)：</font>滑腔砲 <font color=%dq%#00ffff%dq%>（弾数：80  ダメージ：[貫通]1840.0  射程：900.0ｍ）</font>\nミサイルランチャー（左） <font color=%dq%#00ffff%dq%>（弾数：48  ダメージ：2300.0  射程：240.0ｍ）</font>\n\n搭乗員３名。\n全長２５メートルの巨大戦闘車両。地上戦を制するために開発された“動く要塞”である。戦艦クラスの主砲を持ち、さらに２つの旋回砲塔を搭載している。車体は厚い装甲板で覆われ、圧倒的な防御能力を持つ。だが車体重量が重く、走行速度はさほど速くない。\n\n主砲はＥＤＦの最新鋭兵器“レクイエム砲”。本来、艦砲として開発されたものであるが砲身を短縮することによって戦車への搭載を可能とした。だが砲身短縮の影響で初速がやや低下しており、命中させるには技量が必要である。\n\n主砲の上部に２門の副砲を搭載。高い貫通力を持つ徹甲弾を発射し、一度に複数の敵を貫くことが可能。主砲、副砲、共に旋回砲塔であるが、副砲は主砲の上部に設置されているため、主砲回転時に副砲の向きも変わってしまう。\nさらに敵の接近を防ぐため、左右側面には「ミサイルランチャー」を備えている。\n\n投下を要請するためには、戦場で一定の功績（多数の敵を撃破）が必要である。（功績は仲間による撃破も含まれる）"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "요청"},
+              {"type": "str", "value": "$0pt(초기 값50%)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 15000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "내구도"},
+              {"type": "str", "value": "110400"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>조종석:</font> 운전\n레퀴엠포<font color=%dq%#00ffff%dq%>(장탄 수: 10  대미지: 17250.0  폭파 범위: 반경 30.0m )</font>\n기관총<font color=%dq%#00ffff%dq%>(장탄 수: 900  대미지: 230.0  사거리: 480.0m )</font>\n\n<font color=%dq%#80ff80%dq%>사수석(우):</font> 활강포<font color=%dq%#00ffff%dq%>(장탄 수: 80  대미지: [관통]1840.0  사거리: 900.0m )</font>\n미사일 런처(우)<font color=%dq%#00ffff%dq%>(장탄 수: 48  대미지: 2300.0  사거리: 240.0m )</font>\n\n<font color=%dq%#80ff80%dq%>사수석(좌):</font> 활강포<font color=%dq%#00ffff%dq%>(장탄 수: 80  대미지: [관통]1840.0  사거리: 900.0m )</font>\n미사일 런처(좌)<font color=%dq%#00ffff%dq%>(장탄 수: 48  대미지: 2300.0  사거리: 240.0m )</font>\n\n탑승 인원 3명.\n차체 길이 25m에 달하는 거대 전투 차량. 지상전을 제압하기 위해 개발된 “움직이는 요새”이다. 전함급 주포에 더해 2개의 선회 포탑이 장착되어 있다. 차체는 두꺼운 장갑판으로 덮여 있어 압도적인 방어 능력을 자랑한다. 하지만 차체 중량이 무거워 주행 속도는 그리 빠르지 않다.\n\n주포는 EDF의 최신예 병기인 “레퀴엠포”. 원래 함포로 개발된 장비였으나 포신을 단축시켜 전차에 장착할 수 있게 했다. 하지만 포신이 단축되면서 초속도가 조금 느려져 명중시키려면 어느 정도 기술이 필요하다.\n\n주포 위쪽에 부포 2문이 장착되어 있다. 관통력이 뛰어난 철갑탄을 발사해 한꺼번에 많은 적을 해치울 수 있다. 주포와 부포 모두 선회 포탑이지만, 부포가 주포 위쪽에 설치되어 있어 주포가 회전하면 부포의 방향도 바뀐다.\n또 적의 접근을 막기 위해 기체 양옆에 「미사일 런처」가 장착되어 있다.\n\n투하를 요청하려면 전쟁터에서 어느 정도 공적(많은 적을 격파)을 쌓아야 한다. (동료가 격파한 적도 공적에 포함된다)"
+      }
+    }
+  }
+}

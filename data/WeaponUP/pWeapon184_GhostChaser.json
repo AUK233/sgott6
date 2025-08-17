@@ -1,0 +1,1049 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {
+      "name": "xgs_scene_object_class",
+      "type": "str",
+      "value": "Weapon_HomingShoot"
+    },
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "hand_recoil1"},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "ゴースト・チェイサー"},
+    {"name": "name.en", "type": "str", "value": "Ghost Chaser"},
+    {"name": "name.cn", "type": "str", "value": "幽鬼獵手"},
+    {"name": "name.kr", "type": "str", "value": "고스트 체이서"},
+    {"name": "name.sc", "type": "str", "value": "幽鬼猎手"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/homing_inferno.dds"
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/p_homing_inferno01.rab"},
+            {"type": "str", "value": "p_homing_inferno01.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/p_homing_inferno01.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300040005005800240000007c000000e0000000fc010000000001001800000001000100300000000200000048000000c0010000cc01000002000000b4000000c4000000a400000000000000f4000000a6010000ac01000002000000b4000000a4000000c400000000000000d40000004000000060000000c8010000000000003000000050000000ae01000001000000300000004000000076010000010000003000000030000000700100000000000078010000000000000000000094000000680100000000000000000000d8000000babababa0000000000000000000000000000803f000000003108acbca8c6ab3f0000803fcdcc4c3dcdcc4c3dcdcc4c3d0000803f73b8563d88d60abc71c79bbd0000803fadbe04c0580a96bfd95da1bf0000803f53474f000201000000000000200000000000000020000000000000002000000053474f00020100000100000020000000010000002c0000000000000034000000030000000a0000001e00000008000000000000006e0061006d0065000000a430f330d530a730eb30ce3010ff11ff555c8b95000053474f00020100000100000020000000010000002c0000000000000034000000030000000b0000001e00000008000000000000006e0061006d0065000000a430f330d530a730eb30ce3010ff11ff899558308b300000000030003100000049004b00000062006f0064007900000068006900640065000000720065006c006f00610064005f006c006f006f0070000000730065000000730068006f00770000007300740061006e006400620079000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms_r"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "hand"},
+    {"name": "AimAnimation", "type": "str", "value": "aim"},
+    {"name": "ChangeAnimation", "type": "str", "value": "hand_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "hand_reload1"},
+    {"name": "AmmoCount", "type": "double", "value": 1},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 4.686501979827881},
+            {"type": "double", "value": 45},
+            {"type": "double", "value": 6},
+            {"type": "double", "value": 8},
+            {"type": "double", "value": 0.5},
+            {"type": "double", "value": 0.5},
+            {"type": "double", "value": 1}
+          ]
+        },
+        {"type": "double", "value": 2.5999999046325684}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 0},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {
+      "name": "ReloadTime",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 6},
+        {"type": "double", "value": 21},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 3},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 1},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 0},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 0},
+    {
+      "name": "LockonRange",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 600},
+        {"type": "double", "value": 36},
+        {"type": "double", "value": 4},
+        {"type": "double", "value": 5},
+        {"type": "double", "value": 0.6000000238418579},
+        {"type": "double", "value": 0.8999999761581421},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.6000000238418579},
+        {"type": "double", "value": 0.3499999940395355}
+      ]
+    },
+    {
+      "name": "LockonTime",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 41},
+        {"type": "double", "value": 5},
+        {"type": "double", "value": 6},
+        {"type": "double", "value": 0.8999999761581421},
+        {"type": "double", "value": 1.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 1},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {
+      "name": "FireCount",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 10},
+        {"type": "double", "value": 4},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 7},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "FireInterval", "type": "double", "value": 0},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 1.5},
+    {"name": "FireRecoil", "type": "double", "value": 0.4000000059604645},
+    {"name": "FireVector", "type": "ptr", "value": null},
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "e5w_WDnew_homing_ghostChaser"},
+        {"type": "double", "value": 0.949999988079071},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 25}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": "HomingLaserBullet01"},
+    {"name": "AmmoModel", "type": "double", "value": 0},
+    {"name": "AmmoSpeed", "type": "double", "value": 1.5},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 0},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 0},
+    {"name": "AmmoAlive", "type": "double", "value": 60},
+    {
+      "name": "AmmoDamage",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {
+      "name": "AmmoExplosion",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 32},
+        {"type": "double", "value": 3},
+        {"type": "double", "value": 5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 0.15000000596046448},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 0.5},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1.399999976158142},
+        {"type": "double", "value": 1.399999976158142},
+        {"type": "double", "value": 4},
+        {"type": "double", "value": 0.5}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 45},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 10},
+        {"type": "double", "value": 12},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 1},
+        {"type": "ptr", "value": null}
+      ]
+    },
+    {"name": "Ammo_EquipVoice", "type": "ptr", "value": null},
+    {
+      "name": "AmmoHitSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "common_damages_impactWD_homingGhostChaser"},
+        {"type": "double", "value": 0.8999999761581421},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 100}
+      ]
+    },
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    }
+  ],
+  "meta": {
+    "id": "pWeapon184",
+    "level": 21.250000596046448,
+    "category": 106,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [
+      {"type": "double", "value": 7},
+      {"type": "double", "value": 8},
+      {"type": "double", "value": 8},
+      {"type": "double", "value": 5},
+      {"type": "double", "value": 5},
+      {"type": "double", "value": 6},
+      {"type": "double", "value": 8}
+    ],
+    "nonRequest": 1,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "伤害"},
+              {"type": "str", "value": "$0×$1"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "爆炸范围"},
+              {"type": "str", "value": "半径$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 32},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "导引性能"},
+              {"type": "str", "value": "A"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "锁定"},
+              {"type": "str", "value": "$0m $1只"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 600},
+                  {"type": "double", "value": 36},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.6000000238418579},
+                  {"type": "double", "value": 0.8999999761581421},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "锁定时间"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 0.03333299979567528},
+                  {"type": "double", "value": 41},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 6},
+                  {"type": "double", "value": 0.8999999761581421},
+                  {"type": "double", "value": 1.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "所需能量"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4.686501979827881},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 6},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "充能时间"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 0.10000000149011612},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "１０连式脑波导引武器。能同时攻击多个目标的可怕武器。\n会自动锁定在瞄准器内（红框）及锁定距离内的敌人。按下攻击键就会发射能量箭。能量箭会追踪目标，命中后随即引爆。\n\n在对付多个敌人时，就能发挥压倒性的威力……但由于能量箭的数量实在太多，无法顺利控制发射角度，导致能量箭会朝多个方向散射出去。往下方散射时，也会让位于地面的使用者背负受伤的风险。因此，在空中进行攻击才能发挥此武器真正的价值。"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "傷害"},
+              {"type": "str", "value": "$0×$1"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "爆炸範圍"},
+              {"type": "str", "value": "半徑$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 32},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "導引性能"},
+              {"type": "str", "value": "A"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "鎖定"},
+              {"type": "str", "value": "$0m $1隻"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 600},
+                  {"type": "double", "value": 36},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.6000000238418579},
+                  {"type": "double", "value": 0.8999999761581421},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "鎖定時間"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 0.03333299979567528},
+                  {"type": "double", "value": 41},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 6},
+                  {"type": "double", "value": 0.8999999761581421},
+                  {"type": "double", "value": 1.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "所需能量"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4.686501979827881},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 6},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "充能時間"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 0.10000000149011612},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "１０連式腦波導引武器。能同時攻擊多個目標的可怕武器。\n會自動鎖定在瞄準器內（紅框）及鎖定距離內的敵人。按下攻擊按鈕就會發射能量箭。能量箭會追蹤目標，命中後隨即引爆。\n\n在對付多個敵人時，就能發揮壓倒性的威力……但由於能量箭的數量實在太多，無法順利控制發射角度，導致能量箭會朝多個方向散射出去。往下方散射時，也會讓位於地面的使用者背負受傷的風險。因此，在空中進行攻擊才能發揮此武器真正的價值。"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Damage"},
+              {"type": "str", "value": "$0×$1"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Blast Area"},
+              {"type": "str", "value": "Radius $0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 32},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Homing Capability"},
+              {"type": "str", "value": "A"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Lock-on"},
+              {"type": "str", "value": "$0m $1 targets"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 600},
+                  {"type": "double", "value": 36},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.6000000238418579},
+                  {"type": "double", "value": 0.8999999761581421},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Lock-on Time"},
+              {"type": "str", "value": "$0 sec"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 0.03333299979567528},
+                  {"type": "double", "value": 41},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 6},
+                  {"type": "double", "value": 0.8999999761581421},
+                  {"type": "double", "value": 1.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Energy Cost"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4.686501979827881},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 6},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Charge Time"},
+              {"type": "str", "value": "$0 sec"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 0.10000000149011612},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "A 10-barreled brainwave-guided weapon. A formidable weapon that can lock on to many targets at once.\nWhen a target is captured within the sight (red square), it will be automatically locked on. Press the attack button to discharge spears of energy. The spears will chase down their targets and explode on impact.\n\nIt is very effective against multiple enemies... but because it fires so many spears of energy, the trajectory is hard to control, and will result in the spears shooting in different directions.  When the spears shoot downwards, they might injure the user on the ground. So the weapon is most suitable for aerial shooting."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ダメージ"},
+              {"type": "str", "value": "$0×$1"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "爆破範囲"},
+              {"type": "str", "value": "半径$0ｍ"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 32},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "誘導性能"},
+              {"type": "str", "value": "A"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ロックオン"},
+              {"type": "str", "value": "$0ｍ $1体"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 600},
+                  {"type": "double", "value": 36},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.6000000238418579},
+                  {"type": "double", "value": 0.8999999761581421},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ロック時間"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 0.03333299979567528},
+                  {"type": "double", "value": 41},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 6},
+                  {"type": "double", "value": 0.8999999761581421},
+                  {"type": "double", "value": 1.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "消費エネルギー"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4.686501979827881},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 6},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "チャージ時間"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 0.10000000149011612},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "１０連式の脳波誘導兵器。多数の目標を同時攻撃する恐るべき兵器である。\nサイト内（赤い四角）かつロックオン距離内の敵を自動的にロックオン。攻撃ボタンを押すとエネルギー槍を発射。エネルギー槍は目標を追尾して飛び、着弾すると爆発する。\n\n多数の敵を相手にした時は、圧倒的な威力を発揮するが……エネルギー槍の数があまりに多いため、発射角度の制御がきかず、多方向に拡散発射されてしまう。下方向へも拡散してしまうため、地上への使用には危険が伴う。空中で射撃することで、真価を発揮する兵器である。"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "대미지"},
+              {"type": "str", "value": "$0×$1"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "폭파 범위"},
+              {"type": "str", "value": "반경 $0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 32},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "유도 성능"},
+              {"type": "str", "value": "A"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "조준"},
+              {"type": "str", "value": "$0m  $1체"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 600},
+                  {"type": "double", "value": 36},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.6000000238418579},
+                  {"type": "double", "value": 0.8999999761581421},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "조준 시간"},
+              {"type": "str", "value": "$0초"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 0.03333299979567528},
+                  {"type": "double", "value": 41},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 6},
+                  {"type": "double", "value": 0.8999999761581421},
+                  {"type": "double", "value": 1.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "소비 에너지"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4.686501979827881},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 6},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "충전 시간"},
+              {"type": "str", "value": "$0초"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 0.10000000149011612},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "10연식 뇌파 유도 병기. 여러 목표물을 동시에 공격하는 위협적인 병기이다.\n사이트 안(빨간 사각형) 및 조준 거리 안에 있는 적을 자동으로 조준하며, 공격 버튼을 누르면 에너지 창이 발사된다. 에너지 창은 목표를 추적해 날아가다가 착탄하면 폭발한다.\n\n많은 적을 상대할 때 압도적인 위력을 발휘하지만…… 에너지 창의 개수가 너무 많은 탓에 발사 각도 제어가 불가능해 여러 방향으로 확산 발사된다. 아래쪽으로도 퍼지기 때문에 지상 사용은 위험하다. 공중에서 사격해야 진가를 발휘하는 병기이다."
+      }
+    }
+  }
+}

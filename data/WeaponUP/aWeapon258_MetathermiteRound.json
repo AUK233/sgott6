@@ -1,0 +1,673 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {"name": "xgs_scene_object_class", "type": "str", "value": "Weapon_Sub"},
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {"name": "animation", "type": "str", "value": "throwL_swing"},
+        {"name": "whole_body", "type": "double", "value": 0},
+        {"name": "animation_speed", "type": "double", "value": 1.5},
+        {"name": "is_manual_reload", "type": "double", "value": 0},
+        {
+          "name": "show_throw_guide",
+          "type": "ptr",
+          "value": [
+            {"name": "always_show", "type": "double", "value": 0},
+            {"name": "radius", "type": "double", "value": 5}
+          ]
+        },
+        {"name": "long_press_count", "type": "double", "value": 216000}
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "メタテルミット弾"},
+    {"name": "name.en", "type": "str", "value": "Metathermite Round"},
+    {"name": "name.cn", "type": "str", "value": "聚合鋁熱彈"},
+    {"name": "name.kr", "type": "str", "value": "메타 테르밋탄"},
+    {"name": "name.sc", "type": "str", "value": "聚合铝热弹"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/grenade.dds"
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/s_grenade_mg10.rab"},
+            {"type": "str", "value": "s_grenade_mg10.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/s_grenade_mg10.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300020002003e00240000005c00000080000000c000000000000100180000000100000030000000020000002800000084000000940000000200000044000000540000004400000000000000640000002000000020000000920000000000000010000000100000005a00000000000000babababa0000000000000000000000000000803f0000a0400000a0400000a0400000803f53474f00020100000000000020000000000000002000000000000000200000003000310000006800690064006500000073005f006700720065006e006100640065005f006d0067003100300000007300740061006e006400620079000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms_l"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "throw"},
+    {"name": "AimAnimation", "type": "str", "value": "aim_no_ik"},
+    {"name": "ChangeAnimation", "type": "str", "value": "throw_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "throw_reload1"},
+    {"name": "AmmoCount", "type": "double", "value": 1},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 1},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {
+      "name": "ReloadTime",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 700},
+        {"type": "double", "value": 21},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 2},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0.20000000298023224},
+    {"name": "FireCount", "type": "double", "value": 7},
+    {"name": "FireInterval", "type": "double", "value": 0},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {
+      "name": "FireVector",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.07000000029802322},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Ranger_GL_throw"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": "NapalmBullet01"},
+    {
+      "name": "AmmoModel",
+      "type": "str",
+      "value": "app:/WEAPON/s_grenade_mg10.rab"
+    },
+    {"name": "AmmoSpeed", "type": "double", "value": 1},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 1},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 1},
+    {"name": "AmmoAlive", "type": "double", "value": 600},
+    {
+      "name": "AmmoDamage",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1300},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 10},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 0},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 1},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1.5},
+        {"type": "double", "value": 0.5}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 1.2999999523162842}
+          ]
+        },
+        {"type": "double", "value": 0.05000000074505806},
+        {"type": "double", "value": 60},
+        {
+          "type": "ptr",
+          "value": [
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 0},
+                {"type": "double", "value": 0}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 0},
+                {"type": "double", "value": 0}
+              ]
+            },
+            {"type": "double", "value": 360},
+            {"type": "double", "value": 2},
+            {"type": "str", "value": "FlameBullet02"},
+            {"type": "double", "value": 0.30000001192092896},
+            {"type": "double", "value": -1},
+            {"type": "double", "value": 1.5},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 60},
+            {"type": "double", "value": 1},
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 15},
+                {"type": "double", "value": 7},
+                {"type": "double", "value": 7},
+                {"type": "double", "value": 1}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 0},
+                {"type": "double", "value": 0.15000000596046448},
+                {"type": "double", "value": 0.8999999761581421},
+                {"type": "double", "value": 0},
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": -1},
+                    {"type": "double", "value": -5},
+                    {"type": "double", "value": -5},
+                    {"type": "double", "value": 0}
+                  ]
+                }
+              ]
+            },
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "common_damages_impactNapalm"},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 25}
+          ]
+        }
+      ]
+    },
+    {"name": "Ammo_EquipVoice", "type": "ptr", "value": null},
+    {"name": "AmmoHitSe", "type": "ptr", "value": null},
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    },
+    {
+      "name": "resource",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "app:/WEAPON/s_grenade_mg10.rab"}]
+    }
+  ],
+  "meta": {
+    "id": "aWeapon258",
+    "level": 44.999998807907104,
+    "category": 23,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [
+      {"type": "double", "value": 10},
+      {"type": "double", "value": 8}
+    ],
+    "nonRequest": 1,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "弹数"},
+              {"type": "str", "value": "1"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "伤害"},
+              {"type": "str", "value": "$0×7"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1300},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "引爆条件"},
+              {"type": "str", "value": "接触"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "引爆时间"},
+              {"type": "str", "value": "－－－－"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "弹速"},
+              {"type": "str", "value": "秒速60.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "装填时间"},
+              {"type": "str", "value": "[自动]$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 11.666666984558105},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "特殊铝热弹。由多个小型弹连结而成，投掷时会分离朝不同方向飞去。\n。一旦命中就会点燃并发出惊人的高温。\n这种火焰即使淋上水也无法熄灭，且燃烧不需要氧气，因此可在水中或地下使用。\n\n长按使用背包工具键，将以直线显示投掷方向。放开键即可投掷。"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "彈數"},
+              {"type": "str", "value": "1"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "傷害"},
+              {"type": "str", "value": "$0×7"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1300},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "引爆條件"},
+              {"type": "str", "value": "接觸"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "引爆時間"},
+              {"type": "str", "value": "－－－－"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "彈速"},
+              {"type": "str", "value": "秒速60.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "裝填時間"},
+              {"type": "str", "value": "[自動]$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 11.666666984558105},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "特殊鋁熱彈。由多個小型彈連結而成，投擲時會分離朝不同方向飛去。\n一旦命中就會點燃並發出驚人的高溫。\n這種火焰即使淋上水也無法熄滅，且燃燒不需要氧氣，因此可在水中或地下使用。\n\n長按使用背包工具按鈕，將以直線顯示投擲方向。放開按鈕即可投擲。"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Capacity"},
+              {"type": "str", "value": "1"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Damage"},
+              {"type": "str", "value": "$0×7"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1300},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Detonates by"},
+              {"type": "str", "value": "Impact"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Detonation Time"},
+              {"type": "str", "value": "----"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Shot Speed"},
+              {"type": "str", "value": "60.0m/s"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Reload Time"},
+              {"type": "str", "value": "[Automatic]$0 sec"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 11.666666984558105},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "A special type of thermite round. It is made up of several small projectiles that, when thrown, separate and fly off in different directions.\nHand-thrown incendiary device. Ignites upon impact, discharging tremendous heat.\nIts flames cannot be extinguished with water, meaning it can be used underwater or underground because it does not require oxygen for combustion.\n\nHold down the Use Backpack Tool button to show the direction of the throw (indicated by a line). Release the button to throw the grenade."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "弾数"},
+              {"type": "str", "value": "1"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ダメージ"},
+              {"type": "str", "value": "$0×7"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1300},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "起爆条件"},
+              {"type": "str", "value": "接触"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "起爆時間"},
+              {"type": "str", "value": "－－－－"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "弾速"},
+              {"type": "str", "value": "秒速60.0ｍ"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "リロード時間"},
+              {"type": "str", "value": "[自動]$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 11.666666984558105},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "特殊テルミット弾。多数の小型弾が連結した形状で、投擲時に分離し、別方向へ飛ぶ。\n着弾すると点火。凄まじい高温を噴射する。\n炎は水をかけても消すことができず、燃焼に酸素を必要としないため、水中や地下でも使用できる。\n\nバックパックツール使用ボタンを押し続けると、投擲方向が線で表示される。ボタンを放すと投擲。"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "장탄 수"},
+              {"type": "str", "value": "1"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "대미지"},
+              {"type": "str", "value": "$0×7"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1300},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "기폭 방식"},
+              {"type": "str", "value": "접촉식"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "기폭 시간"},
+              {"type": "str", "value": "－－－－"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "탄속"},
+              {"type": "str", "value": "초속 60.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "재장전 시간"},
+              {"type": "str", "value": "[자동]$0초"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 11.666666984558105},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "특수 테르밋탄. 여러 발의 소형탄이 연결된 형태로, 투척 시 분리되어 각각 다른 방향으로 날아간다.\n착탄 시 점화하며 엄청난 고온을 분사한다.\n불꽃은 물을 뿌려도 꺼지지 않고, 산소가 없어도 연소하므로 수중이나 지하에서도 사용할 수 있다.\n\n백팩 툴 사용 버튼을 계속 누르면 투척 방향이 선으로 표시되고, 버튼에서 손을 떼면 투척한다."
+      }
+    }
+  }
+}

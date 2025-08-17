@@ -1,0 +1,916 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {
+      "name": "xgs_scene_object_class",
+      "type": "str",
+      "value": "Weapon_HomingShoot"
+    },
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "waist_recoil3"},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "サイ・ブレードα"},
+    {"name": "name.en", "type": "str", "value": "Psiblade α"},
+    {"name": "name.cn", "type": "str", "value": "止水‧劍閃α"},
+    {"name": "name.kr", "type": "str", "value": "사이 블레이드 α"},
+    {"name": "name.sc", "type": "str", "value": "止水·剑闪α"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/psycho.dds"
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/p_homing_psychoblade01.rab"},
+            {"type": "str", "value": "p_homing_psychoblade01.mdb"}
+          ]
+        },
+        {"type": "double", "value": 0},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300000005003a00240000007c00000080000000f0000000000001001800000001000100300000000200000048000000b4000000c00000000200000054000000640000004400000000000000940000009a000000a0000000020000005400000044000000640000000000000074000000babababa0000000000000000000000000000803f000000000ad7233d2731283f0000803fcdcc4c3dcdcc4c3dcdcc4c3d0000803f3f56b03d3483f83bb41e863e0000803f6d3ac5bff3a3a5beb06c1ec00000803f53474f000201000000000000200000000000000020000000000000002000000030003100000049004b00000070005f0068006f006d0069006e0067005f00700073007900630068006f0062006c00610064006500300031000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms_r"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "waist"},
+    {"name": "AimAnimation", "type": "str", "value": "aim"},
+    {"name": "ChangeAnimation", "type": "str", "value": "waist_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "waist_reload1"},
+    {"name": "AmmoCount", "type": "double", "value": 1},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 215.557373046875},
+            {"type": "double", "value": 45},
+            {"type": "double", "value": 5},
+            {"type": "double", "value": 8},
+            {"type": "double", "value": 0.5},
+            {"type": "double", "value": 0.5},
+            {"type": "double", "value": 1}
+          ]
+        },
+        {"type": "double", "value": 40}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 0},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {
+      "name": "ReloadTime",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 132},
+        {"type": "double", "value": 21},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 3},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 1},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 0},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 0},
+    {
+      "name": "LockonRange",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1000},
+        {"type": "double", "value": 36},
+        {"type": "double", "value": 3},
+        {"type": "double", "value": 5},
+        {"type": "double", "value": 0.6000000238418579},
+        {"type": "double", "value": 0.8999999761581421},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {
+      "name": "LockonTime",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 60},
+        {"type": "double", "value": 41},
+        {"type": "double", "value": 4},
+        {"type": "double", "value": 7},
+        {"type": "double", "value": 0.8999999761581421},
+        {"type": "double", "value": 1.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 300},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 0},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0.800000011920929},
+    {"name": "FireVector", "type": "ptr", "value": null},
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "e5w_WDnew_homing_psyBladeAlpha"},
+        {"type": "double", "value": 0.949999988079071},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 25}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": "HomingLaserBullet01"},
+    {"name": "AmmoModel", "type": "double", "value": 0},
+    {"name": "AmmoSpeed", "type": "double", "value": 2},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 0},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 0},
+    {"name": "AmmoAlive", "type": "double", "value": 2000},
+    {
+      "name": "AmmoDamage",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 2000},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {
+      "name": "AmmoExplosion",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 20},
+        {"type": "double", "value": 32},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 4},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 0.5},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 6},
+        {"type": "double", "value": 1.100000023841858},
+        {"type": "double", "value": 1.100000023841858},
+        {"type": "double", "value": 0.5}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 60},
+        {"type": "double", "value": 0.10000000149011612},
+        {"type": "double", "value": 0.800000011920929},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 120},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 1},
+        {"type": "ptr", "value": null}
+      ]
+    },
+    {"name": "Ammo_EquipVoice", "type": "ptr", "value": null},
+    {
+      "name": "AmmoHitSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "common_damages_impactWD_homingPsyBlade"},
+        {"type": "double", "value": 0.8999999761581421},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 100}
+      ]
+    },
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    }
+  ],
+  "meta": {
+    "id": "pWeapon192",
+    "level": 60.750001668930054,
+    "category": 106,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [
+      {"type": "double", "value": 8},
+      {"type": "double", "value": 8},
+      {"type": "double", "value": 5},
+      {"type": "double", "value": 5},
+      {"type": "double", "value": 7},
+      {"type": "double", "value": 8}
+    ],
+    "nonRequest": 1,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "伤害"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2000},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "爆炸范围"},
+              {"type": "str", "value": "半径$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 20},
+                  {"type": "double", "value": 32},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "导引性能"},
+              {"type": "str", "value": "S"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "锁定"},
+              {"type": "str", "value": "$0m 1只"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1000},
+                  {"type": "double", "value": 36},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.6000000238418579},
+                  {"type": "double", "value": 0.8999999761581421},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "锁定时间"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 41},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.8999999761581421},
+                  {"type": "double", "value": 1.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "所需能量"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 215.557373046875},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "充能时间"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2.200000047683716},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "“止水·剑闪”强化至极限的最终型。破坏力和爆炸范围都有非常惊人的水准。\n射出的光箭会在笔直前进约２秒后，高速转向锁定的目标，并在贯穿敌人后随即引爆。其急转弯的模样会让人联想到刀剑交锋时的闪光，故得此名。\n使用此武器时，也必须将精神串联活用至极限，在测试阶段甚至有１名实验者出现精神崩溃的情况。因此被视为受诅咒的魔剑，无人愿意使用。"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "傷害"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2000},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "爆炸範圍"},
+              {"type": "str", "value": "半徑$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 20},
+                  {"type": "double", "value": 32},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "導引性能"},
+              {"type": "str", "value": "S"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "鎖定"},
+              {"type": "str", "value": "$0m 1隻"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1000},
+                  {"type": "double", "value": 36},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.6000000238418579},
+                  {"type": "double", "value": 0.8999999761581421},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "鎖定時間"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 41},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.8999999761581421},
+                  {"type": "double", "value": 1.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "所需能量"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 215.557373046875},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "充能時間"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2.200000047683716},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "「止水‧劍閃」強化至極限的最終型。破壞力和爆炸範圍都有非常驚人的水準。\n射出的光箭會在筆直前進約２秒後，高速轉向鎖定的目標，並在貫穿敵人後隨即引爆。其急轉彎的模樣會讓人聯想到刀劍交鋒時的閃光，故得此名。\n使用此武器時，也必須將精神串聯活用至極限，在測試階段甚至有１名實驗者出現精神崩潰的情況。因此被視為受詛咒的魔劍，無人願意使用。"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Damage"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2000},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Blast Area"},
+              {"type": "str", "value": "Radius $0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 20},
+                  {"type": "double", "value": 32},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Homing Capability"},
+              {"type": "str", "value": "S"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Lock-on"},
+              {"type": "str", "value": "$0m 1 target"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1000},
+                  {"type": "double", "value": 36},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.6000000238418579},
+                  {"type": "double", "value": 0.8999999761581421},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Lock-on Time"},
+              {"type": "str", "value": "$0 sec"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 41},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.8999999761581421},
+                  {"type": "double", "value": 1.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Energy Cost"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 215.557373046875},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Charge Time"},
+              {"type": "str", "value": "$0 sec"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2.200000047683716},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "The Psiblade's ultimate model that has been improved to the maximum level possible. Its destructive power and blast range are extraordinary.\nWithin two seconds of the arrows of light being released, they will fly straight for the target which has been locked-on. It will pierce the enemy and explode. It got its name by the fact that it looks like a glittering blade.\nThis weapon pushes the Psionic Link to the maximum, and it once destroyed the nervous system of the test subject. It is thus feared by many and no one uses it."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ダメージ"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2000},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "爆破範囲"},
+              {"type": "str", "value": "半径$0ｍ"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 20},
+                  {"type": "double", "value": 32},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "誘導性能"},
+              {"type": "str", "value": "S"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ロックオン"},
+              {"type": "str", "value": "$0ｍ 1体"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1000},
+                  {"type": "double", "value": 36},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.6000000238418579},
+                  {"type": "double", "value": 0.8999999761581421},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ロック時間"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 41},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.8999999761581421},
+                  {"type": "double", "value": 1.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "消費エネルギー"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 215.557373046875},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "チャージ時間"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2.200000047683716},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "「サイ·ブレード」を極限まで強化した最終モデル。破壊力、爆破範囲は驚異的なレベルに到達している。\n発射された光の矢は２秒ほど直進した後、ロックオンした目標に向かって高速反転。敵を貫き、爆発する。急角度で反転する様が剣の閃きを思わせることから、この名がついた。\nサイオニックリンクを限界まで使用するため、テスト時には１名が精神崩壊をおこしている。そのため呪われた魔剣と恐れられ、使用者はいない。"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "대미지"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2000},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "폭파 범위"},
+              {"type": "str", "value": "반경 $0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 20},
+                  {"type": "double", "value": 32},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "유도 성능"},
+              {"type": "str", "value": "S"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "조준"},
+              {"type": "str", "value": "$0m  1체"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1000},
+                  {"type": "double", "value": 36},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.6000000238418579},
+                  {"type": "double", "value": 0.8999999761581421},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "조준 시간"},
+              {"type": "str", "value": "$0초"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 41},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.8999999761581421},
+                  {"type": "double", "value": 1.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "소비 에너지"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 215.557373046875},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "충전 시간"},
+              {"type": "str", "value": "$0초"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2.200000047683716},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "「사이 블레이드」를 극한까지 강화한 최종 모델. 파괴력과 폭파 범위는 이제 경이적인 수준에 이르렀다.\n발사된 빛의 화살은 2초 정도 직진하다가 조준한 목표를 향해 빠른 속도로 방향을 틀어 적을 꿰뚫은 뒤 폭발한다. 급속도로 방향을 트는 모습이 검광을 방불케 해 이런 이름이 붙었다.\n사이오닉 링크를 한계까지 사용하는 탓에 테스트 당시 1명이 정신 붕괴를 일으켰다. 이 때문에 저주받은 마검이라며 다들 두려워해 사용하는 사람이 없다."
+      }
+    }
+  }
+}

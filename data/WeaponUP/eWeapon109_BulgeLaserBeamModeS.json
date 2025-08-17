@@ -1,0 +1,757 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {
+      "name": "xgs_scene_object_class",
+      "type": "str",
+      "value": "Weapon_LaserMarkerCallFire"
+    },
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 120}]
+    },
+    {"name": "use_underground", "type": "double", "value": 0},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "バルジレーザー照射モードＳ"},
+    {"name": "name.en", "type": "str", "value": "Bulge Laser Beam Mode S"},
+    {"name": "name.cn", "type": "str", "value": "核球雷射照射模式Ｓ"},
+    {"name": "name.kr", "type": "str", "value": "벌지 레이저 발사 모드 S"},
+    {"name": "name.sc", "type": "str", "value": "核球激光照射模式Ｓ"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/targetmarker.dds"
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/e_targetmarker_normal01.rab"},
+            {"type": "str", "value": "e_targetmarker_normal01.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/e_targetmarker_normal01.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300040006007400240000007c000000f000000074020000000001001800000001000100300000000200000048000000380200004402000002000000c4000000d4000000b400000000000000140100001e0200002402000002000000d4000000c4000000e400000000000000f400000040000000700000005c0200000000000030000000600000002c02000001000000300000005000000004020000010000003000000040000000de0100000100000016020000000000000000000060010000060200000000000000000000a4000000f60100000000000000000000e8000000babababa0000000000000000000000000000803f00000000355eba3dc520303e0000803f0ad7a33c0ad7a33c0ad7a33c0000803fcdcc4c3dcdcc4c3dcdcc4c3d0000803fde55af3d4ce397bd2ac88fbd0000803fa5915bbd320288bf945305400000803f53474f000201000000000000200000000000000020000000000000002000000053474f00020100000100000020000000010000002c000000000000003400000003000000090000001e00000008000000000000006e0061006d006500000025ff2effea30ed30fc30c930d330fc30d7300000000053474f00020100000100000020000000010000002c0000000000000034000000030000000b0000001e00000008000000000000006e0061006d0065000000bf30fc30b230c330c830de30fc30ab30fc30555c8b950000000053474f00020100000100000020000000010000002c0000000000000034000000030000000c0000001e00000008000000000000006e0061006d0065000000bf30fc30b230c330c830de30fc30ab30fc30899558308b30000030003100000049004b00000062006f00640079000000720065006c006f00610064005f0065006e0064000000720065006c006f00610064005f006c006f006f0070000000720065006c006f00610064005f007300740061007200740000007300650000007300740061006e006400620079000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms_r"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "hand"},
+    {"name": "AimAnimation", "type": "str", "value": "aim"},
+    {"name": "ChangeAnimation", "type": "str", "value": "hand_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "hand_reload1"},
+    {"name": "AmmoCount", "type": "double", "value": 1},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 1},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {
+      "name": "ReloadTime",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 14400},
+        {"type": "double", "value": 21},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 10},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 120},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {
+      "name": "FireVector",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1.100000023841858}
+      ]
+    },
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "str", "value": "weapon_Engineer_Kuubaku_guideBeam"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 1},
+    {"name": "SecondaryFire_Parameter", "type": "double", "value": 4},
+    {"name": "AmmoClass", "type": "str", "value": ""},
+    {
+      "name": "AmmoModel",
+      "type": "str",
+      "value": "app:/WEAPON/airtortoise_missile.rab"
+    },
+    {
+      "name": "AmmoSpeed",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 16},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 10},
+        {"type": "double", "value": 0.800000011920929},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {"name": "AmmoOwnerMove", "type": "double", "value": 1},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 1},
+    {"name": "AmmoAlive", "type": "double", "value": 700},
+    {
+      "name": "AmmoDamage",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 108},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 10},
+        {"type": "double", "value": 0.800000011920929},
+        {"type": "double", "value": 0.699999988079071},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 0},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 0},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoHitImpulseAdjust",
+      "type": "double",
+      "value": 0.0010000000474974513
+    },
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.25},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.5}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 60},
+        {"type": "double", "value": 1},
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 1.5},
+            {"type": "double", "value": 0.05000000074505806}
+          ]
+        },
+        {"type": "double", "value": 0},
+        {
+          "type": "ptr",
+          "value": [
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 1.399999976158142},
+                {"type": "double", "value": 0}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 1000},
+                {"type": "double", "value": 0}
+              ]
+            },
+            {"type": "double", "value": 1600},
+            {"type": "double", "value": 2},
+            {"type": "str", "value": "LaserBullet02"},
+            {"type": "double", "value": 1000},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 6},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 30},
+            {"type": "double", "value": 1},
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 0.30000001192092896},
+                {"type": "double", "value": 0.30000001192092896},
+                {"type": "double", "value": 0.6000000238418579},
+                {"type": "double", "value": 1}
+              ]
+            },
+            {"type": "ptr", "value": [{"type": "double", "value": 0}]},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 1},
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 1},
+                {"type": "str", "value": "weapon_KUBAKUSatelliteLaser02R_shot"},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 20},
+                {"type": "double", "value": 2000}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 0},
+                {
+                  "type": "str",
+                  "value": "common_damages_kuubaku_satelliteAlpha1"
+                },
+                {"type": "double", "value": 0.8999999761581421},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 2},
+                {"type": "double", "value": 100}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "バルジレーザー発射"},
+            {"type": "str", "value": ""},
+            {"type": "str", "value": "バルジレーザー攻撃後"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ammo_EquipVoice",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "バルジレーザー出撃直後"},
+        {"type": "str", "value": "バルジレーザー支援不能"}
+      ]
+    },
+    {
+      "name": "AmmoHitSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Engineer_Kuubaku_guideBeamLocked"},
+        {"type": "double", "value": 0.5600000023841858},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    },
+    {
+      "name": "resource",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "app:/WEAPON/airtortoise_missile.rab"}]
+    }
+  ],
+  "meta": {
+    "id": "eWeapon109",
+    "level": 44.999998807907104,
+    "category": 314,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [
+      {"type": "double", "value": 10},
+      {"type": "double", "value": 10},
+      {"type": "double", "value": 10}
+    ],
+    "nonRequest": 0,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "伤害"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 108},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 0.699999988079071},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "攻击范围"},
+              {"type": "str", "value": "半径6.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "装填"},
+              {"type": "str", "value": "[自动]$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 240},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.30000001192092896},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "激光射程"},
+              {"type": "str", "value": "$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 700},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "发射数"},
+              {"type": "str", "value": "1600"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "缩放"},
+              {"type": "str", "value": "4.0倍"}
+            ]
+          }
+        ],
+        "Text": "以精密射击模式发动核球激光的系统。\n在此模式下，炮身的旋转快速，导引装置的激光照射位置有所改变时，能迅速调整发射角度。\n照射时间也非常长。移动导引用激光的照射位置，就能攻击多个敌人。\n由于能持续照射至炮身融化的上限值，冷却上会十分耗时。\n\n由于装填作业是在卫星上进行，因此就算空袭兵未拿着该武器也能进行装填。"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "傷害"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 108},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 0.699999988079071},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "攻擊範圍"},
+              {"type": "str", "value": "半徑6.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "裝填"},
+              {"type": "str", "value": "[自動]$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 240},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.30000001192092896},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "雷射射程"},
+              {"type": "str", "value": "$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 700},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "發射數"},
+              {"type": "str", "value": "1600"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "縮放"},
+              {"type": "str", "value": "4.0倍"}
+            ]
+          }
+        ],
+        "Text": "以精密射擊模式發動核球雷射的系統。\n在此模式下，砲身的旋轉快速，導引裝置的雷射照射位置有所改變時，能迅速調整發射角度。\n照射時間也非常長。移動導引用雷射的照射位置，就能攻擊多個敵人。\n由於能持續照射至砲身融化的上限值，冷卻上會十分耗時。\n\n由於裝填作業是在衛星上進行，因此就算空襲兵未拿著該武器也能進行裝填。"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Damage"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 108},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 0.699999988079071},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Attack Range"},
+              {"type": "str", "value": "Radius 6.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Reload"},
+              {"type": "str", "value": "[Automatic]$0 sec"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 240},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.30000001192092896},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Laser Range"},
+              {"type": "str", "value": "$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 700},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Shots"},
+              {"type": "str", "value": "1600"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Zoom"},
+              {"type": "str", "value": "4.0x"}
+            ]
+          }
+        ],
+        "Text": "Activate the Bulge Laser's precision mode.\nUnder this mode, the cannon rotation is sped up, so that the laser guide location of the guide kit can adjust its firing angle swiftly.\nThe projection can be maintained for a long time. Moving the target location of the guiding system allows it to attack multiple enemies.\nThe projection can reach the cannon's melting point, so it will have a very long cool down.\n\nThe loading work is conducted on a satellite, so the weapon can still be reloaded even if the Air Raiders are not carrying it."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ダメージ"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 108},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 0.699999988079071},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "攻撃範囲"},
+              {"type": "str", "value": "半径6.0ｍ"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "リロード"},
+              {"type": "str", "value": "[自動]$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 240},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.30000001192092896},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "レーザー射程"},
+              {"type": "str", "value": "$0ｍ"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 700},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "発射数"},
+              {"type": "str", "value": "1600"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ズーム"},
+              {"type": "str", "value": "4.0倍"}
+            ]
+          }
+        ],
+        "Text": "バルジレーザーを精密射撃モードで運用するためのシステム。\nこのモードは砲身の旋回速度に優れ、誘導装置のレーザー照射位置が変更された場合、素早く発射角度を補正する。\n照射時間も非常に長い。誘導用レーザーの照射位置を動かすことで、多数の敵を攻撃することが可能だ。\n砲身融解の限界まで照射を続けるため、冷却には時間がかかる。\n\n装填作業は衛星でおこなわれるため、エアレイダーがこの武器を手に持っていない状態でもリロードは進行する。"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "대미지"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 108},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 0.699999988079071},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "공격 범위"},
+              {"type": "str", "value": "반경 6.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "재장전"},
+              {"type": "str", "value": "[자동]$0초"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 240},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.30000001192092896},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "레이저 사거리"},
+              {"type": "str", "value": "$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 700},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "발사 수"},
+              {"type": "str", "value": "1600"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "확대 배율"},
+              {"type": "str", "value": "4.0배"}
+            ]
+          }
+        ],
+        "Text": "벌지 레이저를 정밀 사격 모드로 운용하기 위한 시스템.\n이 모드는 포신 선회 속도가 빨라 유도 장치의 레이저 조사 위치가 변경되어도 신속하게 발사 각도를 수정한다.\n발사 시간도 매우 긴 덕분에 유도용 레이저의 조사 위치를 움직여 많은 적을 공격할 수 있다.\n포신 융해 한계까지 발사되기 때문에 냉각에 시간이 걸린다.\n\n장전 작업은 위성에서 이뤄지기 때문에 에어 레이더가 이 무기를 손에 들고 있지 않아도 재장전이 가능하다."
+      }
+    }
+  }
+}

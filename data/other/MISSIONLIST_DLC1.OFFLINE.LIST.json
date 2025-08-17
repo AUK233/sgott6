@@ -1,0 +1,317 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {
+      "name": "table",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "app:/Mission/EDF6_DLC/RM003"},
+            {"type": "str", "value": "EDF6_DLC/RM003"},
+            {"type": "ptr", "value": [{"type": "double", "value": 1}]},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.10000000149011612},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "app:/Mission/EDF6_DLC/RM009B"},
+            {"type": "str", "value": "EDF6_DLC/RM009B"},
+            {"type": "ptr", "value": [{"type": "double", "value": 2}]},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.10000000149011612},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 2},
+            {"type": "str", "value": "app:/Mission/EDF6_DLC/RM013B"},
+            {"type": "str", "value": "EDF6_DLC/RM013B"},
+            {"type": "ptr", "value": [{"type": "double", "value": 3}]},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.10000000149011612},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 3},
+            {"type": "str", "value": "app:/Mission/EDF6_DLC/M111"},
+            {"type": "str", "value": "EDF6_DLC/M111"},
+            {"type": "ptr", "value": [{"type": "double", "value": 4}]},
+            {"type": "double", "value": 3},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.10000000149011612},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 4},
+            {"type": "str", "value": "app:/Mission/EDF6_DLC/M203"},
+            {"type": "str", "value": "EDF6_DLC/M203"},
+            {"type": "ptr", "value": [{"type": "double", "value": 5}]},
+            {"type": "double", "value": 4},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.10000000149011612},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 5},
+            {"type": "str", "value": "app:/Mission/EDF6_DLC/M017"},
+            {"type": "str", "value": "EDF6_DLC/M017"},
+            {"type": "ptr", "value": [{"type": "double", "value": 6}]},
+            {"type": "double", "value": 5},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 6},
+            {"type": "str", "value": "app:/Mission/EDF6_DLC/M009"},
+            {"type": "str", "value": "EDF6_DLC/M009"},
+            {"type": "ptr", "value": [{"type": "double", "value": 7}]},
+            {"type": "double", "value": 6},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 7},
+            {"type": "str", "value": "app:/Mission/EDF6_DLC/M008"},
+            {"type": "str", "value": "EDF6_DLC/M008"},
+            {"type": "ptr", "value": [{"type": "double", "value": 8}]},
+            {"type": "double", "value": 7},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 8},
+            {"type": "str", "value": "app:/Mission/EDF6_DLC/M011"},
+            {"type": "str", "value": "EDF6_DLC/M011"},
+            {"type": "ptr", "value": [{"type": "double", "value": 9}]},
+            {"type": "double", "value": 8},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 9},
+            {"type": "str", "value": "app:/Mission/EDF6_DLC/M019"},
+            {"type": "str", "value": "EDF6_DLC/M019"},
+            {"type": "ptr", "value": [{"type": "double", "value": 10}]},
+            {"type": "double", "value": 9},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 10},
+            {"type": "str", "value": "app:/Mission/EDF6_DLC/M013"},
+            {"type": "str", "value": "EDF6_DLC/M013"},
+            {"type": "ptr", "value": [{"type": "double", "value": 11}]},
+            {"type": "double", "value": 10},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 11},
+            {"type": "str", "value": "app:/Mission/EDF6_DLC/M018"},
+            {"type": "str", "value": "EDF6_DLC/M018"},
+            {"type": "ptr", "value": [{"type": "double", "value": 12}]},
+            {"type": "double", "value": 11},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 12},
+            {"type": "str", "value": "app:/Mission/EDF6_DLC/M014_2"},
+            {"type": "str", "value": "EDF6_DLC/M014_2"},
+            {"type": "ptr", "value": [{"type": "double", "value": 13}]},
+            {"type": "double", "value": 12},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 13},
+            {"type": "str", "value": "app:/Mission/EDF6_DLC/M020"},
+            {"type": "str", "value": "EDF6_DLC/M020"},
+            {"type": "ptr", "value": [{"type": "double", "value": 14}]},
+            {"type": "double", "value": 13},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 14},
+            {"type": "str", "value": "app:/Mission/EDF6_DLC/M021"},
+            {"type": "str", "value": "EDF6_DLC/M021"},
+            {"type": "ptr", "value": [{"type": "double", "value": 15}]},
+            {"type": "double", "value": 14},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 40}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 15},
+            {"type": "str", "value": "app:/Mission/EDF6_DLC/M016"},
+            {"type": "str", "value": "EDF6_DLC/M016"},
+            {"type": "ptr", "value": [{"type": "double", "value": 16}]},
+            {"type": "double", "value": 15},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 16},
+            {"type": "str", "value": "app:/Mission/EDF6_DLC/M015"},
+            {"type": "str", "value": "EDF6_DLC/M015"},
+            {"type": "ptr", "value": [{"type": "double", "value": 17}]},
+            {"type": "double", "value": 16},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 17},
+            {"type": "str", "value": "app:/Mission/EDF6_DLC/M098"},
+            {"type": "str", "value": "EDF6_DLC/M098"},
+            {"type": "ptr", "value": [{"type": "double", "value": 18}]},
+            {"type": "double", "value": 17},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 18},
+            {"type": "str", "value": "app:/Mission/EDF6_DLC/M099"},
+            {"type": "str", "value": "EDF6_DLC/M099"},
+            {"type": "ptr", "value": [{"type": "double", "value": 19}]},
+            {"type": "double", "value": 18},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {"id": null}
+}

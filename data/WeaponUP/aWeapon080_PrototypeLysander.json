@@ -1,0 +1,1081 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {
+      "name": "xgs_scene_object_class",
+      "type": "str",
+      "value": "Weapon_BasicShoot"
+    },
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "sniper_recoil2"},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 1},
+        {"type": "ptr", "value": [{"type": "double", "value": 1}]}
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "試作型ライサンダー"},
+    {"name": "name.en", "type": "str", "value": "Prototype Lysander"},
+    {"name": "name.cn", "type": "str", "value": "試作型呂山德"},
+    {"name": "name.kr", "type": "str", "value": "프로토타입 라이샌더"},
+    {"name": "name.sc", "type": "str", "value": "试作型吕山德"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/raythunder01.dds"
+    },
+    {
+      "name": "Sight_animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/HUD/sight05.rab"},
+            {"type": "str", "value": "sight05.mdb"}
+          ]
+        },
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/s_sniper_raythunder01.rab"},
+            {"type": "str", "value": "s_sniper_raythunder01.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/s_sniper_raythunder01.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300040006007e00240000009c00000050010000a005000000000100180000000100010030000000020001004800000064050000700500000200000024010000340100001401000000000000740100004a0500005005000002000000240100001401000044010000000000005401000098050000300500000200000014010000f4000000d400000000000000bc03000040000000b0000000680500000000000030000000a00000003805000002000000400000009000000010050000020000005000000080000000ea040000030000002205000000000000000000008802000012050000000000000000000044010000020500000000000000000000d0020000f20400000000284200000000c0020000e20400000000000000000000e0010000d20400000000f0410000000068010000c20400000000b4420000000094000000babababa0000000000000000000000000000803f00000000d122db3d1d5ab43f0000803f0ad7a33c0ad7a33c0ad7a33c0000803f40f6ba3db6f729bc20b4963e0000803f5839b4bc4260e53db81e053e0000803f9feb6dbfc50581bf781b23400000803f53474f000201000000000000200000000000000020000000000000002000000053474f00020100000100000020000000010000002c000000000000003400000003000000100000001e00000008000000000000006e0061006d006500000033ff32ff32ff21ff39ff34ff28ff35ff2eff24ff25ff32ff10ff11ffcb694830000053474f00020100000100000020000000010000002c000000000000003400000003000000110000001e00000008000000000000006e0061006d006500000033ff32ff32ff21ff39ff34ff28ff35ff2eff24ff25ff32ff10ff11ff4a308d3059300000000053474f00020100000100000020000000010000002c000000000000003400000003000000130000001e00000008000000000000006e0061006d006500000033ff32ff32ff21ff39ff34ff28ff35ff2eff24ff25ff32ff10ff11ffde30b030bb30c330c8300000000053474f00020100000100000020000000010000002c000000000000003400000003000000140000001e00000008000000000000006e0061006d006500000033ff32ff32ff21ff39ff34ff28ff35ff2eff24ff25ff32ff10ff11ffde30b030d6538a30fa515730000053474f00020100000100000020000000010000002c000000000000003400000003000000140000001e00000008000000000000006e0061006d006500000033ff32ff32ff21ff39ff34ff28ff35ff2eff24ff25ff32ff10ff11ffde30b030ea30ea30fc30b930000053474f00020100000100000020000000010000002c000000000000003400000003000000150000001e00000008000000000000006e0061006d006500000033ff32ff32ff21ff39ff34ff28ff35ff2eff24ff25ff32ff10ff11ffea30ed30fc30c730a330f330b0300000000053474f0002010000040000002000000004000000e0000000000000000001000000000000030000003000000000000000030000004800000000000000030000006000000000000000030000007800000002000000040000000000803f02000000040000000000803f02000000040000000000803f0200000004000000000080bf0200000004000000000080bf0200000004000000000080bf02000000040000000000c0bf02000000040000000000003f0200000004000000000000000200000004000000000080bf020000000400000000000000020000000400000000000000200000000000000032000000010000004400000002000000560000000300000072006f0074006100740069006f006e005f006d0061007800000072006f0074006100740069006f006e005f006d0069006e000000760065006c006f0063006900740079005f006d00610078000000760065006c006f0063006900740079005f006d0069006e00000030003100000049004b00000062006f00640079000000720065006c006f00610064005f0065006e0064000000720065006c006f00610064005f006c006f006f0070000000720065006c006f00610064005f007300740061007200740000007300650000007300740061006e006400620079000000ac85a283000000000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms_r"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "sniper"},
+    {"name": "AimAnimation", "type": "str", "value": "aim"},
+    {"name": "ChangeAnimation", "type": "str", "value": "sniper_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "sniper_reload1"},
+    {
+      "name": "AmmoCount",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 4},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 3},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 0},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {
+      "name": "ReloadTime",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 240},
+        {"type": "double", "value": 21},
+        {"type": "double", "value": 4},
+        {"type": "double", "value": 5},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {
+      "name": "FireInterval",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 240},
+        {"type": "double", "value": 25},
+        {"type": "double", "value": 5},
+        {"type": "double", "value": 7},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {
+      "name": "FireAccuracy",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.007000000216066837},
+        {"type": "double", "value": 13},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 20},
+        {"type": "double", "value": 0.10000000149011612},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {"name": "FireRecoil", "type": "double", "value": 0.5},
+    {"name": "FireVector", "type": "ptr", "value": null},
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "e5w_SRnew_Lysander_proto"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 25}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 1},
+    {"name": "SecondaryFire_Parameter", "type": "double", "value": 6},
+    {"name": "AmmoClass", "type": "str", "value": "SolidBullet01"},
+    {"name": "AmmoModel", "type": "double", "value": 0},
+    {
+      "name": "AmmoSpeed",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 30},
+        {"type": "double", "value": 16},
+        {"type": "double", "value": 3},
+        {"type": "double", "value": 10},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {"name": "AmmoOwnerMove", "type": "double", "value": 0},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 0},
+    {"name": "AmmoAlive", "type": "double", "value": 72},
+    {
+      "name": "AmmoDamage",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 450},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "AmmoDamageAttribute",
+      "type": "ptr",
+      "value": [
+        {"name": "shield", "type": "double", "value": 1.2999999523162842}
+      ]
+    },
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 0},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 1},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 0.5},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 4},
+        {"type": "double", "value": 20},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {"name": "Ammo_CustomParameter", "type": "ptr", "value": null},
+    {"name": "Ammo_EquipVoice", "type": "ptr", "value": null},
+    {"name": "AmmoHitSe", "type": "ptr", "value": null},
+    {"name": "MuzzleFlash", "type": "str", "value": "MuzzleFlash01"},
+    {
+      "name": "MuzzleFlash_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "マズルフラッシュ01.dds"},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 0.4000000059604645},
+        {"type": "double", "value": 0.125},
+        {"type": "double", "value": 5},
+        {"type": "double", "value": 1.600000023841858},
+        {"type": "double", "value": 0.15000000596046448},
+        {"type": "double", "value": 4},
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 0.699999988079071},
+            {"type": "double", "value": 0.699999988079071},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 1}
+          ]
+        },
+        {"type": "double", "value": -0.20000000298023224}
+      ]
+    },
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "ShellCase_RB"},
+        {"type": "str", "value": "app:/Weapon/ShellCase401.rab"},
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "weapon_Common_shell_srifle"},
+            {"type": "double", "value": 0.2199999988079071},
+            {"type": "double", "value": 1.0499999523162842},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 5}
+          ]
+        }
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    },
+    {
+      "name": "resource",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "app:/Weapon/ShellCase401.rab"},
+        {"type": "str", "value": "app:/Weapon/ShellCase401.shkt"}
+      ]
+    }
+  ],
+  "meta": {
+    "id": "aWeapon080",
+    "level": 4.749999940395355,
+    "category": 2,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [
+      {"type": "double", "value": 3},
+      {"type": "double", "value": 8},
+      {"type": "double", "value": 8},
+      {"type": "double", "value": 10},
+      {"type": "double", "value": 5},
+      {"type": "double", "value": 7}
+    ],
+    "nonRequest": 1,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "弹数"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "连射速度"},
+              {"type": "str", "value": "$0发/秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 240},
+                  {"type": "double", "value": 25},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "伤害"},
+              {"type": "str", "value": "$0(护盾X1.3)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 450},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "装填时间"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "有效射程距离"},
+              {"type": "str", "value": "$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2160},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "子弹速度"},
+              {"type": "str", "value": "秒速$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1800},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "准度"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 0.007000000216066837},
+                  {"type": "double", "value": 13},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 20},
+                  {"type": "double", "value": 0.10000000149011612},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "缩放"},
+              {"type": "str", "value": "6.0倍"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "激光瞄准器"},
+              {"type": "str", "value": "装备"}
+            ]
+          }
+        ],
+        "Text": "重视破坏力的大口径狙击枪。\n由于子弹体积较大且装填构造复杂，而无法连射。但其威力却远远超越目前的狙击枪。\n\n目前为试作阶段，尚未达到原先设计的性能。\n\n配备狙击镜与激光瞄准器。\n\n激光瞄准器是发出线性激光的装置。由于激光可用肉眼目视，因此可确认射击的位置。\n（激光只是光线，并无攻击力）\n此外，也可判别目标是否在射程之内。若在瞄准时出现红点，就代表激光照到的物体在“射程范围内”。"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "彈數"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "連射速度"},
+              {"type": "str", "value": "$0發/秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 240},
+                  {"type": "double", "value": 25},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "傷害"},
+              {"type": "str", "value": "$0(護盾X1.3)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 450},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "裝填時間"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "有效射程距離"},
+              {"type": "str", "value": "$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2160},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "子彈速度"},
+              {"type": "str", "value": "秒速$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1800},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "準度"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 0.007000000216066837},
+                  {"type": "double", "value": 13},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 20},
+                  {"type": "double", "value": 0.10000000149011612},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "縮放"},
+              {"type": "str", "value": "6.0倍"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "雷射瞄準器"},
+              {"type": "str", "value": "裝備"}
+            ]
+          }
+        ],
+        "Text": "重視破壞力的大口徑狙擊鎗。\n由於子彈體積較大且裝填構造複雜，而無法連射。但其威力卻遠遠超越目前的狙擊鎗。\n\n目前為試作階段，尚未達到原先設計的性能。\n\n配備狙擊鏡與雷射瞄準器。\n\n雷射瞄準器是發出線性雷射光的裝置。由於雷射光可用肉眼目視，因此可確認射擊的位置。\n（雷射光只是光線，並無攻擊力）\n此外，也可判別目標是否在射程之內。若在瞄準時出現紅點，就代表雷射光照到的物體在「射程範圍內」。"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Capacity"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ROF"},
+              {"type": "str", "value": "$0/sec"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 240},
+                  {"type": "double", "value": 25},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Damage"},
+              {"type": "str", "value": "$0(Shield x 1.3)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 450},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Reload Time"},
+              {"type": "str", "value": "$0 sec"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Range"},
+              {"type": "str", "value": "$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2160},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Shot Speed"},
+              {"type": "str", "value": "$0m/s"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1800},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Accuracy"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 0.007000000216066837},
+                  {"type": "double", "value": 13},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 20},
+                  {"type": "double", "value": 0.10000000149011612},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Zoom"},
+              {"type": "str", "value": "6.0x"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Laser Sight"},
+              {"type": "str", "value": "Equipped"}
+            ]
+          }
+        ],
+        "Text": "A high-caliber sniper rifle with a focus on firepower. It largely surpasses the current sniper rifles. However, due to the large bullets and its complex loading mechanism, it's unable to fire consecutively.\n\nIt's only a prototype without the expected designed performance.\n\nA scope and a laser sight are equipped.\n\nLaser sight is a device sending out linear laser beam. Since the laser beam is visible with naked eyes, the landing location can be confirmed.\n(Laser beam is only light without attack power.)\nThe beam can also used to determine whether the target is within range. If there's a red spot while aiming at the target, it means that object is %dq%in range.%dq%"
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "弾数"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "連射速度"},
+              {"type": "str", "value": "$0発／秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 240},
+                  {"type": "double", "value": 25},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ダメージ"},
+              {"type": "str", "value": "$0(ｼｰﾙﾄﾞX1.3)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 450},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "リロード時間"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "有効射程距離"},
+              {"type": "str", "value": "$0ｍ"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2160},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "弾速"},
+              {"type": "str", "value": "秒速$0ｍ"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1800},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "精度"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 0.007000000216066837},
+                  {"type": "double", "value": 13},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 20},
+                  {"type": "double", "value": 0.10000000149011612},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ズーム"},
+              {"type": "str", "value": "6.0倍"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "レーザーサイト"},
+              {"type": "str", "value": "装備"}
+            ]
+          }
+        ],
+        "Text": "破壊力を重視した大口径狙撃銃。\n弾丸が大型のため、装填機構が複雑で連射がきかない。しかし、その威力はこれまでの狙撃銃を大きく上回っている。\n\n現状は試作段階であり、設計通りの性能を引き出すには至っていない。\n\nスコープとレーザーサイトを装備。\n\nレーザーサイトは、直進する性質を持ったレーザー光を照射する装置。レーザー光は目で見ることができるため、着弾位置を確認できる。\n（レーザー光はただの光であり、攻撃能力はない）\nまた、目標が射程内にあるかどうかを判別できる。照準内に赤い点が表示されたら、レーザー照射位置の物体が「射程内」にあることを意味する。"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "장탄 수"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "연사 속도"},
+              {"type": "str", "value": "$0발/초"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 240},
+                  {"type": "double", "value": 25},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "대미지"},
+              {"type": "str", "value": "$0(실드X1.3)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 450},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "재장전 시간"},
+              {"type": "str", "value": "$0초"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "유효 사거리"},
+              {"type": "str", "value": "$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2160},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "탄속"},
+              {"type": "str", "value": "초속 $0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1800},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "정확도"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 0.007000000216066837},
+                  {"type": "double", "value": 13},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 20},
+                  {"type": "double", "value": 0.10000000149011612},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "확대 배율"},
+              {"type": "str", "value": "6.0배"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "표적 지시기"},
+              {"type": "str", "value": "장비"}
+            ]
+          }
+        ],
+        "Text": "파괴력에 중점을 둔 대구경 저격총.\n대형탄을 사용하기 때문에 장전 장치가 복잡해 연사가 불가능하다. 하지만 위력 자체는 기존 저격총을 훨씬 뛰어넘는다.\n\n아직 시범 운용 단계인 탓에 설계 단계에서 의도한 성능을 발휘하지는 못한다.\n\n조준경과 표적 지시기가 장착되어 있다.\n\n표적 지시기는 직진하는 성질을 가진 레이저 광을 쏘는 장치이다. 레이저 광은 육안으로도 보이기 때문에 착탄 위치를 확인할 수 있다.\n(레이저 광은 단순한 빛에 불과하며 공격 능력은 없다)\n또한 목표가 사거리 안에 있는지 없는지를 판별할 수도 있다. 조준점 안에 빨간 점이 표시되면 레이저가 가리키는 물체가 「사거리 안」에 있다는 뜻이다."
+      }
+    }
+  }
+}

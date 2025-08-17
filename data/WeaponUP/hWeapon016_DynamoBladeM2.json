@@ -1,0 +1,1173 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {
+      "name": "xgs_scene_object_class",
+      "type": "str",
+      "value": "Weapon_ImpactHammer"
+    },
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "hammer_charge"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0},
+        {
+          "type": "ptr",
+          "value": [
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 0},
+                {"type": "str", "value": "hammer_swing"},
+                {"type": "double", "value": 1.5},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 1},
+                {"type": "str", "value": "SlashWaveBullet01Exp"}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 80},
+                {"type": "str", "value": "hammer_turnImpact"},
+                {"type": "double", "value": 1.5},
+                {"type": "double", "value": 2},
+                {"type": "double", "value": 2},
+                {"type": "double", "value": 1},
+                {"type": "str", "value": "SlashWaveBullet01Exp"}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 450},
+                {"type": "str", "value": "hammer_jumpKnock"},
+                {"type": "double", "value": 1.5},
+                {"type": "double", "value": 8},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 10},
+                {"type": "str", "value": "SlashWaveBullet01Exp"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 0},
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 0},
+                {
+                  "type": "str",
+                  "value": "weapon_Fencer_HM_longRangeBladeM2_lv2"
+                },
+                {"type": "double", "value": 0.7943000197410583},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 3},
+                {"type": "double", "value": 25}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 0},
+                {
+                  "type": "str",
+                  "value": "weapon_Fencer_HM_longRangeBladeM2_lv3"
+                },
+                {"type": "double", "value": 0.6309999823570251},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 3},
+                {"type": "double", "value": 25}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "ダイナモ・ブレードＭ２"},
+    {"name": "name.en", "type": "str", "value": "Dynamo Blade M2"},
+    {"name": "name.cn", "type": "str", "value": "雷電巨刃Ｍ２"},
+    {"name": "name.kr", "type": "str", "value": "다이너모 블레이드 M2"},
+    {"name": "name.sc", "type": "str", "value": "雷电巨刃Ｍ２"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/h_impact_blade02.dds"
+    },
+    {
+      "name": "Sight_animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/HUD/sight17.rab"},
+            {"type": "str", "value": "sight17.mdb"}
+          ]
+        },
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/h_impact_blade02.rab"},
+            {"type": "str", "value": "h_impact_blade02.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/h_impact_blade02.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300040003005e00240000005c000000c0000000c001000000000100180000000100000030000000020000002800000084010000c60100000200000094000000a40000008400000000000000b400000040000000600000006a0100000100000040000000500000007001000001000000400000004000000076010000000000003000000030000000820100000000000060010000000000000000000074000000500100000000000000000000bc000000babababa0000000000000000000000000000803f000000003f353e3f9a99993e0000803fcdcc4c3dcdcc4c3dcdcc4c3d0000803f53474f000201000000000000200000000000000020000000000000002000000053474f00020100000100000020000000010000002c0000000000000034000000030000000b0000001e00000008000000000000006e0061006d0065000000cf30f330de30fc30555c8b95005212ff2cff36ff12ff0000000053474f00020100000100000020000000010000002c0000000000000034000000030000000b0000001e00000008000000000000006e0061006d0065000000cf30f330de30fc30555c8b95005212ff2cff36ff13ff000000003000310000006300680061007200670065005f006c007600320000006300680061007200670065005f006c007600330000006600690072006500000073006500000073006c0069006400650000007300740061006e006400620079000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "base"},
+    {"name": "AimAnimation", "type": "str", "value": "aim_hammer"},
+    {"name": "ChangeAnimation", "type": "str", "value": "hammer_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "hammer_reload1"},
+    {
+      "name": "AmmoCount",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 10},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 0},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {
+      "name": "ReloadTime",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 180},
+        {"type": "double", "value": 21},
+        {"type": "double", "value": 3},
+        {"type": "double", "value": 5},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 2},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 1},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0.5},
+    {"name": "FireVector", "type": "ptr", "value": null},
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Fencer_HM_longRangeBladeM2_lv1"},
+        {"type": "double", "value": 0.6309999823570251},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 3},
+        {"type": "double", "value": 25}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 5},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": "ShockWaveBullet01"},
+    {"name": "AmmoModel", "type": "double", "value": 0},
+    {
+      "name": "AmmoSpeed",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 10},
+        {"type": "double", "value": 16},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {"name": "AmmoOwnerMove", "type": "double", "value": 0},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 0},
+    {"name": "AmmoAlive", "type": "double", "value": 10},
+    {
+      "name": "AmmoDamage",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 360},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "AmmoDamageAttribute",
+      "type": "ptr",
+      "value": [{"name": "shield", "type": "double", "value": 2}]
+    },
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 0},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 1},
+    {"name": "AmmoSize", "type": "double", "value": 2},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {"name": "Ammo_CustomParameter", "type": "ptr", "value": null},
+    {"name": "Ammo_EquipVoice", "type": "ptr", "value": null},
+    {
+      "name": "AmmoHitSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Common_hitSound_zan"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 50}
+      ]
+    },
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 80},
+            {"type": "double", "value": 4},
+            {"type": "double", "value": 10},
+            {"type": "double", "value": 0.30000001192092896},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 1}
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "id": "hWeapon016",
+    "level": 50.24999976158142,
+    "category": 200,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [
+      {"type": "double", "value": 5},
+      {"type": "double", "value": 8},
+      {"type": "double", "value": 8},
+      {"type": "double", "value": 5},
+      {"type": "double", "value": 10}
+    ],
+    "nonRequest": 1,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "普通攻击"},
+              {"type": "str", "value": "（近距离斩击 充能:0.0 伤害:$0 射程:$1m）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 360},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 100},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "高压电攻击"},
+              {"type": "str", "value": "（中距离斩击 充能:1.3 伤害:$0 射程:$1m）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 720},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 100},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "极限攻击"},
+              {"type": "str", "value": "（远距离斩击 充能:7.5 伤害:$0 射程:$1m）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2880},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1000},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "充能速度"},
+              {"type": "str", "value": "$0（每秒）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 80},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.30000001192092896},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "对护盾"},
+              {"type": "str", "value": "X2.0"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "弹数"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "装填"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "强化型原力巨刃。输出极限获得提升。虽然将输出提升至极限需花费较长的时间，但能打出射程相对较长的一击。\n能将刀身放出的原力力场转变成刀刃，斩断物体。可藉由挥动巨刃将原力力场投射至前方，斩杀远方的敌人。破坏力虽然不及骇波战锤，但攻击速度快，也能用来对付空中的敌人。持续按住“攻击键”，可提升输出。待输出提升至上限再放开键，就会发动强力的斩击。\n\n为了有效运用此武器，会在动力装甲的背部加装“辅助推进器”。按下装备使用键后，会往前进方向进行被称为推进冲刺的高速移动。"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "普通攻擊"},
+              {"type": "str", "value": "（近距離斬擊 充能:0.0 傷害:$0 射程:$1m）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 360},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 100},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "高壓電攻擊"},
+              {"type": "str", "value": "（中距離斬擊 充能:1.3 傷害:$0 射程:$1m）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 720},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 100},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "極限攻擊"},
+              {"type": "str", "value": "（遠距離斬擊 充能:7.5 傷害:$0 射程:$1m）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2880},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1000},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "充能速度"},
+              {"type": "str", "value": "$0（每秒）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 80},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.30000001192092896},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "對護盾"},
+              {"type": "str", "value": "X2.0"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "彈數"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "裝填"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "強化型原力巨刃。輸出極限獲得提升。雖然將輸出提升至極限需花費較長的時間，但能打出射程相對較長的一擊。\n能將刀身放出的原力力場轉變成刀刃，斬斷物體。可藉由揮動巨刃將原力力場投射至前方，斬殺遠方的敵人。破壞力雖然不及駭波戰鎚，但攻擊速度快，也能用來對付空中的敵人。持續按住「攻擊按鈕」，可提升輸出。待輸出提升至上限再放開按鈕，就會發動強力的斬擊。\n\n為了有效運用此武器，會在動力裝甲的背部加裝「輔助推進器」。按下使用裝備按鈕後，會往前進方向進行被稱為推進衝刺的高速移動。"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Regular Attack"},
+              {
+                "type": "str",
+                "value": "(Slash Close Range Charge:0.0 Damage:$0 Range:$1m)"
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 360},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 100},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "High Voltage"},
+              {
+                "type": "str",
+                "value": "(Slash Medium Range Charge:1.3 Damage:$0 Range:$1m)"
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 720},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 100},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Maximum"},
+              {
+                "type": "str",
+                "value": "(Slash Long Range Charge:7.5 Damage:$0 Range:$1m)"
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2880},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1000},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Charge Speed"},
+              {"type": "str", "value": "$0 per sec"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 80},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.30000001192092896},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Vs. Shield"},
+              {"type": "str", "value": "X2.0"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Capacity"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Reload"},
+              {"type": "str", "value": "$0 sec"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "An enhanced Force Blade with an improved output limit. Takes a long time until this limit is reached, but when it is, a powerful long-shot is fired off. \nThe force field generated by the blade is launched forward to cut through enemies from a distance as the blade is swung. It does not have the destructive power of the Vibro Hammer, but its attack speed is better and it can attack aerial enemies. Press and hold the attack button to increase the output, then release it when the maximum has been reached in order to unleash a powerful slashing attack.\n\nTo use this weapon effectively, the back of your powered exoskeleton must be equipped with a Side Thruster. Press the use button to perform a %dq%thrust-dash%dq% forward."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "通常攻撃"},
+              {"type": "str", "value": "（斬撃近距離 チャージ:0.0 ダメージ:$0 射程:$1ｍ）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 360},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 100},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ハイボルテージ"},
+              {"type": "str", "value": "（斬撃中距離 チャージ:1.3 ダメージ:$0 射程:$1ｍ）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 720},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 100},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "マキシマム"},
+              {"type": "str", "value": "（斬撃遠距離 チャージ:7.5 ダメージ:$0 射程:$1ｍ）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2880},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1000},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "チャージ速度"},
+              {"type": "str", "value": "$0（毎秒）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 80},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.30000001192092896},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "対シールド"},
+              {"type": "str", "value": "X2.0"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "弾数"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "リロード"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "強化型フォースブレード。出力限界が向上。出力を最大まで上昇させるには長い時間がかかるが、そのぶん長射程の一撃を放つ。\n刀身に発生させたフォースフィールドを刃と変え、物体を切断する。ブレードを振りぬくことで、フォースフィールドは前方へと投射され、離れた敵をも切り裂く。ヴィブロハンマーほどの破壊力はないが、攻撃速度は速く、空中の敵も攻撃可能。“攻撃ボタン”を押し続けると出力を上昇。最大まで出力を高めてボタンを放すと、強力な斬撃を繰り出す。\n\nこの武装を効果的に運用するため、パワードスケルトンの背部には「サイドスラスター」が装着される。装備使用ボタンを押すと、進行方向にスラスターダッシュと呼ばれる高速移動をおこなう。"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "통상 공격"},
+              {"type": "str", "value": "(참격 근거리 차지:0.0 대미지:$0 사정거리:$1m )"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 360},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 100},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "하이 볼티지"},
+              {"type": "str", "value": "(참격 중거리 차지:1.3 대미지:$0 사정거리:$1m )"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 720},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 100},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "맥시멈"},
+              {"type": "str", "value": "(참격 원거리 차지:7.5 대미지:$0 사정거리:$1m )"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2880},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              },
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1000},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "충전 속도"},
+              {"type": "str", "value": "$0 (매초)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 80},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.30000001192092896},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "실드 유효 공격"},
+              {"type": "str", "value": "X2.0"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "장탄 수"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "재장전"},
+              {"type": "str", "value": "$0초"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "강화형 포스 블레이드. 출력 한계가 향상됐다. 출력을 최대치까지 상승시키려면 상당한 시간이 걸리지만 그만큼 사거리가 긴 공격을 날린다.\n도신에서 발생하는 포스 필드를 칼날로 바꿔 물체를 절단한다. 블레이드를 끝까지 휘두르면 포스 필드가 전방으로 투사되어 먼 거리에 있는 적까지 벨 수 있다. 비브로 해머 수준의 파괴력은 없지만, 공격 속도가 빠르고 공중에 있는 적도 공격할 수 있다. “공격 버튼”을 길게 누르면 출력이 상승하며, 출력을 최대치까지 상승시킨 후에 버튼에서 손을 떼면 강력한 참격을 날린다.\n\n이 무장을 효과적으로 운용하기 위해 파워드 스켈레톤 등 쪽에 「사이드 스러스터」가 장착되어 있다. 장비 사용 버튼을 누르면 스러스터 대시를 사용해 진행 방향으로 고속 이동한다."
+      }
+    }
+  }
+}

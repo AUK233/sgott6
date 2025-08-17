@@ -1,0 +1,694 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {"name": "xgs_scene_object_class", "type": "str", "value": "Weapon_Sub"},
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {"name": "animation", "type": "str", "value": "throwL_robot_swing"},
+        {"name": "whole_body", "type": "double", "value": 0},
+        {"name": "animation_speed", "type": "double", "value": 1},
+        {"name": "is_manual_reload", "type": "double", "value": 1},
+        {"name": "is_auto_lockon", "type": "double", "value": 1}
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "Ｂ型ロボットボム"},
+    {"name": "name.en", "type": "str", "value": "Type B Robot Bomb"},
+    {"name": "name.cn", "type": "str", "value": "Ｂ型機器人炸彈"},
+    {"name": "name.kr", "type": "str", "value": "B형 로봇 봄"},
+    {"name": "name.sc", "type": "str", "value": "Ｂ型机器人炸弹"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/roomba.dds"
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/e_throw_roomba.rab"},
+            {"type": "str", "value": "e_throw_roomba.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/e_throw_roomba.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300020002003e00240000005c00000080000000c0000000000001001800000001000000300000000200000028000000840000008a0000000200000044000000540000004400000000000000640000002000000020000000920000000000000010000000100000007800000000000000babababa0000000000000000000000000000803f0000a0400000a0400000a0400000803f53474f000201000000000000200000000000000020000000000000002000000030003100000065005f007400680072006f0077005f0072006f006f006d00620061000000680069006400650000007300740061006e006400620079000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms_l"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "throw"},
+    {"name": "AimAnimation", "type": "str", "value": "aim_no_ik"},
+    {"name": "ChangeAnimation", "type": "str", "value": "throw_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "throw_reload1"},
+    {"name": "AmmoCount", "type": "double", "value": 1},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 1},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {
+      "name": "ReloadTime",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 440},
+        {"type": "double", "value": 21},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 5},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 1},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 0},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 0},
+    {"name": "LockonRange", "type": "double", "value": 200},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.10000000149011612},
+        {"type": "double", "value": 0.10000000149011612}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 4},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 1},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 2},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0.699999988079071},
+    {
+      "name": "FireCount",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 6},
+        {"type": "double", "value": 4},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 7},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "FireInterval", "type": "double", "value": 20},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {"name": "FireVector", "type": "ptr", "value": null},
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Ranger_GL_throwHeavyNoEquip"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": "BombBullet01"},
+    {
+      "name": "AmmoModel",
+      "type": "str",
+      "value": "app:/WEAPON/e_throw_roomba.rab"
+    },
+    {"name": "AmmoSpeed", "type": "double", "value": 0.20000000298023224},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 0},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 1},
+    {"name": "AmmoAlive", "type": "double", "value": 2400},
+    {
+      "name": "AmmoDamage",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 150},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {
+      "name": "AmmoExplosion",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 5.199999809265137},
+        {"type": "double", "value": 32},
+        {"type": "double", "value": 3},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 1.5},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.5}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 3},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 60},
+        {"type": "double", "value": 8},
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0.10000000149011612},
+            {"type": "double", "value": 0.20000000298023224}
+          ]
+        },
+        {"type": "double", "value": 0},
+        {"type": "ptr", "value": null},
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "ルン爆弾ＧＯ"},
+            {"type": "str", "value": "武器起動可能"},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "ルン爆弾反射"}
+          ]
+        },
+        {
+          "name": "speed_adjust",
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 0.800000011920929},
+            {"type": "double", "value": 1.100000023841858}
+          ]
+        }
+      ]
+    },
+    {"name": "Ammo_EquipVoice", "type": "ptr", "value": null},
+    {
+      "name": "AmmoHitSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "common_damages_explode_S"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 200}
+      ]
+    },
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    },
+    {
+      "name": "resource",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "app:/WEAPON/e_throw_roomba.rab"}]
+    }
+  ],
+  "meta": {
+    "id": "eWeapon211",
+    "level": 6.25,
+    "category": 331,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [
+      {"type": "double", "value": 7},
+      {"type": "double", "value": 8},
+      {"type": "double", "value": 8},
+      {"type": "double", "value": 8}
+    ],
+    "nonRequest": 1,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "设置数"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 6},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "伤害"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 150},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "爆炸范围"},
+              {"type": "str", "value": "半径$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 5.199999809265137},
+                  {"type": "double", "value": 32},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "装填"},
+              {"type": "str", "value": "[自动]$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 7.3333330154418945},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "自主型的自走炸弹。它拥有高度的行走能力，能在保持速度的情况下通过斜坡或者路况不佳的道路。\n具有先进的ＡＩ，能透过各种感测器分析资讯，定位敌人的位置，并计算出接近敌人的最佳路线。\n一旦接近敌人就会爆炸。万一在到达目标前目标就被消灭（或者经过一定时间），为了安全，会自行引爆。这种情况下的爆炸是小规模的，不会对周围造成损害。\n\n由于可以避开障碍物迂回前进，所以能攻击隐藏在建筑物等地方的敌人。\n\n短按使用背包工具键来启动。\n如果不想引爆，可以长按使用背包工具键来停止。"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "設置數"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 6},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "傷害"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 150},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "爆炸範圍"},
+              {"type": "str", "value": "半徑$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 5.199999809265137},
+                  {"type": "double", "value": 32},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "裝填"},
+              {"type": "str", "value": "[自動]$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 7.3333330154418945},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "自主型的自走炸彈。它擁有高度的行走能力，能在保持速度的情況下通過斜坡或者路況不佳的道路。\n具有先進的ＡＩ，能透過各種感測器分析資訊，定位敵人的位置，並計算出接近敵人的最佳路線。\n一旦接近敵人就會爆炸。萬一在到達目標前目標就被消滅（或者經過一定時間），為了安全，會自行引爆。這種情況下的爆炸是小規模的，不會對周圍造成損害。\n\n由於可以避開障礙物迂迴前進，所以能攻擊隱藏在建築物等地方的敵人。\n\n短按使用背包工具按鈕來啟動。\n如果不想引爆，可以長按使用背包工具按鈕來停止。"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Number"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 6},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Damage"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 150},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Blast Area"},
+              {"type": "str", "value": "Radius $0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 5.199999809265137},
+                  {"type": "double", "value": 32},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Reload"},
+              {"type": "str", "value": "[Automatic]$0 sec"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 7.3333330154418945},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "Its impossible momentum allows it to make its way up slopes or on bumpy roads without losing speed.\nIt locks onto a target and automatically finds its way approaching the enemy. When a direct path is blocked by an obstacle, it will detour, making it possible to attack enemies hiding behind a building.\nIt will explode when close to the target. Should the target disappear before the bomb reaches it (or a certain time has passed), it explodes itself for safety reasons. In this case, the scale of the explosion will be small to avoid damaging the surroundings.\n\nPress the Use Backpack Tool button to activate.\nHold the Use Backpack Tool button to stop."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "設置数"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 6},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ダメージ"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 150},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "爆破範囲"},
+              {"type": "str", "value": "半径$0ｍ"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 5.199999809265137},
+                  {"type": "double", "value": 32},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "リロード"},
+              {"type": "str", "value": "[自動]$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 7.3333330154418945},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "自律型の自走爆弾。高い走行能力を持ち、速度を維持したまま斜面や悪路を進むことが可能。\n高度なＡＩを搭載しており、各種センサーからの情報を解析して、敵の位置の把握。近い敵への最適ルートを計算して向かっていく。\n敵に接近すると爆発。万一、到達前に目標が消滅した場合（または一定時間が経過した場合）、安全のため、自分自身を爆破処理する。この場合の爆発は小規模であり、周囲に被害を及ぼすことはない。\n\n障害物を迂回して進むため、ビルなどに隠れた敵を攻撃することが可能。\n\nバックパックツール使用ボタン（短く押す）で起動。\n起爆させたくない時は、バックパックツール使用ボタンを長押しすることで停止できる。"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "설치 수"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 6},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "대미지"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 150},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "폭파 범위"},
+              {"type": "str", "value": "반경 $0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 5.199999809265137},
+                  {"type": "double", "value": 32},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "재장전"},
+              {"type": "str", "value": "[자동]$0초"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 7.3333330154418945},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "자율형 자주 폭탄. 주행 성능이 뛰어나 경사면이나 험한 지형에서도 동일한 속도로 달릴 수 있다.\n고도의 AI가 탑재되었으며, 각종 센서로 정보를 해석하여 적의 위치를 파악하고 가까운 적부터 최적의 루트로 접근한다.\n적에게 접근하면 폭발한다. 만약 접근하기 전에 목표가 소멸했을 경우(또는 일정 시간이 지났을 경우)에는 안전을 위해 자폭한다. 자폭할 때 일어나는 폭발은 소규모이기 때문에 주변에 피해를 주지 않는다.\n\n장애물을 우회해 접근하기 때문에 빌딩 등에 숨어 있는 적도 공격할 수 있다.\n\n백팩 툴 사용 버튼을 짧게 눌러 기동한다.\n기폭시키고 싶지 않을 때는 백팩 툴 사용 버튼을 길게 누르면 멈출 수 있다."
+      }
+    }
+  }
+}

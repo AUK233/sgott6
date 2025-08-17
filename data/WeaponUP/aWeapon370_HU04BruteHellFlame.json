@@ -1,0 +1,553 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {"name": "xgs_scene_object_class", "type": "str", "value": "Weapon_Sub"},
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {"name": "animation", "type": "str", "value": "vehicle_call"},
+        {"name": "whole_body", "type": "double", "value": 1},
+        {"name": "animation_speed", "type": "double", "value": 1}
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 0},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "ＨＵ０４ブルート ヘルフレイム"},
+    {"name": "name.en", "type": "str", "value": "HU04 Brute Hell Flame"},
+    {"name": "name.cn", "type": "str", "value": "ＨＵ０４狂暴直升機 地獄級"},
+    {"name": "name.kr", "type": "str", "value": "HU04 브루트 헬 플레임"},
+    {"name": "name.sc", "type": "str", "value": "ＨＵ０４狂暴直升机 地狱级"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/heli03.dds"
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/e_throw_marker01.rab"},
+            {"type": "str", "value": "e_throw_marker01.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/e_throw_marker01.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300020002002a00240000005c00000080000000c0000000000001001800000001000000300000000200000028000000840000008a00000002000000440000005400000044000000000000006400000020000000200000007e0000000000000010000000100000006400000000000000babababa0000000000000000000000000000803f0000a0400000a0400000a0400000803f53474f000201000000000000200000000000000020000000000000002000000030003100000062006f00640079000000680069006400650000007300740061006e006400620079000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms_r"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "throw"},
+    {"name": "AimAnimation", "type": "str", "value": "aim_no_ik"},
+    {"name": "ChangeAnimation", "type": "str", "value": "throw_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "throw_reload1"},
+    {"name": "AmmoCount", "type": "double", "value": 1},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 2},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {
+      "name": "ReloadTime",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 12000},
+        {"type": "double", "value": 21},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 120},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {
+      "name": "FireVector",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.25},
+        {"type": "double", "value": 1.100000023841858}
+      ]
+    },
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Engineer_Vehicle_throw"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": "SmokeCandleBullet01"},
+    {
+      "name": "AmmoModel",
+      "type": "str",
+      "value": "app:/WEAPON/e_throw_marker01.rab"
+    },
+    {"name": "AmmoSpeed", "type": "double", "value": 0.4000000059604645},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 1},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 1},
+    {"name": "AmmoAlive", "type": "double", "value": 1800},
+    {"name": "AmmoDamage", "type": "double", "value": 1800},
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 40},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 1},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.5}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.05000000074505806},
+        {"type": "double", "value": 180},
+        {"type": "double", "value": 120},
+        {"type": "double", "value": 1},
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Object/v508_transport.sgo"},
+            {"type": "str", "value": "app:/object/v509_transportbox.sgo"},
+            {"type": "str", "value": "app:/Object/Vehicle410_heli.sgo"},
+            {
+              "type": "ptr",
+              "value": [
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 10},
+                    {"type": "double", "value": 4.900000095367432}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 70},
+                    {"type": "double", "value": 0.0005000000237487257},
+                    {"type": "double", "value": 20},
+                    {"type": "double", "value": 0.0005000000237487257},
+                    {"type": "double", "value": 10},
+                    {"type": "double", "value": 35},
+                    {"type": "double", "value": 0.0024999999441206455}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 350000},
+                    {"type": "double", "value": 15}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_410heli_flamethrower10.sgo"
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "str", "value": "AimRecoil"},
+                            {
+                              "type": "ptr",
+                              "value": [
+                                {"type": "double", "value": 0},
+                                {"type": "double", "value": 0}
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 120},
+                            {"type": "double", "value": 0.009999999776482582},
+                            {"type": "double", "value": 0.019999999552965164}
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {"type": "str", "value": "app:/weapon/v_fuel01.sgo"}
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "輸送部隊目標確認"},
+            {"type": "str", "value": "輸送部隊発射"},
+            {"type": "str", "value": "輸送部隊攻撃後レンジャー"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ammo_EquipVoice",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "輸送部隊出撃直後レンジャー"},
+        {"type": "str", "value": "輸送部隊支援不能"}
+      ]
+    },
+    {
+      "name": "AmmoHitSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Engineer_Vehicle_smoke"},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    },
+    {
+      "name": "resource",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "app:/WEAPON/e_throw_marker01.rab"},
+        {"type": "str", "value": "app:/Object/v508_transport.sgo"},
+        {"type": "str", "value": "app:/object/v509_transportbox.sgo"},
+        {"type": "str", "value": "app:/Object/Vehicle410_heli.sgo"},
+        {"type": "str", "value": "app:/weapon/v_410heli_flamethrower10.sgo"},
+        {"type": "str", "value": "app:/weapon/v_fuel01.sgo"}
+      ]
+    }
+  ],
+  "meta": {
+    "id": "aWeapon370",
+    "level": 38.749998807907104,
+    "category": 9,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [{"type": "double", "value": 8}],
+    "nonRequest": 0,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "请求"},
+              {"type": "str", "value": "$0pt（起始值100％)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 12000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐用度"},
+              {"type": "str", "value": "18000"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "燃料"},
+              {"type": "str", "value": "350000.0"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "燃费"},
+              {"type": "str", "value": "15.0"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操纵席：</font>驾驶\n<font color=%dq%#80ff80%dq%>炮手席（右）：</font>重型火焰枪 <font color=%dq%#00ffff%dq%>（弹数：2000  伤害：98.0  射程：80.0m）</font>\n<font color=%dq%#80ff80%dq%>炮手席（左）：</font>重型火焰枪 <font color=%dq%#00ffff%dq%>（弹数：2000  伤害：98.0  射程：80.0m）</font>\n\n搭乘者３名。\nＨＵ０４狂暴直升机的重装甲型。包覆着相当厚重的装甲，即使被炮弹击中也能继续战斗。机体左右皆分别配备重型火焰枪（大型火焰喷射器）。射程虽短，但只要能接近敌人，就能发挥惊人的歼灭能力。为了操纵重型火焰枪而分别在机体左右设置炮手席，连同驾驶员在内需要３名搭乘者。仅限空袭兵与突击兵能驾驶操纵席。炮手席则是任何人皆可搭乘。\n\n请求投放本载具，需要在战场上拿下一定的功绩（击破大量敌人）。\n（功绩也包含伙伴的击破数）"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "請求"},
+              {"type": "str", "value": "$0pt（起始值100％)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 12000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐用度"},
+              {"type": "str", "value": "18000"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "燃料"},
+              {"type": "str", "value": "350000.0"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "燃費"},
+              {"type": "str", "value": "15.0"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操縱席：</font>駕駛\n<font color=%dq%#80ff80%dq%>砲手席（右）：</font>重型火焰鎗 <font color=%dq%#00ffff%dq%>（彈數：2000  傷害：98.0  射程：80.0m）</font>\n<font color=%dq%#80ff80%dq%>砲手席（左）：</font>重型火焰鎗 <font color=%dq%#00ffff%dq%>（彈數：2000  傷害：98.0  射程：80.0m）</font>\n\n搭乘者３名。\nＨＵ０４狂暴直升機的重裝甲型。包覆著相當厚重的裝甲，即使被砲彈擊中也能繼續戰鬥。機體左右皆分別配備重型火焰鎗（大型火焰噴射器）。射程雖短，但只要能接近敵人，就能發揮驚人的殲滅能力。為了操縱重型火焰鎗而分別在機體左右設置砲手席，連同駕駛員在內需要３名搭乘者。僅限空襲兵與突擊兵能駕駛操縱席。砲手席則是任何人皆可搭乘。\n\n請求投放本載具，需要在戰場上拿下一定的功績（擊破大量敵人）。\n（功績也包含夥伴的擊破數）"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Re-request"},
+              {"type": "str", "value": "$0pt(Default 100 %)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 12000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Durability"},
+              {"type": "str", "value": "18000"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Fuel"},
+              {"type": "str", "value": "350000.0"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Fuel Cost"},
+              {"type": "str", "value": "15.0"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>Pilot Seat:</font> Driver\n<font color=%dq%#80ff80%dq%>Gunner Seat (Right):</font> Heavy Flame Gun <font color=%dq%#00ffff%dq%>(Shots:2000 Damage:98.0 Range:80.0m)</font>\n<font color=%dq%#80ff80%dq%>Gunner Seat (Left):</font> Heavy Flame Gun <font color=%dq%#00ffff%dq%>(Shots:2000 Damage:98.0 Range:80.0m)</font>\n\n3 people.\nAn armored model of the HU04 Brute. The body is covered in thick armor so it can continue battling even under heavy attack. It's also equipped with dual Heavy Flame Guns (a type of large flamethrower), which have short range but can inflict some serious damage if you're able to get in close. There are gunner seats for each of the flame guns. So, including the pilot, three people are necessary for this vehicle. Only Rangers and Air Raiders can pilot this vehicle, but anyone can ride in the gunner seats. \n\nIn order to request this, you need to achieve a certain number of credits during the mission by defeating enemies. Your allies' kills will also help you earn credits."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "要請"},
+              {"type": "str", "value": "$0pt (初期値 100％)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 12000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐久度"},
+              {"type": "str", "value": "18000"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "燃料"},
+              {"type": "str", "value": "350000.0"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "燃費"},
+              {"type": "str", "value": "15.0"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操縦席：</font>運転\n<font color=%dq%#80ff80%dq%>ガンナー席（右）：</font>ヘビーフレイムガン <font color=%dq%#00ffff%dq%>（弾数：2000  ダメージ：98.0  射程：80.0ｍ）</font>\n<font color=%dq%#80ff80%dq%>ガンナー席（左）：</font>ヘビーフレイムガン <font color=%dq%#00ffff%dq%>（弾数：2000  ダメージ：98.0  射程：80.0ｍ）</font>\n\n搭乗員３名。\nＨＵ０４ブルートの重装甲型。分厚い装甲に覆われ、被弾をものともせずに戦闘を続ける。機体の左右それぞれにヘビーフレイムガン（大型火炎放射器）を装備。射程は短いが、敵に接近できれば凄まじい殲滅力を発揮する。ヘビーフレイムガンの操作のため機体左右にガンナー席があり、パイロットを含め３名の搭乗者が必要となる。操縦席に乗ることができるのは、エアレイダーとレンジャーに限られる。ガンナー席は誰でも搭乗可能。\n\n投下を要請するためには、戦場で一定の功績（多数の敵を撃破）が必要である。\n（功績は仲間による撃破も含まれる）"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "요청"},
+              {"type": "str", "value": "$0pt(초기 값100%)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 12000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "내구도"},
+              {"type": "str", "value": "18000"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "연료"},
+              {"type": "str", "value": "350000.0"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "연비"},
+              {"type": "str", "value": "15.0"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>조종석:</font> 운전\n<font color=%dq%#80ff80%dq%>사수석(우):</font> 헤비 플레임 건<font color=%dq%#00ffff%dq%>(장탄 수: 2000  대미지: 98.0  사거리: 80.0m )</font>\n<font color=%dq%#80ff80%dq%>사수석(좌):</font> 헤비 플레임 건<font color=%dq%#00ffff%dq%>(장탄 수: 2000  대미지: 98.0  사거리: 80.0m )</font>\n\n탑승 인원 3명.\nHU04 브루트의 중장갑형. 두꺼운 장갑으로 덮여 있어 적의 공격에도 끄떡없이 전투를 속행할 수 있다. 기체 양옆에 장착된 헤비 플레임 건(대형 화염 방사기)은 사거리는 짧지만 적에게 접근하기만 하면 엄청난 섬멸 능력을 발휘한다. 헤비 플레임 건 조작을 위해 기체 양옆에 사수석이 있으며, 조종사를 포함해 3명의 탑승자가 필요하다. 조종석에는 에어 레이더와 레인저만 탑승할 수 있다. 사수석에는 누구나 탑승이 가능하다.\n\n투하를 요청하려면 전쟁터에서 어느 정도 공적(많은 적을 격파)을 쌓아야 한다.\n(동료가 격파한 적도 공적에 포함된다)"
+      }
+    }
+  }
+}

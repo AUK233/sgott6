@@ -1,0 +1,757 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {
+      "name": "xgs_scene_object_class",
+      "type": "str",
+      "value": "Weapon_LaserMarkerCallFire"
+    },
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 10}]
+    },
+    {"name": "use_underground", "type": "double", "value": 0},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "スプライトフォール射撃モードβ３"},
+    {"name": "name.en", "type": "str", "value": "Spritefall Shooting Mode β3"},
+    {"name": "name.cn", "type": "str", "value": "魂靈崩落射擊模式β３"},
+    {"name": "name.kr", "type": "str", "value": "스프라이트 폴 사격 모드 β3"},
+    {"name": "name.sc", "type": "str", "value": "魂灵崩落射击模式β３"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/targetmarker.dds"
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/e_targetmarker_normal01.rab"},
+            {"type": "str", "value": "e_targetmarker_normal01.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/e_targetmarker_normal01.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300040006007400240000007c000000f000000074020000000001001800000001000100300000000200000048000000380200004402000002000000c4000000d4000000b400000000000000140100001e0200002402000002000000d4000000c4000000e400000000000000f400000040000000700000005c0200000000000030000000600000002c02000001000000300000005000000004020000010000003000000040000000de0100000100000016020000000000000000000060010000060200000000000000000000a4000000f60100000000000000000000e8000000babababa0000000000000000000000000000803f00000000355eba3dc520303e0000803f0ad7a33c0ad7a33c0ad7a33c0000803fcdcc4c3dcdcc4c3dcdcc4c3d0000803fde55af3d4ce397bd2ac88fbd0000803fa5915bbd320288bf945305400000803f53474f000201000000000000200000000000000020000000000000002000000053474f00020100000100000020000000010000002c000000000000003400000003000000090000001e00000008000000000000006e0061006d006500000025ff2effea30ed30fc30c930d330fc30d7300000000053474f00020100000100000020000000010000002c0000000000000034000000030000000b0000001e00000008000000000000006e0061006d0065000000bf30fc30b230c330c830de30fc30ab30fc30555c8b950000000053474f00020100000100000020000000010000002c0000000000000034000000030000000c0000001e00000008000000000000006e0061006d0065000000bf30fc30b230c330c830de30fc30ab30fc30899558308b30000030003100000049004b00000062006f00640079000000720065006c006f00610064005f0065006e0064000000720065006c006f00610064005f006c006f006f0070000000720065006c006f00610064005f007300740061007200740000007300650000007300740061006e006400620079000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms_r"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "hand"},
+    {"name": "AimAnimation", "type": "str", "value": "aim"},
+    {"name": "ChangeAnimation", "type": "str", "value": "hand_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "hand_reload1"},
+    {"name": "AmmoCount", "type": "double", "value": 1},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 2},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {
+      "name": "ReloadTime",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 100},
+        {"type": "double", "value": 21},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 10},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 120},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {
+      "name": "FireVector",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1.100000023841858}
+      ]
+    },
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "str", "value": "weapon_Engineer_Kuubaku_guideBeam"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 1},
+    {"name": "SecondaryFire_Parameter", "type": "double", "value": 4},
+    {"name": "AmmoClass", "type": "str", "value": ""},
+    {
+      "name": "AmmoModel",
+      "type": "str",
+      "value": "app:/WEAPON/airtortoise_missile.rab"
+    },
+    {
+      "name": "AmmoSpeed",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 16},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 10},
+        {"type": "double", "value": 0.800000011920929},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {"name": "AmmoOwnerMove", "type": "double", "value": 1},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 1},
+    {"name": "AmmoAlive", "type": "double", "value": 900},
+    {
+      "name": "AmmoDamage",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 6000},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 10},
+        {"type": "double", "value": 0.800000011920929},
+        {"type": "double", "value": 0.699999988079071},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 0},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 25},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoHitImpulseAdjust",
+      "type": "double",
+      "value": 0.009999999776482582
+    },
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.25},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.5}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 5},
+        {"type": "double", "value": 0},
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0}
+          ]
+        },
+        {"type": "double", "value": 0},
+        {
+          "type": "ptr",
+          "value": [
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 1.5},
+                {"type": "double", "value": 0}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 1000},
+                {"type": "double", "value": 0}
+              ]
+            },
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 8},
+            {"type": "str", "value": "LaserBullet02"},
+            {"type": "double", "value": 1000},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 6},
+            {"type": "double", "value": 2.5},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 30},
+            {"type": "double", "value": 1},
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 60},
+                {"type": "double", "value": 60},
+                {"type": "double", "value": 120},
+                {"type": "double", "value": 1}
+              ]
+            },
+            {"type": "ptr", "value": [{"type": "double", "value": 0}]},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 0},
+                {"type": "str", "value": "weapon_KUBAKU_RuleOfGod_shot"},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 20},
+                {"type": "double", "value": 3000}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 0},
+                {
+                  "type": "str",
+                  "value": "common_damages_kuubakuSatelliteLaser03A"
+                },
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 100}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "スプライト発射"},
+            {"type": "str", "value": ""},
+            {"type": "str", "value": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ammo_EquipVoice",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": "スプライト支援不能"}
+      ]
+    },
+    {
+      "name": "AmmoHitSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Engineer_Kuubaku_guideBeamLocked"},
+        {"type": "double", "value": 0.5600000023841858},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    },
+    {
+      "name": "resource",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "app:/WEAPON/airtortoise_missile.rab"}]
+    }
+  ],
+  "meta": {
+    "id": "eWeapon117",
+    "level": 82.99999833106995,
+    "category": 314,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [
+      {"type": "double", "value": 10},
+      {"type": "double", "value": 10},
+      {"type": "double", "value": 10}
+    ],
+    "nonRequest": 0,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "伤害"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 6000},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 0.699999988079071},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "攻击范围"},
+              {"type": "str", "value": "半径15.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "装填"},
+              {"type": "str", "value": "$0pt"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 100},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.30000001192092896},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "激光射程"},
+              {"type": "str", "value": "$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 900},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "发射数"},
+              {"type": "str", "value": "1"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "缩放"},
+              {"type": "str", "value": "4.0倍"}
+            ]
+          }
+        ],
+        "Text": "让“魂灵崩落”在聚合射击模式下发动的导引装置。\n聚合射击模式是将所有动力集中于定点，瞬间进行照射。虽然是定点攻击，但相对有着强大的破坏力。对系统的负担较少，请求再次射击需要的功绩也不高。\n\n更加改良控制系统，几乎没有发射前的时间差。\n\n需要在战场上取得一定的功绩（击破多数敌人）才能请求再次发射。（伙伴的击破数也能列入功绩计算）"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "傷害"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 6000},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 0.699999988079071},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "攻擊範圍"},
+              {"type": "str", "value": "半徑15.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "裝填"},
+              {"type": "str", "value": "$0pt"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 100},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.30000001192092896},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "雷射射程"},
+              {"type": "str", "value": "$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 900},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "發射數"},
+              {"type": "str", "value": "1"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "縮放"},
+              {"type": "str", "value": "4.0倍"}
+            ]
+          }
+        ],
+        "Text": "讓「魂靈崩落」在聚合射擊模式下發動的導引裝置。\n聚合射擊模式是將所有動力集中於定點，瞬間進行照射。雖然是定點攻擊，但相對有著強大的破壞力。對系統的負擔較少，請求再次射擊需要的功績也不高。\n\n更加改良控制系統，幾乎沒有發射前的時間差。\n\n需要在戰場上取得一定的功績（擊破多數敵人）才能請求再次發射。（夥伴的擊破數也能列入功績計算）"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Damage"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 6000},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 0.699999988079071},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Attack Range"},
+              {"type": "str", "value": "Radius 15.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Reload"},
+              {"type": "str", "value": "$0pt"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 100},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.30000001192092896},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Laser Range"},
+              {"type": "str", "value": "$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 900},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Shots"},
+              {"type": "str", "value": "1"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Zoom"},
+              {"type": "str", "value": "4.0x"}
+            ]
+          }
+        ],
+        "Text": "Use the guide kit to launch a concentrated attack with the laser weapon Spritefall. The concentrated shooting mode combines all of Spritefall's energy and releases it instantaneously. Although it can only fire at a single target, it has impressive destructive power. The system doesn't overload, so it requires less credit to re-request.\n\nThe improved control system allows it to fire at once.\n\nIn order to re-request this, you need to achieve a certain number of credits during the mission by defeating enemies. Your allies' kills will also help you earn credits."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ダメージ"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 6000},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 0.699999988079071},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "攻撃範囲"},
+              {"type": "str", "value": "半径15.0ｍ"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "リロード"},
+              {"type": "str", "value": "$0pt"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 100},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.30000001192092896},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "レーザー射程"},
+              {"type": "str", "value": "$0ｍ"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 900},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "発射数"},
+              {"type": "str", "value": "1"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ズーム"},
+              {"type": "str", "value": "4.0倍"}
+            ]
+          }
+        ],
+        "Text": "「スプライトフォール」を収束射撃モードで運用するための誘導装置。\n収束射撃モードでは、すべてのパワーを１点に集中し、瞬間的に照射する。ピンポイントへの攻撃となる反面、破壊力は凄まじい。システムへの負荷も少なく、再射撃に必要な功績も少ない。\n\n制御システムのさらなる改良により、発射までのタイムラグがほぼ０となった。\n\n再度の発射を要請するためには、戦場で一定の功績（多数の敵を撃破）が必要である。（功績は仲間による撃破も含まれる）"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "대미지"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 6000},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 0.699999988079071},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "공격 범위"},
+              {"type": "str", "value": "반경 15.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "재장전"},
+              {"type": "str", "value": "$0pt"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 100},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.30000001192092896},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "레이저 사거리"},
+              {"type": "str", "value": "$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 900},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "발사 수"},
+              {"type": "str", "value": "1"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "확대 배율"},
+              {"type": "str", "value": "4.0배"}
+            ]
+          }
+        ],
+        "Text": "「스프라이트 폴」을 집속 사격 모드로 운용하기 위한 유도 장치.\n집속 사격 모드에서는 모든 출력을 한 점에 집중해 순간적으로 발사한다. 공격 범위는 한 곳으로 한정되지만 그만큼 강력한 파괴력을 발휘한다. 시스템 부하나 재사격에 필요한 공적도 적다.\n\n제어 시스템이 한층 더 개량되어 발사되기까지의 시차가 0에 가까워졌다.\n\n재발사를 요청하려면 전쟁터에서 어느 정도 공적(많은 적을 격파)을 쌓아야 한다.\n(동료가 격파한 적도 공적에 포함된다)"
+      }
+    }
+  }
+}

@@ -1,0 +1,824 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {"name": "xgs_scene_object_class", "type": "str", "value": "Weapon_Swing"},
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "str", "value": "pile_swing1"},
+                {"type": "double", "value": 1.2000000476837158},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 1.25},
+                {"type": "double", "value": 0}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "str", "value": "pile_swingH1"},
+                {"type": "double", "value": 1.2999999523162842},
+                {"type": "double", "value": 1.75},
+                {"type": "double", "value": 3},
+                {"type": "double", "value": 1.75},
+                {"type": "double", "value": 0}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "ブラストホール・スピアＭ５"},
+    {"name": "name.en", "type": "str", "value": "Blasthole Spear M5"},
+    {"name": "name.cn", "type": "str", "value": "爆破刺鎗Ｍ５"},
+    {"name": "name.kr", "type": "str", "value": "블래스트홀 스피어 Ｍ5"},
+    {"name": "name.sc", "type": "str", "value": "爆破刺枪Ｍ５"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/pilebunker.dds"
+    },
+    {
+      "name": "Sight_animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/HUD/sight17.rab"},
+            {"type": "str", "value": "sight17.mdb"}
+          ]
+        },
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/h_pile_normal01.rab"},
+            {"type": "str", "value": "h_pile_normal01.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/h_pile_normal01.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300020004003400240000007c000000a0000000680200000000010018000000010000003000000002000100280000002c020000320200000200000074000000840000006400000000000000a400000036020000120200000200000074000000640000004400000000000000a40000002000000020000000fc010000000000001000000010000000f601000000000000babababa0000000000000000000000000000803f00000000000080be7f6a1c3f0000803fcdcc4c3dcdcc4c3dcdcc4c3d0000803fcdccccbd48e17abea69b843e0000803f53474f000201000000000000200000000000000020000000000000002000000053474f0002010000040000002000000004000000e0000000000000000001000000000000030000003000000000000000030000004800000000000000030000006000000000000000030000007800000002000000040000000000803f02000000040000000000803f02000000040000000000803f0200000004000000000080bf0200000004000000000080bf0200000004000000000080bf02000000040000000000c0bf02000000040000000000003f0200000004000000000000000200000004000000000080bf020000000400000000000000020000000400000000000000200000000000000032000000010000004400000002000000560000000300000072006f0074006100740069006f006e005f006d0061007800000072006f0074006100740069006f006e005f006d0069006e000000760065006c006f0063006900740079005f006d00610078000000760065006c006f0063006900740079005f006d0069006e00000030003100000062006f00640079000000660069007200650000007300740061006e006400620079000000ac85a283000000000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "base"},
+    {"name": "AimAnimation", "type": "str", "value": "aim_pile"},
+    {"name": "ChangeAnimation", "type": "str", "value": "pile_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "pile_reload1"},
+    {
+      "name": "AmmoCount",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 10},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 0},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {
+      "name": "ReloadTime",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 90},
+        {"type": "double", "value": 21},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 5},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 1},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0.5},
+    {"name": "FireVector", "type": "ptr", "value": null},
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Fencer_PL_banker22_shot"},
+        {"type": "double", "value": 0.8999999761581421},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 3},
+        {"type": "double", "value": 25}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 5},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": "PileBunkerBullet01"},
+    {"name": "AmmoModel", "type": "double", "value": 0},
+    {"name": "AmmoSpeed", "type": "double", "value": 8.5},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 0},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 0},
+    {"name": "AmmoAlive", "type": "double", "value": 6},
+    {
+      "name": "AmmoDamage",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 2400},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 10},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 0},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 1},
+    {"name": "AmmoSize", "type": "double", "value": 0.14000000059604645},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.4000000059604645},
+        {"type": "double", "value": 0.17499999701976776},
+        {"type": "double", "value": 0.15000000596046448},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "weapon_Common_hitSound_stab"},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 50}
+          ]
+        }
+      ]
+    },
+    {"name": "Ammo_EquipVoice", "type": "ptr", "value": null},
+    {
+      "name": "AmmoHitSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Common_impactHammer_S"},
+        {"type": "double", "value": 0.550000011920929},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 30}
+      ]
+    },
+    {"name": "MuzzleFlash", "type": "str", "value": "PileBunkerMuzzleFlash01"},
+    {
+      "name": "MuzzleFlash_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 4},
+            {"type": "double", "value": 3},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 1}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 2},
+            {"type": "double", "value": -1},
+            {"type": "double", "value": -1},
+            {"type": "double", "value": 0}
+          ]
+        },
+        {"type": "double", "value": 15},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.4000000059604645},
+        {"type": "double", "value": 0.15000000596046448}
+      ]
+    },
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 80},
+            {"type": "double", "value": 3},
+            {"type": "double", "value": 10},
+            {"type": "double", "value": 0.20000000298023224},
+            {"type": "double", "value": 1.5},
+            {"type": "double", "value": 1}
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "id": "hWeapon044",
+    "level": 55.000001192092896,
+    "category": 201,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [
+      {"type": "double", "value": 5},
+      {"type": "double", "value": 10},
+      {"type": "double", "value": 5},
+      {"type": "double", "value": 10}
+    ],
+    "nonRequest": 1,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "攻击１"},
+              {"type": "str", "value": "（伤害:[贯穿]$0 射程:69.1m）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2400},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "攻击２"},
+              {"type": "str", "value": "（伤害:[贯穿]$0 射程:96.7m）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4200},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "挥动速度"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 80},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.20000000298023224},
+                  {"type": "double", "value": 1.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "弹数"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "装填"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1.5},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "机械式刺枪。高速伸缩刺枪。能藉由旋转的枪身贯穿所有物体。之后再由前端瞬间放出高压电浆，从物体内部进行破坏。由于枪身的伸缩仅一瞬间，因此可发动连肉眼都跟不上的高速攻击。射程较短，却拥有压倒性的破坏力。攻击具贯穿力，能同时贯穿多个敌人。可在举起盾牌时使用也是一大优点。可说是剑兵的主力装备，虽然需要花时间熟悉较短的射程，却很有使用价值。连续发动攻击后，第２击不会顺势前进，而是会发动较长距离的打击。\n\n为了有效运用此武器，会在动力装甲的背部加装“辅助推进器”。按下装备使用键后，会往前进方向进行被称为推进冲刺的高速移动。"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "攻擊１"},
+              {"type": "str", "value": "（傷害:[貫穿]$0 射程:69.1m）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2400},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "攻擊２"},
+              {"type": "str", "value": "（傷害:[貫穿]$0 射程:96.7m）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4200},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "揮動速度"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 80},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.20000000298023224},
+                  {"type": "double", "value": 1.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "彈數"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "裝填"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1.5},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "機械式刺鎗。高速伸縮刺鎗。能藉由旋轉的鎗身貫穿所有物體。之後再由前端瞬間放出高壓電漿，從物體內部進行破壞。由於鎗身的伸縮僅一瞬間，因此可發動連肉眼都跟不上的高速攻擊。射程較短，卻擁有壓倒性的破壞力。攻擊具貫穿力，能同時貫穿多個敵人。可在舉起盾牌時使用也是一大優點。可說是劍兵的主力裝備，雖然需要花時間熟悉較短的射程，卻很有使用價值。連續發動攻擊後，第２擊不會順勢前進，而是會發動較長距離的打擊。\n\n為了有效運用此武器，會在動力裝甲的背部加裝「輔助推進器」。按下使用裝備按鈕後，會往前進方向進行被稱為推進衝刺的高速移動。"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Attack 1"},
+              {"type": "str", "value": "(Damage:[PT]$0 Range:69.1m)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2400},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Attack 2"},
+              {"type": "str", "value": "(Damage:[PT]$0 Range:96.7m)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4200},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Swing Speed"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 80},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.20000000298023224},
+                  {"type": "double", "value": 1.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Capacity"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Reload"},
+              {"type": "str", "value": "$0 sec"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1.5},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "A mechanical spear that stretches with a high speed to attack. Rotating the spear can penetrate several objects and afterwards high-pressure plasma will be released from the front end, destroying objects from within. The expansion and contraction of the spear are instantaneous, making it an extremely fast attack. It is only effective at close range, but its destructive power is formidable and can penetrate multiple targets at a time. It is also possible to use it with a shield. This is the main weapon of a Fencer. It has short range, so it is necessary to get accustomed to it, but it's a valuable weapon. During a continuous attack, the second attack will be a rush. These attacks can be sustained over a long period.\n\nTo use this weapon effectively, the back of your powered exoskeleton must be equipped with a Side Thruster. Press the use button to perform a %dq%thrust-dash%dq% forward."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "攻撃１"},
+              {"type": "str", "value": "（ダメージ:[貫通]$0 射程:69.1ｍ）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2400},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "攻撃２"},
+              {"type": "str", "value": "（ダメージ:[貫通]$0 射程:96.7ｍ）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4200},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "振り速度"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 80},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.20000000298023224},
+                  {"type": "double", "value": 1.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "弾数"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "リロード"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1.5},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "機械式の槍。槍を高速で突出。槍は回転しながら、あらゆる物体を貫通。その後、先端から瞬間的に高圧プラズマを放出し、物体を内部から崩壊させる。槍の伸縮は一瞬であるため、肉眼では槍が伸びていることすらわからないほど素早い攻撃が可能。射程は短いが、破壊力は圧倒的。貫通力も持つため、複数の敵を同時に貫くことができる。さらに、盾をかまえながら使用可能なことも利点。フェンサーの主力装備といえる武器であり、射程の短さから使用には慣れが必要だが、使いこなす価値はある。連続で攻撃した場合は、２撃目に踏み込みをおこない、長い間合いの打撃を繰り出す。\n\nこの武装を効果的に運用するため、パワードスケルトンの背部には「サイドスラスター」が装着される。装備使用ボタンを押すと、進行方向にスラスターダッシュと呼ばれる高速移動をおこなう。"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "공격 1"},
+              {"type": "str", "value": "(대미지:[관통]$0 사정거리:69.1m )"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2400},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "공격 2"},
+              {"type": "str", "value": "(대미지:[관통]$0 사정거리:96.7m )"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4200},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "휘두르기 속도"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 80},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.20000000298023224},
+                  {"type": "double", "value": 1.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "장탄 수"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "재장전"},
+              {"type": "str", "value": "$0초"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1.5},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "창을 빠른 속도로 돌출시키는 기계식 창. 창은 회전하면서 온갖 물체를 꿰뚫은 뒤, 창끝에서 순간적으로 고압 플라스마를 방출해 물체를 내부에서부터 파괴한다. 창은 순식간에 늘어났다 줄어들기 때문에 육안으로는 창이 늘어났다는 사실조차 인지할 수 없을 만큼 재빠른 공격이 가능하다. 사거리는 짧지만 압도적인 파괴력을 지녔으며, 관통력도 있어 많은 적을 한꺼번에 해치울 수 있다. 방패로 방어 중일 때도 사용 가능하다는 것 역시 장점이다. 펜서의 주력 장비라 할 수 있는 무기이며 짧은 사거리 때문에 사용하려면 어느 정도 적응 기간이 필요하지만, 그만한 가치가 있다. 연속으로 공격할 경우에는 2번째 공격 시에 파고들면서 리치가 긴 타격을 날린다.\n\n이 무장을 효과적으로 운용하기 위해 파워드 스켈레톤 등 쪽에 「사이드 스러스터」가 장착되어 있다. 장비 사용 버튼을 누르면 스러스터 대시를 사용해 진행 방향으로 고속 이동한다."
+      }
+    }
+  }
+}

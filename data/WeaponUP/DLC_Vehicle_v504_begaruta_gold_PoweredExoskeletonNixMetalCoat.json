@@ -1,0 +1,482 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {"name": "xgs_scene_object_class", "type": "str", "value": "Weapon_Sub"},
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {"name": "animation", "type": "str", "value": "vehicle_call"},
+        {"name": "whole_body", "type": "double", "value": 1},
+        {"name": "animation_speed", "type": "double", "value": 1}
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 0},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "コンバットフレーム ニクス メタルコート"},
+    {
+      "name": "name.en",
+      "type": "str",
+      "value": "Powered Exoskeleton Nix Metal Coat"
+    },
+    {"name": "name.cn", "type": "str", "value": "戰鬥機體 尼克斯 金屬塗層"},
+    {"name": "name.kr", "type": "str", "value": "컴배트 프레임 닉스 메탈 코트"},
+    {"name": "name.sc", "type": "str", "value": "战斗机体 尼克斯 金属涂层"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/robo01.dds"
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/e_throw_marker02.rab"},
+            {"type": "str", "value": "e_throw_marker02.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/e_throw_marker01.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300020002002a00240000005c00000080000000c0000000000001001800000001000000300000000200000028000000840000008a00000002000000440000005400000044000000000000006400000020000000200000007e0000000000000010000000100000006400000000000000babababa0000000000000000000000000000803f0000a0400000a0400000a0400000803f53474f000201000000000000200000000000000020000000000000002000000030003100000062006f00640079000000680069006400650000007300740061006e006400620079000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms_r"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "throw"},
+    {"name": "AimAnimation", "type": "str", "value": "aim_no_ik"},
+    {"name": "ChangeAnimation", "type": "str", "value": "throw_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "throw_reload1"},
+    {"name": "AmmoCount", "type": "double", "value": 1},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 2},
+    {"name": "ReloadInit", "type": "double", "value": 0},
+    {"name": "ReloadTime", "type": "double", "value": 7000},
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 120},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {
+      "name": "FireVector",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.25},
+        {"type": "double", "value": 1.100000023841858}
+      ]
+    },
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Engineer_Vehicle_throw"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": "SmokeCandleBullet01"},
+    {
+      "name": "AmmoModel",
+      "type": "str",
+      "value": "app:/WEAPON/e_throw_marker02.rab"
+    },
+    {"name": "AmmoSpeed", "type": "double", "value": 0.4000000059604645},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 1},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 1},
+    {"name": "AmmoAlive", "type": "double", "value": 1800},
+    {"name": "AmmoDamage", "type": "double", "value": 1200},
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 40},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 1},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.5}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.05000000074505806},
+        {"type": "double", "value": 180},
+        {"type": "double", "value": 120},
+        {"type": "double", "value": 1},
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Object/v508_transport.sgo"},
+            {"type": "str", "value": "app:/object/v509_transportbox.sgo"},
+            {"type": "str", "value": "app:/Object/v504_begaruta_gold.sgo"},
+            {
+              "type": "ptr",
+              "value": [
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 1},
+                    {"type": "double", "value": 1.2000000476837158}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 5.5},
+                    {"type": "double", "value": 0.004999999888241291},
+                    {"type": "double", "value": 20},
+                    {"type": "double", "value": 0.05999999865889549}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 20},
+                    {"type": "double", "value": 1.5},
+                    {"type": "double", "value": 45},
+                    {"type": "double", "value": 240},
+                    {"type": "double", "value": 0.2800000011920929},
+                    {"type": "double", "value": 50}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {"type": "double", "value": 20},
+                        {"type": "double", "value": 0.05000000074505806},
+                        {"type": "double", "value": 0.10000000149011612}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_504begaruta_flamethrower01.sgo"
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 0},
+                            {"type": "double", "value": 0}
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_504begaruta_flamethrower01.sgo"
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 0},
+                            {"type": "double", "value": 0}
+                          ]
+                        }
+                      ]
+                    },
+                    {"type": "ptr", "value": [{"type": "double", "value": 0}]},
+                    {"type": "ptr", "value": [{"type": "double", "value": 0}]},
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_504begaruta_grenade_pod01_r.sgo"
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 0},
+                            {"type": "double", "value": 0}
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_504begaruta_grenade_pod01_l.sgo"
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 0},
+                            {"type": "double", "value": 0}
+                          ]
+                        }
+                      ]
+                    },
+                    {"type": "ptr", "value": [{"type": "double", "value": 0}]},
+                    {"type": "ptr", "value": [{"type": "double", "value": 0}]}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 0.019999999552965164},
+                    {"type": "double", "value": 0.10000000149011612}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "輸送部隊目標確認"},
+            {"type": "str", "value": "輸送部隊発射"},
+            {"type": "str", "value": "輸送部隊攻撃後"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ammo_EquipVoice",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "輸送部隊出撃直後"},
+        {"type": "str", "value": "輸送部隊支援不能"}
+      ]
+    },
+    {
+      "name": "AmmoHitSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Engineer_Vehicle_smoke"},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    },
+    {
+      "name": "resource",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "app:/WEAPON/e_throw_marker02.rab"},
+        {"type": "str", "value": "app:/Object/v508_transport.sgo"},
+        {"type": "str", "value": "app:/object/v509_transportbox.sgo"},
+        {"type": "str", "value": "app:/Object/v504_begaruta_gold.sgo"},
+        {
+          "type": "str",
+          "value": "app:/weapon/v_504begaruta_flamethrower01.sgo"
+        },
+        {
+          "type": "str",
+          "value": "app:/weapon/v_504begaruta_flamethrower01.sgo"
+        },
+        {
+          "type": "str",
+          "value": "app:/weapon/v_504begaruta_grenade_pod01_r.sgo"
+        },
+        {
+          "type": "str",
+          "value": "app:/weapon/v_504begaruta_grenade_pod01_l.sgo"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "id": "DLC_Vehicle_v504_begaruta_gold",
+    "level": 2.500000037252903,
+    "category": 309,
+    "unlockState": 3,
+    "dropRateModifier": 1,
+    "StarRating": null,
+    "nonRequest": 0,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "请求"},
+              {"type": "str", "value": "7000pt（起始值0％)"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐用度"},
+              {"type": "str", "value": "1200"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操纵席：</font>驾驶\n战斗火枪 <font color=%dq%#00ffff%dq%>（弹数：3000  伤害：3.0  射程：84.0m）</font>\n战斗火枪 <font color=%dq%#00ffff%dq%>（弹数：3000  伤害：3.0  射程：84.0m）</font>\n榴弹发射架（右） <font color=%dq%#00ffff%dq%>（弹数：40  伤害：72.0 (8连击) 爆炸范围：半径8.0m）</font>\n榴弹发射架（左） <font color=%dq%#00ffff%dq%>（弹数：40  伤害：72.0 (8连击) 爆炸范围：半径8.0m）</font>\n\n搭乘者1名。\n\n生产数量极少的战斗机体“尼克斯”的金属涂层机。虽然用了会反射雷达波的特殊涂料涂层，但未实际证实效果。\n\n搭乘式强化外骨胳，会包覆士兵全身给予保护。让士兵免于炸弹的危险，灵活执行任务。背部装备推进器，长按跳跃键就可在短时间内飞行。\n\n需要在战场上取得一定的功绩（击破多数敌人）才能请求投落。（伙伴的击破数也能列入功绩计算）"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "請求"},
+              {"type": "str", "value": "7000pt（起始值0％)"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐用度"},
+              {"type": "str", "value": "1200"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操縱席：</font>駕駛\n戰鬥火鎗 <font color=%dq%#00ffff%dq%>（彈數：3000  傷害：3.0  射程：84.0m）</font>\n戰鬥火鎗 <font color=%dq%#00ffff%dq%>（彈數：3000  傷害：3.0  射程：84.0m）</font>\n榴彈發射架（右） <font color=%dq%#00ffff%dq%>（彈數：40  傷害：72.0 (8連擊) 爆炸範圍：半徑8.0m）</font>\n榴彈發射架（左） <font color=%dq%#00ffff%dq%>（彈數：40  傷害：72.0 (8連擊) 爆炸範圍：半徑8.0m）</font>\n\n搭乘者1名。\n\n生產數量極少的戰鬥機體「尼克斯」的金屬塗層機。雖然用了會反射雷達波的特殊塗料塗層，但未實際證實效果。\n\n搭乘式強化外骨骼，會包覆士兵全身給予保護。讓士兵免於炸彈的危險，靈活執行任務。背部裝備推進器，長按跳躍按鈕就可在短時間內飛行。\n\n需要在戰場上取得一定的功績（擊破多數敵人）才能請求投落。（夥伴的擊破數也能列入功績計算）"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Re-request"},
+              {"type": "str", "value": "7000pt(Default 0 %)"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Durability"},
+              {"type": "str", "value": "1200"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>Pilot Seat:</font> Driver\nCombat Burner <font color=%dq%#00ffff%dq%>(Shots:3000 Damage:3.0 Range:84.0m)</font>\nCombat Burner <font color=%dq%#00ffff%dq%>(Shots:3000 Damage:3.0 Range:84.0m)</font>\nGrenade Pod (Right) <font color=%dq%#00ffff%dq%>(Shots:40 Damage:72.0 (8 burst) Blast Range:Radius 8.0m)</font>\nGrenade Pod (Left) <font color=%dq%#00ffff%dq%>(Shots:40 Damage:72.0 (8 burst) Blast Range:Radius 8.0m)</font>\n\n1 person.\n\nA metal-coated version of the Nix enhanced exoskeleton. Only a very small number were ever produced. It is coated with a special paint that reflects radar waves, but the actual effect has not been proven.\n\nThis boardable enhanced exoskeleton was designed to counter terrorism in urban warfare. The full-body armor can block blasts, while offering mobility to carry out various tasks. Hold the Jump button to activate jet thrusters in the back to fly for a short period of time.\n\nIn order to re-request this, you need to achieve a certain number of credits during the mission by defeating enemies. Your allies' kills will also help you earn credits."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "要請"},
+              {"type": "str", "value": "7000pt (初期値 0％)"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐久度"},
+              {"type": "str", "value": "1200"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操縦席：</font>運転\nコンバットバーナー <font color=%dq%#00ffff%dq%>（弾数：3000  ダメージ：3.0  射程：84.0ｍ）</font>\nコンバットバーナー <font color=%dq%#00ffff%dq%>（弾数：3000  ダメージ：3.0  射程：84.0ｍ）</font>\nグレネードポッド（右） <font color=%dq%#00ffff%dq%>（弾数：40  ダメージ：72.0 (8バースト) 爆破範囲：半径8.0ｍ）</font>\nグレネードポッド（左） <font color=%dq%#00ffff%dq%>（弾数：40  ダメージ：72.0 (8バースト) 爆破範囲：半径8.0ｍ）</font>\n\n搭乗員１名。\n\nごく少数のみ生産されたコンバットフレーム「ニクス」のメタルコーティング機。レーダー波を反射させる特殊な塗料でコーティングされているが、実際の効果は証明されていない。\n\n搭乗式の強化外骨格。兵士の全身を包み込むように保護。爆弾などの危険から守りつつ、人間同様に活動することができる。背部にはスラスターを装備しており、ジャンプボタンを押し続けることで、短時間なら飛行することが可能。\n\n投下を要請するためには、戦場で一定の功績（多数の敵を撃破）が必要である。（功績は仲間による撃破も含まれる）"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "요청"},
+              {"type": "str", "value": "7000pt(초기 값0%)"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "내구도"},
+              {"type": "str", "value": "1200"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>조종석:</font> 운전\n컴배트 버너<font color=%dq%#00ffff%dq%>(장탄 수: 3000  대미지: 3.0  사거리: 84.0m )</font>\n컴배트 버너<font color=%dq%#00ffff%dq%>(장탄 수: 3000  대미지: 3.0  사거리: 84.0m )</font>\n그레네이드 포드(우)<font color=%dq%#00ffff%dq%>(장탄 수: 40  대미지: 72.0 (8버스트)  폭파 범위: 반경 8.0m )</font>\n그레네이드 포드(좌)<font color=%dq%#00ffff%dq%>(장탄 수: 40  대미지: 72.0 (8버스트)  폭파 범위: 반경 8.0m )</font>\n\n탑승 인원 1명.\n\n극히 소량만 생산된 컴배트 프레임 「닉스」의 메탈 코팅 버전. 레이더의 전자파를 반사하는 특수한 도료로 코팅되어 있지만 실제로 효과가 있는지는 검증되지 않았다.\n\n탑승식 강화 외골격. 사용자의 온몸을 감싸 보호한다. 폭탄 같은 위험 요소는 막아주면서도 인간처럼 활동할 수 있게 해준다. 등 쪽에 스러스터가 장착되어 있어 점프 버튼을 길게 누르면 짧게나마 비행할 수 있다.\n\n투하를 요청하려면 전쟁터에서 어느 정도 공적(많은 적을 격파)을 쌓아야 한다. (동료가 격파한 적도 공적에 포함된다)"
+      }
+    }
+  }
+}

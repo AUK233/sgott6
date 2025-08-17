@@ -1,0 +1,546 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {"name": "xgs_scene_object_class", "type": "str", "value": "Weapon_Sub"},
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {"name": "animation", "type": "str", "value": "vehicle_call"},
+        {"name": "whole_body", "type": "double", "value": 1},
+        {"name": "animation_speed", "type": "double", "value": 1}
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 0},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "メナス４Ｄ自走レールガン"},
+    {
+      "name": "name.en",
+      "type": "str",
+      "value": "Menace 4D Self-Propelled Railgun"
+    },
+    {"name": "name.cn", "type": "str", "value": "威嚇式４Ｄ移動電磁砲"},
+    {"name": "name.kr", "type": "str", "value": "메너스 4D 레일건 자주포"},
+    {"name": "name.sc", "type": "str", "value": "威吓式４Ｄ移动电磁炮"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/tank02.dds"
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/e_throw_marker01.rab"},
+            {"type": "str", "value": "e_throw_marker01.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/e_throw_marker01.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300020002002a00240000005c00000080000000c0000000000001001800000001000000300000000200000028000000840000008a00000002000000440000005400000044000000000000006400000020000000200000007e0000000000000010000000100000006400000000000000babababa0000000000000000000000000000803f0000a0400000a0400000a0400000803f53474f000201000000000000200000000000000020000000000000002000000030003100000062006f00640079000000680069006400650000007300740061006e006400620079000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms_r"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "throw"},
+    {"name": "AimAnimation", "type": "str", "value": "aim_no_ik"},
+    {"name": "ChangeAnimation", "type": "str", "value": "throw_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "throw_reload1"},
+    {"name": "AmmoCount", "type": "double", "value": 1},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 2},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {
+      "name": "ReloadTime",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 8000},
+        {"type": "double", "value": 21},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 120},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {
+      "name": "FireVector",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.25},
+        {"type": "double", "value": 1.100000023841858}
+      ]
+    },
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Engineer_Vehicle_throw"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": "SmokeCandleBullet01"},
+    {
+      "name": "AmmoModel",
+      "type": "str",
+      "value": "app:/WEAPON/e_throw_marker01.rab"
+    },
+    {"name": "AmmoSpeed", "type": "double", "value": 0.4000000059604645},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 1},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 1},
+    {"name": "AmmoAlive", "type": "double", "value": 1800},
+    {"name": "AmmoDamage", "type": "double", "value": 1200},
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 40},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 1},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.5}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.05000000074505806},
+        {"type": "double", "value": 180},
+        {"type": "double", "value": 120},
+        {"type": "double", "value": 1},
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Object/v508_transport.sgo"},
+            {"type": "str", "value": "app:/object/v509_transportbox.sgo"},
+            {"type": "str", "value": "app:/Object/Vehicle403_Tank.sgo"},
+            {
+              "type": "ptr",
+              "value": [
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 9},
+                    {"type": "double", "value": 9}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 0.15000000596046448},
+                    {"type": "double", "value": 14},
+                    {"type": "double", "value": 0.014999999664723873},
+                    {"type": "double", "value": 1},
+                    {"type": "double", "value": 0.12999999523162842},
+                    {"type": "double", "value": 0.5}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_403tank_cannon02B.sgo"
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "str", "value": "BodyRecoil"},
+                            {
+                              "type": "ptr",
+                              "value": [
+                                {
+                                  "type": "double",
+                                  "value": 0.029999999329447746
+                                },
+                                {
+                                  "type": "double",
+                                  "value": 0.014999999664723873
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 40},
+                            {"type": "double", "value": 0.004999999888241291},
+                            {"type": "double", "value": 0.10000000149011612}
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_403tank_machinegun.sgo"
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "str", "value": "AimRecoil"},
+                            {
+                              "type": "ptr",
+                              "value": [
+                                {"type": "double", "value": 0},
+                                {
+                                  "type": "double",
+                                  "value": 0.0026000000070780516
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 90},
+                            {"type": "double", "value": 0.009999999776482582},
+                            {"type": "double", "value": 0.009999999776482582}
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_403tank_machinegun.sgo"
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "str", "value": "AimRecoil"},
+                            {
+                              "type": "ptr",
+                              "value": [
+                                {"type": "double", "value": 0},
+                                {
+                                  "type": "double",
+                                  "value": 0.0026000000070780516
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 90},
+                            {"type": "double", "value": 0.009999999776482582},
+                            {"type": "double", "value": 0.009999999776482582}
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "輸送部隊目標確認"},
+            {"type": "str", "value": "輸送部隊発射"},
+            {"type": "str", "value": "輸送部隊攻撃後レンジャー"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ammo_EquipVoice",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "輸送部隊出撃直後レンジャー"},
+        {"type": "str", "value": "輸送部隊支援不能"}
+      ]
+    },
+    {
+      "name": "AmmoHitSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Engineer_Vehicle_smoke"},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    },
+    {
+      "name": "resource",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "app:/WEAPON/e_throw_marker01.rab"},
+        {"type": "str", "value": "app:/Object/v508_transport.sgo"},
+        {"type": "str", "value": "app:/object/v509_transportbox.sgo"},
+        {"type": "str", "value": "app:/Object/Vehicle403_Tank.sgo"},
+        {"type": "str", "value": "app:/weapon/v_403tank_cannon02B.sgo"},
+        {"type": "str", "value": "app:/weapon/v_403tank_machinegun.sgo"},
+        {"type": "str", "value": "app:/weapon/v_403tank_machinegun.sgo"}
+      ]
+    }
+  ],
+  "meta": {
+    "id": "aWeapon356",
+    "level": 55.000001192092896,
+    "category": 8,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [{"type": "double", "value": 8}],
+    "nonRequest": 0,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "请求"},
+              {"type": "str", "value": "$0pt（起始值100％)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 8000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐用度"},
+              {"type": "str", "value": "10800"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操纵席：</font>驾驶\n威吓式４Ｄ爆裂炮 <font color=%dq%#00ffff%dq%>（弹数：64  伤害：[贯穿]1800.0 (4连击)  射程：3375.0m）</font>\n<font color=%dq%#80ff80%dq%>炮手席(右)：</font>机枪 <font color=%dq%#00ffff%dq%>（弹数：500  伤害：54.0  射程：210.0m）</font>\n<font color=%dq%#80ff80%dq%>炮手席(左)：</font>机枪 <font color=%dq%#00ffff%dq%>（弹数：500  伤害：54.0  射程：210.0m）</font>\n\n搭乘者３名。\n搭载４连装电磁炮“威吓式４Ｄ爆裂炮”的车辆。可连续射出４发拥有贯穿力的炮弹。\n搭载高性能引擎，成功提升运动性。\n\n搭载“电磁炮”的战车。以电磁力加速让炮弹高速射出。炮弹会贯穿物体，给众多敌人造成伤害。电磁炮上搭载激光瞄准器，在发射前可藉由红线确认弹道。可准确地进行射击。虽是非常强力的兵器，但无法进行连射，而且未具有榴弹炮般的范围攻击力，在对付怪物的战场上，经常陷入苦战。为了弥补这个缺点，回旋炮塔的左右搭载了机枪。只要坐进左右的炮手席内就能操作机枪。但机枪位于回旋炮台的上方，必须注意只要旋转炮塔就会一起改变方向。\n\n需要在战场上取得一定的功绩（击破多数敌人）才能请求投落。（伙伴的击破数也能列入功绩计算）"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "請求"},
+              {"type": "str", "value": "$0pt（起始值100％)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 8000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐用度"},
+              {"type": "str", "value": "10800"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操縱席：</font>駕駛\n威嚇式４Ｄ爆裂砲 <font color=%dq%#00ffff%dq%>（彈數：64  傷害：[貫穿]1800.0 (4連擊)  射程：3375.0m）</font>\n<font color=%dq%#80ff80%dq%>砲手席(右)：</font>機鎗 <font color=%dq%#00ffff%dq%>（彈數：500  傷害：54.0  射程：210.0m）</font>\n<font color=%dq%#80ff80%dq%>砲手席(左)：</font>機鎗 <font color=%dq%#00ffff%dq%>（彈數：500  傷害：54.0  射程：210.0m）</font>\n\n搭乘者３名。\n搭載４連裝電磁砲“威嚇式４Ｄ爆裂砲”的車輛。可連續射出４發擁有貫穿力的砲彈。\n搭載高性能引擎，成功提升運動性。\n\n搭載「電磁砲」的戰車。以電磁力加速讓砲彈高速射出。砲彈會貫穿物體，給眾多敵人造成傷害。電磁砲上搭載雷射瞄準器，在發射前可藉由紅線確認彈道。可準確地進行射擊。雖是非常強力的兵器，但無法進行連射，而且未具有榴彈砲般的範圍攻擊力，在對付怪物的戰場上，經常陷入苦戰。為了彌補這個缺點，迴旋砲塔的左右搭載了機鎗。只要坐進左右的砲手席內就能操作機鎗。但機鎗位於迴旋砲台的上方，必須注意只要旋轉砲塔就會一起改變方向。\n\n需要在戰場上取得一定的功績（擊破多數敵人）才能請求投落。（夥伴的擊破數也能列入功績計算）"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Re-request"},
+              {"type": "str", "value": "$0pt(Default 100 %)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 8000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Durability"},
+              {"type": "str", "value": "10800"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>Pilot Seat:</font> Driver\nMenace 4D Burst <font color=%dq%#00ffff%dq%>(Shots:64 Damage:[PT]1800.0 (4 burst) Range:3375.0m)</font>\n<font color=%dq%#80ff80%dq%>Gunner Seat (Right):</font> Machine Gun <font color=%dq%#00ffff%dq%>(Shots:500 Damage:54.0 Range:210.0m)</font>\n<font color=%dq%#80ff80%dq%>Gunner Seat (Left):</font> Machine Gun <font color=%dq%#00ffff%dq%>(Shots:500 Damage:54.0 Range:210.0m)</font>\n\n3 people.\nA vehicle equipped with a four-barreled railgun called Menace 4D Burst. This gun fires 4 penetrating shells successively.\nThe equipped high-performance engine gives it increased movement speed.\n\nA vehicle equipped with a state-of-the-art electromagnetic launcher (Railgun) with accelerated shells and rapid fire support. The shells can penetrate objects and inflict damage on many enemies. The Railgun is equipped with a laser sight to ensure pinpoint accuracy, and the trajectory can be confirmed with the red line before firing. This is a very powerful weapon, but it lacks the blast area of the Howitzer, making it somewhat difficult to use in combat against monsters. To make up for this shortcoming, it's been fitted with a right and left Machine Gun on the rotating turret, which can be manned from either of the gunner seats. However, gunners should be aware that the seats face whatever their respective turrets are aiming at.\n\nIn order to re-request this, you need to achieve a certain number of credits during the mission by defeating enemies. Your allies' kills will also help you earn credits."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "要請"},
+              {"type": "str", "value": "$0pt (初期値 100％)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 8000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐久度"},
+              {"type": "str", "value": "10800"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操縦席：</font>運転\nメナス４Ｄバースト <font color=%dq%#00ffff%dq%>（弾数：64  ダメージ：[貫通]1800.0 (4バースト)  射程：3375.0ｍ）</font>\n<font color=%dq%#80ff80%dq%>ガンナー席(右)：</font>マシンガン <font color=%dq%#00ffff%dq%>（弾数：500  ダメージ：54.0  射程：210.0ｍ）</font>\n<font color=%dq%#80ff80%dq%>ガンナー席(左)：</font>マシンガン <font color=%dq%#00ffff%dq%>（弾数：500  ダメージ：54.0  射程：210.0ｍ）</font>\n\n搭乗員３名。\n４連装レールガン“メナス４Ｄバースト”を搭載した車両。貫通力を持った４発の砲弾を連続射出。\n高性能エンジンを搭載し、運動性の向上にも成功している。\n\n電磁投射砲（レールガン）を搭載した車両。電磁気の力で砲弾を加速し、高速射出。砲弾は物体を貫通して多数の敵にダメージを与える。レールガンにはレーザーサイトが搭載され、赤い線で発射前に弾道を確認可能。正確な射撃が可能だ。非常に強力な兵器であるが、連射ができず、また榴弾砲のような範囲攻撃力がないため、怪物相手の戦場では苦戦を強いられる。その欠点をカバーするため、旋回砲塔の左右にマシンガンを搭載。左右のガンナー席に乗り込むことでマシンガンを操作できる。ただ、マシンガンは旋回砲塔の上にあるため、砲塔が回転すると共に向きを変えることに注意が必要だ。\n\n投下を要請するためには、戦場で一定の功績（多数の敵を撃破）が必要である。（功績は仲間による撃破も含まれる）"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "요청"},
+              {"type": "str", "value": "$0pt(초기 값100%)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 8000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "내구도"},
+              {"type": "str", "value": "10800"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>조종석:</font> 운전\n메너스 4D 버스트<font color=%dq%#00ffff%dq%>(장탄 수: 64  대미지: [관통]1800.0 (4버스트)  사거리: 3375.0m )</font>\n<font color=%dq%#80ff80%dq%>사수석(우):</font> 머신건<font color=%dq%#00ffff%dq%>(장탄 수: 500  대미지: 54.0  사거리: 210.0m )</font>\n<font color=%dq%#80ff80%dq%>사수석(좌):</font> 머신건<font color=%dq%#00ffff%dq%>(장탄 수: 500  대미지: 54.0  사거리: 210.0m )</font>\n\n탑승 인원 3명.\n4연장 레일건 “메너스 4D 버스트”가 장착된 차량. 관통력이 있는 포탄 4발을 연속으로 사출한다.\n고성능 엔진을 탑재함으로써 기동성 향상에도 성공했다.\n\n전자 투사포(레일건)가 장착된 차량. 전자기력으로 포탄을 가속해 고속 사출한다. 사출된 포탄은 물체를 관통해 많은 적에게 대미지를 입힌다. 레일건에는 표적 지시기가 장착되어 있어, 발사 전에 빨간색 선으로 탄도를 확인할 수 있다. 덕분에 정확한 사격이 가능하다. 매우 강력한 병기지만 연사가 불가능하고, 곡사포 같은 범위 공격력이 없기 때문에 괴물을 상대해야 하는 전장에서는 고전을 면치 못한다. 이러한 단점을 보완하고자 선회 포탑 양옆에 머신건을 장착했다. 양옆의 사수석에 올라타면 머신건을 조작할 수 있다. 단, 머신건이 선회 포탑 위에 있기 때문에 포탑이 회전하면 머신건도 방향이 바뀐다는 점에 주의해야 한다.\n\n투하를 요청하려면 전쟁터에서 어느 정도 공적(많은 적을 격파)을 쌓아야 한다. (동료가 격파한 적도 공적에 포함된다)"
+      }
+    }
+  }
+}

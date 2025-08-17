@@ -1,0 +1,723 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {"name": "xgs_scene_object_class", "type": "str", "value": "Weapon_Sub"},
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {
+          "name": "animation",
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "recoil_sword_a"},
+            {"type": "str", "value": "recoil_sword_b"},
+            {"type": "str", "value": "recoil_sword_c"}
+          ]
+        },
+        {"name": "whole_body", "type": "double", "value": 1},
+        {"name": "animation_speed", "type": "double", "value": 1},
+        {"name": "is_manual_reload", "type": "double", "value": 1},
+        {"name": "long_press_count", "type": "double", "value": 60}
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "ハンディセイバーＳ"},
+    {"name": "name.en", "type": "str", "value": "Handy Saber S"},
+    {"name": "name.cn", "type": "str", "value": "隨身軍刀Ｓ"},
+    {"name": "name.kr", "type": "str", "value": "핸디 세이버 S"},
+    {"name": "name.sc", "type": "str", "value": "随身军刀Ｓ"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/laserblade.dds"
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/p_saber_normal01.rab"},
+            {"type": "str", "value": "p_saber_normal01.mdb"}
+          ]
+        },
+        {"type": "double", "value": 0},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300000003002800240000005c00000060000000f0000000000001001800000001000000300000000200000028000000b4000000ba000000020000002400000034000000440000000000000054000000babababa000000006891ed3d000000000000803fcdcc4c3dcdcc4c3dcdcc4c3d0000803fdb0fc9bf00000000000000000000803f53474f00020100000100000020000000010000002c0000000000000034000000010000000400000001000000080000000000000066006900720065005f006d006f00640065006c005f0064006900720065006300740069006f006e000000000030003100000070005f00730061006200650072005f006e006f0072006d0061006c00300031000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms_l"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "throw"},
+    {"name": "AimAnimation", "type": "str", "value": "aim_no_ik"},
+    {"name": "ChangeAnimation", "type": "str", "value": ""},
+    {"name": "ReloadAnimation", "type": "str", "value": ""},
+    {"name": "AmmoCount", "type": "double", "value": 400},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 1},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {
+      "name": "ReloadTime",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 720},
+        {"type": "double", "value": 21},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 1},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 0},
+    {"name": "FireBurstCount", "type": "double", "value": 20},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {"name": "FireVector", "type": "ptr", "value": null},
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "str", "value": "weapon_WD_Saber_HandyS"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 25}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": "EfsExposureBullet"},
+    {"name": "AmmoModel", "type": "double", "value": 0},
+    {
+      "name": "AmmoSpeed",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 16},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {"name": "AmmoOwnerMove", "type": "double", "value": 0},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 0},
+    {"name": "AmmoAlive", "type": "double", "value": 5},
+    {
+      "name": "AmmoDamage",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 2700},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 10},
+        {"type": "double", "value": 0.800000011920929},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 0},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 1},
+    {"name": "AmmoSize", "type": "double", "value": 0.10000000149011612},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 20},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.6000000238418579},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {
+          "name": "efarc",
+          "type": "str",
+          "value": "app:/weapon/effect/pale_trap_laser01.efarc"
+        },
+        {
+          "name": "bullet",
+          "type": "ptr",
+          "value": [
+            {"name": "esb", "type": "str", "value": "bullet01.esb"},
+            {"name": "esb_scale", "type": "double", "value": 1},
+            {
+              "name": "esb_color",
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 1}
+              ]
+            },
+            {
+              "name": "scroll",
+              "type": "ptr",
+              "value": [
+                {
+                  "type": "ptr",
+                  "value": [
+                    {
+                      "name": "image",
+                      "type": "str",
+                      "value": "EnergyScroll01.dds"
+                    },
+                    {
+                      "name": "speed",
+                      "type": "double",
+                      "value": 0.1648000031709671
+                    },
+                    {"name": "scale", "type": "double", "value": 1},
+                    {
+                      "name": "v_scale",
+                      "type": "double",
+                      "value": 0.07000000029802322
+                    },
+                    {
+                      "name": "color",
+                      "type": "ptr",
+                      "value": [
+                        {"type": "double", "value": 4},
+                        {"type": "double", "value": 4},
+                        {"type": "double", "value": 4},
+                        {"type": "double", "value": 1}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {
+                      "name": "image",
+                      "type": "str",
+                      "value": "EnergyScroll02.dds"
+                    },
+                    {
+                      "name": "speed",
+                      "type": "double",
+                      "value": 0.24779999256134033
+                    },
+                    {"name": "scale", "type": "double", "value": 1},
+                    {
+                      "name": "v_scale",
+                      "type": "double",
+                      "value": 0.10000000149011612
+                    },
+                    {
+                      "name": "color",
+                      "type": "ptr",
+                      "value": [
+                        {"type": "double", "value": 1},
+                        {"type": "double", "value": 1},
+                        {"type": "double", "value": 1},
+                        {"type": "double", "value": 0.20000000298023224}
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "lighting",
+              "type": "ptr",
+              "value": [
+                {
+                  "name": "bar_color",
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 4},
+                    {"type": "double", "value": 4},
+                    {"type": "double", "value": 4},
+                    {"type": "double", "value": 1}
+                  ]
+                },
+                {"name": "bar_radius", "type": "double", "value": 50},
+                {"name": "mul_base_color", "type": "double", "value": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hit",
+          "type": "ptr",
+          "value": [
+            {"name": "esb", "type": "str", "value": "bullet01_hit.esb"},
+            {"name": "esb_scale", "type": "double", "value": 1},
+            {
+              "name": "esb_color",
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 1}
+              ]
+            }
+          ]
+        },
+        {"name": "is_continue_damage", "type": "double", "value": 0}
+      ]
+    },
+    {"name": "Ammo_EquipVoice", "type": "ptr", "value": null},
+    {
+      "name": "AmmoHitSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Common_hitSound_saber"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 50}
+      ]
+    },
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    },
+    {
+      "name": "resource",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "app:/weapon/effect/pale_trap_laser01.efarc"}
+      ]
+    }
+  ],
+  "meta": {
+    "id": "pWeapon222",
+    "level": 68.99999976158142,
+    "category": 111,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [
+      {"type": "double", "value": 10},
+      {"type": "double", "value": 8},
+      {"type": "double", "value": 5}
+    ],
+    "nonRequest": 1,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "伤害"},
+              {"type": "str", "value": "[贯穿]$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2700},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "充能时间"},
+              {"type": "str", "value": "[自动]$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 12},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "射程"},
+              {"type": "str", "value": "$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 40},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "挥动速度"},
+              {"type": "str", "value": "普通"}
+            ]
+          }
+        ],
+        "Text": "能产生能量刀刃的装置。\n由于体积小且重量轻，被飞翼潜行兵作为副武器使用。\n\n并未连接到电浆核心，由内建的能量组件驱动，故不会对飞行装备造成负担。\n然而输出也因此较低，仅能在挥动后的瞬间形成刀刃，破坏力也并不高。主要只能供紧急时自卫用。\n\n短按使用独立运作装备键以使用，长按以装填。"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "傷害"},
+              {"type": "str", "value": "[貫穿]$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2700},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "充能時間"},
+              {"type": "str", "value": "[自動]$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 12},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "射程"},
+              {"type": "str", "value": "$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 40},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "揮動速度"},
+              {"type": "str", "value": "普通"}
+            ]
+          }
+        ],
+        "Text": "能產生能量刀刃的裝置。\n由於體積小且重量輕，被飛翼潛行兵作為副武器使用。\n\n並未連接到電漿核心，由內建的能量組件驅動，故不會對飛行裝備造成負擔。\n然而輸出也因此較低，僅能在揮動後的瞬間形成刀刃，破壞力也並不高。主要只能供緊急時自衛用。\n\n短按使用獨立運作裝備按鈕以使用，長按以裝填。"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Damage"},
+              {"type": "str", "value": "[PT]$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2700},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Charge Time"},
+              {"type": "str", "value": "[Automatic]$0 sec"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 12},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Range"},
+              {"type": "str", "value": "$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 40},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Swing Speed"},
+              {"type": "str", "value": "Normal"}
+            ]
+          }
+        ],
+        "Text": "A device that generates a blade of energy.\nSmall and lightweight, it is used as a sidearm by Wing Divers.\n\nIt is not connected to the Plasma Core and is driven by the built-in energy unit so as not to deplete the Wing Diver's energy. However, the blade maintains its form for only a brief moment immediately after being swung. This weapon's destructive power is rather low, and it is intended only for emergency self-defense.\n\nPress the Use Independently Operated Equipment button (briefly) to use. Press and hold to reload."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ダメージ"},
+              {"type": "str", "value": "[貫通]$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2700},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "チャージ時間"},
+              {"type": "str", "value": "[自動]$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 12},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "射程"},
+              {"type": "str", "value": "$0ｍ"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 40},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "スイング速度"},
+              {"type": "str", "value": "普通"}
+            ]
+          }
+        ],
+        "Text": "エネルギーの刃を発生させる装置。\n小型かつ軽量のため、ウイングダイバーのサイドアームとして運用される。\n\nプラズマコアとは接続されておらず、内蔵されたバッテリーにより駆動。そのため飛行ユニットへの負荷はない。\nだが、そのぶん出力は低く、刃が形成されるのは振った直後の一瞬のみ。破壊力もそれほど高くない。あくまで緊急時の護身用である。\n\n独立作動装備使用ボタン（短く押す）で使用。長押しでリロード。"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "대미지"},
+              {"type": "str", "value": "[관통]$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 2700},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "충전 시간"},
+              {"type": "str", "value": "[자동]$0초"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 12},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "사거리"},
+              {"type": "str", "value": "$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 40},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "스윙 속도"},
+              {"type": "str", "value": "보통"}
+            ]
+          }
+        ],
+        "Text": "에너지 칼날을 발생시키는 장치.\n작고 가벼워 윙 다이버의 부무장으로 운용된다.\n\n플라스마 코어와는 접속되어 있지 않으며, 내장된 배터리에 의해 구동된다. 덕분에 비행 유닛에 대한 부하는 없으나\n그만큼 출력은 낮으며, 칼날이 형성되는 것은 휘두른 직후의 한순간뿐이다. 파괴력도 그다지 높지 않아 어디까지나 위급한 순간의 호신용이다.\n\n독립 작동 장비 사용 버튼을 짧게 눌러 사용하고,\n버튼을 길게 누르면 재장전한다."
+      }
+    }
+  }
+}

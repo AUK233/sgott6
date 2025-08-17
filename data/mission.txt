@@ -1,0 +1,26 @@
+        {
+          "type": "ptr",
+          "value": [
+            // mission id?
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "app:/mod/mission/mp01/MA001"},
+            {"type": "str", "value": "EDF6_DLC/RM003"},
+             // unlock mission
+            {"type": "ptr", "value": [{"type": "double", "value": 1}]},
+            // mission location in list
+            {"type": "double", "value": 0},
+            // is ??? mission
+            {"type": "double", "value": 0},
+             // class model index
+            {"type": "double", "value": 1},
+            // ui color type index
+            {"type": "double", "value": 0},
+            // bgm
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            // historical progress
+            {"type": "double", "value": 0.10000000149011612},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        }
+        // BERSERKERBOMMER only main and complete
+        

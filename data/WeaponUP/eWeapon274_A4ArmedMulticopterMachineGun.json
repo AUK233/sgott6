@@ -1,0 +1,1214 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {
+      "name": "xgs_scene_object_class",
+      "type": "str",
+      "value": "Weapon_Drone_MarkerShoot"
+    },
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "assault_recoil1"},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 1},
+        {"type": "ptr", "value": [{"type": "double", "value": 1}]},
+        {
+          "name": "marker",
+          "type": "ptr",
+          "value": [
+            {
+              "name": "efarc",
+              "type": "str",
+              "value": "app:/weapon/effect/engineer_drone.efarc"
+            },
+            {"name": "esb", "type": "str", "value": "marker01.esb"},
+            {
+              "name": "signal_esb",
+              "type": "str",
+              "value": "marker01_signal.esb"
+            },
+            {"name": "speed", "type": "double", "value": 8},
+            {"name": "alive_time", "type": "double", "value": 600},
+            {"name": "gravity_factor", "type": "double", "value": 0},
+            {"name": "scale", "type": "double", "value": 0.25},
+            {"name": "reflection", "type": "double", "value": 0},
+            {"name": "rapid_interval", "type": "double", "value": 30},
+            {"name": "out_of_range_time", "type": "double", "value": 16.625}
+          ]
+        },
+        {
+          "name": "drone",
+          "type": "ptr",
+          "value": [
+            {
+              "name": "object",
+              "type": "str",
+              "value": "app:/object/pd601_Drone_Basic.sgo"
+            },
+            {
+              "name": "formation",
+              "type": "ptr",
+              "value": [
+                {
+                  "type": "ptr",
+                  "value": [
+                    {
+                      "name": "offset",
+                      "type": "ptr",
+                      "value": [
+                        {"type": "double", "value": 1},
+                        {"type": "double", "value": 2},
+                        {"type": "double", "value": 1}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {
+                      "name": "offset",
+                      "type": "ptr",
+                      "value": [
+                        {"type": "double", "value": -1},
+                        {"type": "double", "value": 2},
+                        {"type": "double", "value": 1}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {
+                      "name": "offset",
+                      "type": "ptr",
+                      "value": [
+                        {"type": "double", "value": 1.2999999523162842},
+                        {"type": "double", "value": 0.800000011920929},
+                        {"type": "double", "value": 1}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {
+                      "name": "offset",
+                      "type": "ptr",
+                      "value": [
+                        {"type": "double", "value": -1.2999999523162842},
+                        {"type": "double", "value": 0.800000011920929},
+                        {"type": "double", "value": 1}
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "movement",
+              "type": "ptr",
+              "value": [
+                {
+                  "name": "linear",
+                  "type": "ptr",
+                  "value": [
+                    {"name": "max", "type": "double", "value": 40},
+                    {
+                      "name": "accele",
+                      "type": "double",
+                      "value": 0.10000000149011612
+                    },
+                    {
+                      "name": "lerp",
+                      "type": "double",
+                      "value": 0.05000000074505806
+                    }
+                  ]
+                },
+                {
+                  "name": "angular",
+                  "type": "ptr",
+                  "value": [
+                    {
+                      "name": "ratio",
+                      "type": "double",
+                      "value": 0.10000000149011612
+                    },
+                    {
+                      "name": "mix",
+                      "type": "double",
+                      "value": 0.949999988079071
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "aim",
+              "type": "ptr",
+              "value": [
+                {
+                  "name": "speed",
+                  "type": "double",
+                  "value": 0.10000000149011612
+                }
+              ]
+            },
+            {"name": "equipment", "type": "double", "value": 1},
+            {"name": "aim_target", "type": "double", "value": 4},
+            {
+              "name": "color",
+              "type": "ptr",
+              "value": [
+                {
+                  "name": "color1",
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 0},
+                    {"type": "double", "value": 0.15000000596046448},
+                    {"type": "double", "value": 0.009999999776482582}
+                  ]
+                },
+                {
+                  "name": "color2",
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 0.36000001430511475},
+                    {"type": "double", "value": 0.23000000417232513},
+                    {"type": "double", "value": 0.07000000029802322}
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "timeout",
+              "type": "ptr",
+              "value": [
+                {"name": "type", "type": "double", "value": 1},
+                {"name": "counter", "type": "double", "value": 1800}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "order",
+          "type": "ptr",
+          "value": [
+            {"name": "type", "type": "double", "value": 2},
+            {"name": "trigger", "type": "double", "value": 1},
+            {
+              "name": "offset",
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 0},
+                {"type": "double", "value": 9},
+                {"type": "double", "value": -9}
+              ]
+            },
+            {"name": "radius", "type": "double", "value": 0},
+            {"name": "is_end_to_suicide", "type": "double", "value": 0}
+          ]
+        },
+        {
+          "name": "se",
+          "type": "ptr",
+          "value": [
+            {"name": "fire", "type": "str", "value": "ドローンマーカー発射"},
+            {"name": "hit", "type": "str", "value": "ドローンマーカー着弾"}
+          ]
+        }
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "Ａ４＋武装マルチコプター〔機銃〕"},
+    {
+      "name": "name.en",
+      "type": "str",
+      "value": "A4+ Armed Multicopter (Machine Gun)"
+    },
+    {"name": "name.cn", "type": "str", "value": "Ａ４＋武裝多軸直升機〔機鎗〕"},
+    {"name": "name.kr", "type": "str", "value": "A4+ 무장 멀티콥터〔기관총〕"},
+    {"name": "name.sc", "type": "str", "value": "Ａ４＋武装多轴直升机〔机枪〕"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/pd601_Drone.DDS"
+    },
+    {
+      "name": "Sight_animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/HUD/sight13.rab"},
+            {"type": "str", "value": "sight13.mdb"}
+          ]
+        },
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/e_targetmarker_gan01.rab"},
+            {"type": "str", "value": "e_targetmarker_gan01.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/e_targetmarker_gan01.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300040005007400240000007c00000000010000dc020000000001001800000001000100300000000200000048000000a0020000ac02000002000000f4000000d4000000c40000000000000014010000860200008c02000002000000c4000000b4000000e400000000000000f40000004000000080000000c4020000000000003000000070000000940200000100000030000000600000006c02000001000000300000005000000046020000020000007e0200000000204100000000640100006e0200000000000000000000a40000005e0200000000204100000000e80000004e020000000048420000000090010000babababa0000000000000000000000000000803fcdcc4c3dcdcc4c3dcdcc4c3d0000803f0839cf3de04820bd82c6ec3d0000803f000000807b14ae3dae47013f0000803fbf7b71bfccda8fbfab4930400000803f53474f000201000000000000200000000000000020000000000000002000000053474f00020100000100000020000000010000002c000000000000003400000003000000090000001e00000008000000000000006e0061006d006500000025ff2effea30ed30fc30c930d330fc30d7300000000053474f00020100000100000020000000010000002c0000000000000034000000030000000d0000001e00000008000000000000006e0061006d0065000000bf30fc30b230c330c830de30fc30ab30fc30ac30f330555c8b950000000053474f00020100000100000020000000010000002c0000000000000034000000030000000e0000001e00000008000000000000006e0061006d0065000000bf30fc30b230c330c830de30fc30ab30fc30ac30f330899558308b30000053474f00020100000100000020000000010000002c000000000000003400000003000000100000001e00000008000000000000006e0061006d0065000000bf30fc30b230c330c830de30fc30ab30fc30ac30f330555c8b95d130cd30eb30000030003100000049004b00000062006f00640079000000720065006c006f00610064005f0065006e0064000000720065006c006f00610064005f006c006f006f0070000000720065006c006f00610064005f007300740061007200740000007300650000007300740061006e006400620079000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms_r"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "assault"},
+    {"name": "AimAnimation", "type": "str", "value": "aim"},
+    {"name": "ChangeAnimation", "type": "str", "value": "assault_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "assault_reload2"},
+    {
+      "name": "AmmoCount",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 50},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 7},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 1},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {"name": "ReloadTime", "type": "double", "value": 240},
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {
+      "name": "FireInterval",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 5},
+        {"type": "double", "value": 25},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 4},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {
+      "name": "FireAccuracy",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.019999999552965164},
+        {"type": "double", "value": 13},
+        {"type": "double", "value": 3},
+        {"type": "double", "value": 5},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {"name": "FireRecoil", "type": "double", "value": 0.20000000298023224},
+    {"name": "FireVector", "type": "ptr", "value": null},
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_AR_droneGunship_Kiju_A4plus"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.8500000238418579},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 25}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": "SolidBullet01"},
+    {"name": "AmmoModel", "type": "double", "value": 0},
+    {"name": "AmmoSpeed", "type": "double", "value": 4},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 0},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 0},
+    {"name": "AmmoAlive", "type": "double", "value": 20},
+    {
+      "name": "AmmoDamage",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 5.599999904632568},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 0},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 0.10000000149011612},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.4000000059604645},
+        {"type": "double", "value": 0.800000011920929},
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {"name": "Ammo_CustomParameter", "type": "ptr", "value": null},
+    {"name": "Ammo_EquipVoice", "type": "ptr", "value": null},
+    {"name": "AmmoHitSe", "type": "ptr", "value": null},
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {
+      "name": "MuzzleFlash_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {
+          "name": "efarc",
+          "type": "str",
+          "value": "app:/weapon/effect/engineer_drone.efarc"
+        },
+        {"name": "esb", "type": "str", "value": "fire01.esb"},
+        {
+          "name": "color",
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 1}
+          ]
+        },
+        {"name": "scale", "type": "double", "value": 0.30000001192092896},
+        {"name": "is_loop", "type": "double", "value": 0}
+      ]
+    },
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    },
+    {
+      "name": "resource",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "app:/object/pd601_Drone_Basic.sgo"},
+        {"type": "str", "value": "app:/weapon/effect/engineer_drone.efarc"}
+      ]
+    }
+  ],
+  "meta": {
+    "id": "eWeapon274",
+    "level": 2.500000037252903,
+    "category": 311,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [
+      {"type": "double", "value": 7},
+      {"type": "double", "value": 8},
+      {"type": "double", "value": 4},
+      {"type": "double", "value": 5}
+    ],
+    "nonRequest": 1,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "标记射程"},
+              {"type": "str", "value": "133.0m后失速"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "标记速度"},
+              {"type": "str", "value": "秒速480.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "标记连射"},
+              {"type": "str", "value": "2.0发/秒"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "配备数"},
+              {"type": "str", "value": "4"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "装填时间"},
+              {"type": "str", "value": "等待返回"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "缩放"},
+              {"type": "str", "value": "----"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "----"},
+              {"type": "str", "value": "----"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "飞行速度"},
+              {"type": "str", "value": "秒速40.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "弹数"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 50},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "连射速度"},
+              {"type": "str", "value": "$0发/秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 25},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "伤害"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 5.599999904632568},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "弹速"},
+              {"type": "str", "value": "秒速240.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "准度"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 0.019999999552965164},
+                  {"type": "double", "value": 13},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "搭载了改良型机枪的小型多轴直升机。\n可同时启动四架，在使用者前方飞行。\n一旦接收到投射式标记的目标指示，就会由一架机体对标记落点射击。\n每次标记发射／命中时，都会有一架机体出动进行攻击。\n连续发射标记，可让多架机体同时进行攻击。\n\n攻击结束后会自动返回，以便执行下一次的攻击指示。（在返回之前无法再次指示攻击）"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "標記射程"},
+              {"type": "str", "value": "133.0m後失速"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "標記速度"},
+              {"type": "str", "value": "秒速480.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "標記連射"},
+              {"type": "str", "value": "2.0發/秒"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "配備數"},
+              {"type": "str", "value": "4"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "裝填時間"},
+              {"type": "str", "value": "等待返回"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "縮放"},
+              {"type": "str", "value": "----"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "----"},
+              {"type": "str", "value": "----"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "飛行速度"},
+              {"type": "str", "value": "秒速40.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "彈數"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 50},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "連射速度"},
+              {"type": "str", "value": "$0發/秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 25},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "傷害"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 5.599999904632568},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "彈速"},
+              {"type": "str", "value": "秒速240.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "準度"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 0.019999999552965164},
+                  {"type": "double", "value": 13},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "搭載了改良型機鎗的小型多軸直升機。\n可同時啟動四架，在使用者前方飛行。\n一旦接收到投射式標記的目標指示，就會由一架機體對標記落點射擊。\n每次標記發射／命中時，都會有一架機體出動進行攻擊。\n連續發射標記，可讓多架機體同時進行攻擊。\n\n攻擊結束後會自動返回，以便執行下一次的攻擊指示。（在返回之前無法再次指示攻擊）"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Marker Range"},
+              {"type": "str", "value": "Stalls in 133.0 m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Marker Speed"},
+              {"type": "str", "value": "480.0m/s"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Marker Rapid Fire"},
+              {"type": "str", "value": "2.0/sec"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "No. Deployed"},
+              {"type": "str", "value": "4"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Reload Time"},
+              {"type": "str", "value": "Return Time"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Zoom"},
+              {"type": "str", "value": "----"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "----"},
+              {"type": "str", "value": "----"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Speed"},
+              {"type": "str", "value": "40.0m/s"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Shots"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 50},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ROF"},
+              {"type": "str", "value": "$0/sec"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 25},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Damage"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 5.599999904632568},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Shot Speed"},
+              {"type": "str", "value": "240.0m/s"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Accuracy"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 0.019999999552965164},
+                  {"type": "double", "value": 13},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "A small multicopter equipped with an improved machine gun.\nFour units activate simultaneously and fly out in front of the user.\nWhen a target is indicated by an ejectable marker, one copter moves into position and fires at the marker's impact point.\nEach time a marker fires or strikes a target, another prepares to attack.\nBy continuously ejecting markers, multiple copters can attack at the same time.\n\nReturns automatically after each attack and can be ordered to attack again. (Cannot attack again until it returns.)"
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "マーカー射程"},
+              {"type": "str", "value": "133.0m で失速"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "マーカー速度"},
+              {"type": "str", "value": "秒速480.0ｍ"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "マーカー連射"},
+              {"type": "str", "value": "2.0発／秒"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "配備数"},
+              {"type": "str", "value": "4"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "リロード時間"},
+              {"type": "str", "value": "帰還待ち"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ズーム"},
+              {"type": "str", "value": "----"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "----"},
+              {"type": "str", "value": "----"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "飛行速度"},
+              {"type": "str", "value": "秒速40.0ｍ"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "弾数"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 50},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "連射速度"},
+              {"type": "str", "value": "$0発／秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 25},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ダメージ"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 5.599999904632568},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "弾速"},
+              {"type": "str", "value": "秒速240.0ｍ"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "精度"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 0.019999999552965164},
+                  {"type": "double", "value": 13},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "改良型マシンガンを搭載した小型マルチコプター。\n４機同時に起動し、使用者の前方を飛行する。\n射出式のマーカーにより目標を指示されると１機が上空へ移動。マーカーの着弾位置を銃撃する。\nマーカーが発射／着弾するごとに、１機が攻撃に向かう。\n連続でマーカーを射出することで、複数機を同時に攻撃させることが可能。\n\n攻撃後は自動的に帰還し、再度の攻撃指示が可能となる。（帰還するまでの間は再攻撃を指示できない）"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "마커 사거리"},
+              {"type": "str", "value": "133.0m부터 낙하"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "마커 속도"},
+              {"type": "str", "value": "초속 480.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "마커 연사"},
+              {"type": "str", "value": "2.0발/초"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "배치 수"},
+              {"type": "str", "value": "4"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "재장전 시간"},
+              {"type": "str", "value": "귀환 대기"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "확대 배율"},
+              {"type": "str", "value": "----"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "----"},
+              {"type": "str", "value": "----"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "비행 속도"},
+              {"type": "str", "value": "초속 40.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "장탄 수"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 50},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 7},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "연사 속도"},
+              {"type": "str", "value": "$0발/초"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 25},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 4},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "대미지"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 5.599999904632568},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "탄속"},
+              {"type": "str", "value": "초속 240.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "정확도"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 0.019999999552965164},
+                  {"type": "double", "value": 13},
+                  {"type": "double", "value": 3},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 2},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "Text": "개량형 머신건을 탑재한 소형 멀티콥터.\n4대가 동시에 기동하며 사용자의 전방을 비행한다.\n사출식 마커를 통해 목표를 지정하면 1대가 상공으로 이동하여 마커의 착탄 위치에 총격을 가한다.\n마커가 발사 및 착탄될 때마다 1대씩 공격을 개시한다.\n연속으로 마커를 사출하여 여러 대를 동시에 공격시키는 것도 가능하다.\n\n공격 후에는 자동으로 귀환하여 다시 공격 지시를 할 수 있다. (귀환하기 전까지는 재공격을 지시할 수 없다)"
+      }
+    }
+  }
+}

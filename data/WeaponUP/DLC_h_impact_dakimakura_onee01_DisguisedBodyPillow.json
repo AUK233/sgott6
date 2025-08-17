@@ -1,0 +1,501 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {
+      "name": "xgs_scene_object_class",
+      "type": "str",
+      "value": "Weapon_ImpactHammer"
+    },
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "hammer_charge"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.5},
+        {
+          "type": "ptr",
+          "value": [
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 0},
+                {"type": "str", "value": "hammer_knock"},
+                {"type": "double", "value": 2},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 0}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 15},
+                {"type": "str", "value": "hammer_jumpKnock"},
+                {"type": "double", "value": 2},
+                {"type": "double", "value": 1.5},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 3},
+                {"type": "str", "value": "ShockWaveBullet01Exp"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 0},
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 0},
+                {"type": "str", "value": "weapon_Fencer_HM_vivloHammer_lv2"},
+                {"type": "double", "value": 0.8913000226020813},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 3},
+                {"type": "double", "value": 25}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "偽装抱き枕"},
+    {"name": "name.en", "type": "str", "value": "Disguised Body Pillow"},
+    {"name": "name.cn", "type": "str", "value": "偽裝抱枕"},
+    {"name": "name.kr", "type": "str", "value": "위장 베개"},
+    {"name": "name.sc", "type": "str", "value": "伪装抱枕"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/h_impact_dakimakura01.dds"
+    },
+    {
+      "name": "Sight_animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/HUD/sight17.rab"},
+            {"type": "str", "value": "sight17.mdb"}
+          ]
+        },
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {
+              "type": "str",
+              "value": "app:/Weapon/h_impact_dakimakura_onee01.rab"
+            },
+            {"type": "str", "value": "h_impact_dakimakura_onee01.mdb"}
+          ]
+        },
+        {"type": "double", "value": 0},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300000003003c00240000005c00000060000000b0000000000001001800000001000000300000000200000028000000740000007a000000020000003400000044000000240000000000000054000000babababa0000000000000000000000000000803f000000003f353e3f9a99993e0000803fcdcc4c3dcdcc4c3dcdcc4c3d0000803f53474f000201000000000000200000000000000020000000000000002000000030003100000068005f0069006d0070006100630074005f00640061006b0069006d0061006b007500720061005f006f006e0065006500300031000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "base"},
+    {"name": "AimAnimation", "type": "str", "value": "aim_hammer"},
+    {"name": "ChangeAnimation", "type": "str", "value": "hammer_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "hammer_reload1"},
+    {"name": "AmmoCount", "type": "double", "value": 16},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 0},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {"name": "ReloadTime", "type": "double", "value": 120},
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 2},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 1},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0.5},
+    {"name": "FireVector", "type": "ptr", "value": null},
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Fencer_HM_vivloHammer_lv1"},
+        {"type": "double", "value": 0.8913000226020813},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 3},
+        {"type": "double", "value": 25}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 5},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": "ShockWaveBullet01"},
+    {"name": "AmmoModel", "type": "double", "value": 0},
+    {"name": "AmmoSpeed", "type": "double", "value": 2},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 0},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 0},
+    {"name": "AmmoAlive", "type": "double", "value": 5},
+    {"name": "AmmoDamage", "type": "double", "value": 15},
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 0},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 1},
+    {"name": "AmmoSize", "type": "double", "value": 2},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1.2999999523162842},
+        {"type": "double", "value": 1.5},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 30}]
+    },
+    {"name": "Ammo_EquipVoice", "type": "ptr", "value": null},
+    {
+      "name": "AmmoHitSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Common_hitSound_blow"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 50}
+      ]
+    },
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    }
+  ],
+  "meta": {
+    "id": "DLC_h_impact_dakimakura_onee01",
+    "level": 0,
+    "category": 200,
+    "unlockState": 3,
+    "dropRateModifier": 1,
+    "StarRating": null,
+    "nonRequest": 1,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "普通攻击"},
+              {"type": "str", "value": "（近距离冲击 充能:0.0 伤害:15.0 范围:半径2.0m）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "极限攻击"},
+              {"type": "str", "value": "（中距离冲击 充能:0.2 伤害:22.5 射程:30.0m）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "充能速度"},
+              {"type": "str", "value": "1.0（每秒）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "防御伤害"},
+              {"type": "str", "value": "50.0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "弹数"},
+              {"type": "str", "value": "16"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "装填"},
+              {"type": "str", "value": "2.0秒"}
+            ]
+          }
+        ],
+        "Text": "伪装成抱枕的战锤。虽外观不同，但性能与骇波战锤完全相同。因剑兵的装备看起来相当吓人，曾引起基地附近市民的抗议。考虑到这点，决定采用不会给旁人带来压迫感的伪装。为了更进一步获得民众的认同，而涂上了象征和平的彩绘。\n\n内部搭载超振动（骇波）装置的战锤。不只命中的物体，连周围一带都会被强力振动所粉碎。振动需透过物体才能传递，对空中的敌人则无效。此外，从举起到敲下去的期间，会因超振动而在周围产生出一道空气墙，在遭受攻击时能减低部分伤害。\n持续按住“攻击键”，可提升骇波的输出。待输出提升至上限再放开键，就会发动射程长的极限电压攻击。\n\n为了有效运用此武器，会在动力装甲的背部加装“辅助推进器”。按下装备使用键后，会往前进方向进行被称为推进冲刺的高速移动。"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "普通攻擊"},
+              {"type": "str", "value": "（近距離衝擊 充能:0.0 傷害:15.0 範圍:半徑2.0m）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "極限攻擊"},
+              {"type": "str", "value": "（中距離衝擊 充能:0.2 傷害:22.5 射程:30.0m）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "充能速度"},
+              {"type": "str", "value": "1.0（每秒）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "防禦傷害"},
+              {"type": "str", "value": "50.0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "彈數"},
+              {"type": "str", "value": "16"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "裝填"},
+              {"type": "str", "value": "2.0秒"}
+            ]
+          }
+        ],
+        "Text": "偽裝成抱枕的戰鎚。雖外觀不同，但性能與駭波戰鎚完全相同。因劍兵的裝備看起來相當嚇人，曾引起基地附近市民的抗議。考慮到這點，決定採用不會給旁人帶來壓迫感的偽裝。為了更進一步獲得民眾的認同，而塗上了象徵和平的彩繪。\n\n內部搭載超振動（駭波）裝置的戰鎚。不只命中的物體，連周圍一帶都會被強力振動所粉碎。振動需透過物體才能傳遞，對空中的敵人則無效。此外，從舉起到敲下去的期間，會因超振動而在周圍產生出一到空氣牆，在遭受攻擊時能減低部分傷害。\n持續按住「攻擊按鈕」，可提升駭波的輸出。待輸出提升至上限再放開按鈕，就會發動射程長的極限電壓攻擊。\n\n為了有效運用此武器，會在動力裝甲的背部加裝「輔助推進器」。按下使用裝備按鈕後，會往前進方向進行被稱為推進衝刺的高速移動。"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Regular Attack"},
+              {
+                "type": "str",
+                "value": "(Clash Close Range Charge:0.0 Damage:15.0 Effective Range:Radius 2.0m)"
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Maximum"},
+              {
+                "type": "str",
+                "value": "(Clash Medium Range Charge:0.2 Damage:22.5 Range:30.0m)"
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Charge Speed"},
+              {"type": "str", "value": "1.0 per sec"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Defense Damage"},
+              {"type": "str", "value": "50.0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Capacity"},
+              {"type": "str", "value": "16"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Reload"},
+              {"type": "str", "value": "2.0 sec"}
+            ]
+          }
+        ],
+        "Text": "A hammer disguised as a body pillow with the same specs as the Vibro Hammer. Fencers' equipment looked terrifying, and many citizens around the base voiced their concerns. As a result, a less intimidating version was developed.\n\nA hammer that is installed with an ultra-vibration generator (Vibro Drive). It generates strong vibrations that affect an entire area as opposed to a single target. The vibrations are transmitted through objects, not air, so they have no effect on aerial enemies. As an added bonus, during the swing a wall of air is formed in the area of the massive vibration which reduces the damage taken when attacked. \nPress and hold the attack button to increase the Vibro Drive output, and when it's reached its max, release to unleash a powerful slashing maximum voltage attack.\n\nTo use this weapon effectively, the back of your powered exoskeleton must be equipped with a Side Thruster. Press the use button to perform a %dq%thrust-dash%dq% forward."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "通常攻撃"},
+              {"type": "str", "value": "（衝撃近距離 チャージ:0.0 ダメージ:15.0 範囲:半径2.0ｍ）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "マキシマム"},
+              {"type": "str", "value": "（衝撃中距離 チャージ:0.2 ダメージ:22.5 射程:30.0ｍ）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "チャージ速度"},
+              {"type": "str", "value": "1.0（毎秒）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "防御ダメージ"},
+              {"type": "str", "value": "50.0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "弾数"},
+              {"type": "str", "value": "16"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "リロード"},
+              {"type": "str", "value": "2.0秒"}
+            ]
+          }
+        ],
+        "Text": "抱き枕に擬装したハンマー。外見は異なるが、ヴィブロ·ハンマーと同等の性能を持つ。フェンサーの装備は威圧的な外観であったため、基地周辺の市民から反発の声があがっていた。それを考慮し、威圧感のない形状への擬装が進められていた。さらに、人々の理解を得やすいよう、平和的なペイントが施されている。\n\n凄まじい振動を発生させ、命中した物体だけでなく、その周囲一帯を粉砕する。振動は物体を伝わって広がるため、空中の敵には効果がない。また、振りかぶった時点から振り下ろすまでの間、超振動によって周囲に空気の壁が形成され、攻撃された際のダメージを減少させる効果がある。\n“攻撃ボタン”を押し続けることで、ヴィブロドライブの出力を上昇。最大まで出力を上昇させてボタンを放すと、射程の長いマキシマムボルテージアタックをおこなう。\n\nこの武装を効果的に運用するため、パワードスケルトンの背部には「サイドスラスター」が装着される。装備使用ボタンを押すと、進行方向にスラスターダッシュと呼ばれる高速移動をおこなう。"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "통상 공격"},
+              {"type": "str", "value": "(충격 근거리 차지:0.0 대미지:15.0 범위:반경 2.0m )"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "맥시멈"},
+              {"type": "str", "value": "(충격 중거리 차지:0.2 대미지:22.5 사정거리:30.0m )"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "충전 속도"},
+              {"type": "str", "value": "1.0 (매초)"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "방어 대미지"},
+              {"type": "str", "value": "50.0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "장탄 수"},
+              {"type": "str", "value": "16"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "재장전"},
+              {"type": "str", "value": "2.0초"}
+            ]
+          }
+        ],
+        "Text": "베개로 위장한 해머. 겉모양은 다르지만 비브로 해머와 동일한 성능을 가지고 있다. 그 위압적인 모양새 때문에 펜서의 장비에 대해 기지 주변 시민들로부터 민원이 들어오자 사람들에게 위압감을 주지 않는 형태로 위장하는 방안이 추진됐다. 보다 적극적으로 시민들의 이해를 구하고자 포근한 분위기로 도장했다.\n\n강력한 진동을 일으켜 명중한 물체뿐만 아니라 그 주변 일대까지 분쇄한다. 진동은 물체를 통해 전달되기 때문에 공중에 있는 적에게는 효과가 없다. 또한, 해머를 들어 올린 순간부터 내리칠 때까지는 초진동으로 주변에 공기 벽이 형성되기 때문에 공격받을 경우 대미지가 경감되는 효과가 있다.\n“공격 버튼”을 길게 누르면 비브로 드라이브의 출력이 상승하며, 출력을 최대치까지 상승시킨 후에 \n버튼에서 손을 떼면 사거리가 긴 맥시멈 볼티지 어택을 가한다.\n\n이 무장을 효과적으로 운용하기 위해 파워드 스켈레톤 등 쪽에 「사이드 스러스터」가 장착되어 있다. 장비 사용 버튼을 누르면 스러스터 대시를 사용해 진행 방향으로 고속 이동한다."
+      }
+    }
+  }
+}

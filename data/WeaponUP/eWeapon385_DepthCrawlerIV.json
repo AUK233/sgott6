@@ -1,0 +1,509 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {"name": "xgs_scene_object_class", "type": "str", "value": "Weapon_Sub"},
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {"name": "animation", "type": "str", "value": "vehicle_call"},
+        {"name": "whole_body", "type": "double", "value": 1},
+        {"name": "animation_speed", "type": "double", "value": 1}
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "デプスクロウラーⅣ"},
+    {"name": "name.en", "type": "str", "value": "Depth Crawler IV"},
+    {"name": "name.cn", "type": "str", "value": "深淵爬行戰車Ⅳ"},
+    {"name": "name.kr", "type": "str", "value": "뎁스 크롤러 Ⅳ"},
+    {"name": "name.sc", "type": "str", "value": "深渊爬行战车Ⅳ"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/GroundRobo.dds"
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/e_throw_marker01.rab"},
+            {"type": "str", "value": "e_throw_marker01.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/e_throw_marker01.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300020002002a00240000005c00000080000000c0000000000001001800000001000000300000000200000028000000840000008a00000002000000440000005400000044000000000000006400000020000000200000007e0000000000000010000000100000006400000000000000babababa0000000000000000000000000000803f0000a0400000a0400000a0400000803f53474f000201000000000000200000000000000020000000000000002000000030003100000062006f00640079000000680069006400650000007300740061006e006400620079000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms_r"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "throw"},
+    {"name": "AimAnimation", "type": "str", "value": "aim_no_ik"},
+    {"name": "ChangeAnimation", "type": "str", "value": "throw_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "throw_reload1"},
+    {"name": "AmmoCount", "type": "double", "value": 1},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 2},
+    {"name": "ReloadInit", "type": "double", "value": 0.5},
+    {
+      "name": "ReloadTime",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 4000},
+        {"type": "double", "value": 21},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 120},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {
+      "name": "FireVector",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.25},
+        {"type": "double", "value": 1.100000023841858}
+      ]
+    },
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Engineer_Vehicle_throw"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": "SmokeCandleBullet01"},
+    {
+      "name": "AmmoModel",
+      "type": "str",
+      "value": "app:/WEAPON/e_throw_marker01.rab"
+    },
+    {"name": "AmmoSpeed", "type": "double", "value": 0.4000000059604645},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 1},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 1},
+    {"name": "AmmoAlive", "type": "double", "value": 1800},
+    {"name": "AmmoDamage", "type": "double", "value": 1000},
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 40},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 1},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.5}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.05000000074505806},
+        {"type": "double", "value": 180},
+        {"type": "double", "value": 120},
+        {"type": "double", "value": 1},
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Object/v508_transport.sgo"},
+            {"type": "str", "value": "app:/object/v509_transportbox.sgo"},
+            {"type": "str", "value": "app:/Object/Vehicle502_GroundRobo.sgo"},
+            {
+              "type": "ptr",
+              "value": [
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 15},
+                    {"type": "double", "value": 25}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 10},
+                    {"type": "double", "value": 0.05999999865889549},
+                    {"type": "double", "value": 2},
+                    {"type": "double", "value": 20},
+                    {"type": "double", "value": 30},
+                    {"type": "double", "value": 0},
+                    {"type": "double", "value": 1.25}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_502_groundrobo_gatling.sgo"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_502_groundrobo_Cannon01B_l.sgo"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_502_groundrobo_Cannon01B_r.sgo"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {"type": "str", "value": "ライト１"},
+                        {"type": "double", "value": 0.699999988079071},
+                        {"type": "double", "value": 200},
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 1},
+                            {"type": "double", "value": 1},
+                            {"type": "double", "value": 1}
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {"type": "str", "value": "ライト２"},
+                        {"type": "double", "value": 0.699999988079071},
+                        {"type": "double", "value": 200},
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 1},
+                            {"type": "double", "value": 1},
+                            {"type": "double", "value": 1}
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "輸送部隊目標確認"},
+            {"type": "str", "value": "輸送部隊発射"},
+            {"type": "str", "value": "輸送部隊攻撃後"}
+          ]
+        },
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "Ammo_EquipVoice",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "輸送部隊出撃直後"},
+        {"type": "str", "value": "輸送部隊支援不能"}
+      ]
+    },
+    {
+      "name": "AmmoHitSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Engineer_Vehicle_smoke"},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    },
+    {
+      "name": "resource",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "app:/WEAPON/e_throw_marker01.rab"},
+        {"type": "str", "value": "app:/Object/v508_transport.sgo"},
+        {"type": "str", "value": "app:/object/v509_transportbox.sgo"},
+        {"type": "str", "value": "app:/Object/Vehicle502_GroundRobo.sgo"},
+        {"type": "str", "value": "app:/weapon/v_502_groundrobo_gatling.sgo"},
+        {
+          "type": "str",
+          "value": "app:/weapon/v_502_groundrobo_Cannon01B_l.sgo"
+        },
+        {"type": "str", "value": "app:/weapon/v_502_groundrobo_Cannon01B_r.sgo"}
+      ]
+    }
+  ],
+  "meta": {
+    "id": "eWeapon385",
+    "level": 77.49999761581421,
+    "category": 320,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [{"type": "double", "value": 8}],
+    "nonRequest": 1,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "请求"},
+              {"type": "str", "value": "$0pt（起始值50％)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐用度"},
+              {"type": "str", "value": "15000"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操纵席：</font>驾驶\nＦＫ２００格林机炮 <font color=%dq%#00ffff%dq%>（弹数：1600  伤害：250.0  射程：120.0m）</font>\n爆裂加农炮（左） <font color=%dq%#00ffff%dq%>（弹数：120  伤害：[贯穿]750.0 (3连击)  射程：240.0m）</font>\n爆裂加农炮（右） <font color=%dq%#00ffff%dq%>（弹数：120  伤害：[贯穿]750.0 (3连击)  射程：240.0m）</font>\n\n搭乘者１名。可在地底进行请求。\n地底战用步行战车“深渊爬行战车”的强化型。采用新型框架，且巨幅提升了动作性能。搭载每次可连射３发的“爆裂加农炮”，具有强大的火力。"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "請求"},
+              {"type": "str", "value": "$0pt（起始值50％)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐用度"},
+              {"type": "str", "value": "15000"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操縱席：</font>駕駛\nＦＫ２００格林機砲 <font color=%dq%#00ffff%dq%>（彈數：1600  傷害：250.0  射程：120.0m）</font>\n爆裂加農砲（左） <font color=%dq%#00ffff%dq%>（彈數：120  傷害：[貫穿]750.0 (3連擊)  射程：240.0m）</font>\n爆裂加農砲（右） <font color=%dq%#00ffff%dq%>（彈數：120  傷害：[貫穿]750.0 (3連擊)  射程：240.0m）</font>\n\n搭乘者１名。可在地底進行請求。\n地底戰用步行戰車「深淵爬行戰車」的強化型。採用新型框架，且巨幅提升了動作性能。搭載每次可連射３發的「爆裂加農砲」，具有強大的火力。"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Re-request"},
+              {"type": "str", "value": "$0pt(Default 50 %)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Durability"},
+              {"type": "str", "value": "15000"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>Pilot Seat:</font> Driver\nFK200 Gatling Gun <font color=%dq%#00ffff%dq%>(Shots:1600 Damage:250.0 Range:120.0m)</font>\nBurst Cannon (Left) <font color=%dq%#00ffff%dq%>(Shots:120 Damage:[PT]750.0 (3 burst) Range:240.0m)</font>\nBurst Cannon (Right) <font color=%dq%#00ffff%dq%>(Shots:120 Damage:[PT]750.0 (3 burst) Range:240.0m)</font>\n\n1 person. Can be requested from underground locations.\nAn enhanced version of the Depth Crawler with a renewed frame and drastically upgraded maneuverability. Comes equipped with extremely powerful Burst Cannons that fire three bullets per shot."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "要請"},
+              {"type": "str", "value": "$0pt (初期値 50％)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐久度"},
+              {"type": "str", "value": "15000"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操縦席：</font>運転\nＦＫ２００ガトリング砲 <font color=%dq%#00ffff%dq%>（弾数：1600  ダメージ：250.0  射程：120.0ｍ）</font>\nバーストキャノン（左） <font color=%dq%#00ffff%dq%>（弾数：120  ダメージ：[貫通]750.0 (3バースト)  射程：240.0ｍ）</font>\nバーストキャノン（右） <font color=%dq%#00ffff%dq%>（弾数：120  ダメージ：[貫通]750.0 (3バースト)  射程：240.0ｍ）</font>\n\n搭乗員１名。地底での要請が許されている。\n地底戦用の歩行タンク“デプスクロウラー”の強化型。フレームが新型となり、運動性能が劇的に向上した。１度の射撃で３連続発射をおこなうことができる“バーストキャノン”を搭載。優れた火力を持つ。"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "요청"},
+              {"type": "str", "value": "$0pt(초기 값50%)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 4000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "내구도"},
+              {"type": "str", "value": "15000"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>조종석:</font> 운전\nFK200 개틀링포<font color=%dq%#00ffff%dq%>(장탄 수: 1600  대미지: 250.0  사거리: 120.0m )</font>\n버스트 캐넌(좌)<font color=%dq%#00ffff%dq%>(장탄 수: 120  대미지: [관통]750.0 (3버스트)  사거리: 240.0m )</font>\n버스트 캐넌(우)<font color=%dq%#00ffff%dq%>(장탄 수: 120  대미지: [관통]750.0 (3버스트)  사거리: 240.0m )</font>\n\n탑승 인원 1명. 지하에서도 요청할 수 있다.\n지하전용 보행 탱크 “뎁스 크롤러”의 강화형. 프레임이 신형으로 교체되어 기동성이 눈에 띄게 향상됐다. 한 번의 사격으로 3발을 연속 발사할 수 있는\n“버스트 캐넌”이 탑재되어 있어 화력이 우수하다."
+      }
+    }
+  }
+}

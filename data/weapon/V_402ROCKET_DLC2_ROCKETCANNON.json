@@ -1,0 +1,218 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {
+      "name": "xgs_scene_object_class",
+      "type": "str",
+      "value": "Weapon_VehicleShoot"
+    },
+    {"name": "custom_parameter", "type": "ptr", "value": null},
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "誘導粒子ビーム砲"},
+    {"name": "name.en", "type": "str", "value": "Guided Particle Beam Cannon"},
+    {"name": "name.cn", "type": "str", "value": "導引粒子光束砲"},
+    {"name": "name.kr", "type": "str", "value": "유도 입자 빔포"},
+    {"name": "name.sc", "type": "str", "value": "导引粒子光束炮"},
+    {"name": "WeaponIcon", "type": "str", "value": "app:/weapon/icon/none"},
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/v_null.rab"},
+            {"type": "str", "value": "v_null.mdb"}
+          ]
+        },
+        {"type": "double", "value": 0},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f00000083000000030000000c004a00240000007c010000800100006002000000000a001800000001000000500100000200000048010000240200006002000002000000e4010000740100004401000000000000040200000a0200004002000002000000d4010000540100002401000000000000e4010000f0010000200200000200000084010000340100000401000000000000c4010000d601000000020000020000007401000014010000e400000000000000a4010000bc010000e001000002000000d4000000f4000000c40000000000000084010000a2010000c001000002000000c4000000d4000000a4000000000000006401000088010000a001000002000000c4000000b40000008400000000000000440100006e0100008001000002000000b400000094000000640000000000000024010000540100006001000002000000a4000000740000004400000000000000040100003a010000400100000200000094000000540000002400000000000000e4000000babababa0000000000000000000000000000803f00000000cdcccc3ecdcc8c400000803f00000000cdcc4c3fcdcc8c400000803fcdcc4c3dcdcc4c3d0000803e0000803f3333b33ecdcccc3ecdcc8c400000803f3333b33ecdcc4c3fcdcc8c400000803f3333333fcdcccc3ecdcc8c400000803f3333333fcdcc4c3fcdcc8c400000803f3333b3becdcccc3ecdcc8c400000803f3333b3becdcc4c3fcdcc8c400000803f333333bfcdcccc3ecdcc8c400000803f333333bfcdcc4c3fcdcc8c400000803f53474f000201000000000000200000000000000020000000000000002000000030003100000030003200000030003300000030003400000030003500000030003600000030003700000030003800000030003900000031003000000076005f004e0075006c006c000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms_r"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "waist"},
+    {"name": "AimAnimation", "type": "str", "value": ""},
+    {"name": "ChangeAnimation", "type": "str", "value": ""},
+    {"name": "ReloadAnimation", "type": "str", "value": ""},
+    {"name": "AmmoCount", "type": "double", "value": 2000},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 0},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {"name": "ReloadTime", "type": "double", "value": -1},
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 3},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 0},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 0},
+    {"name": "LockonRange", "type": "double", "value": 1000},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.4000000059604645},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 1},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 1},
+    {"name": "FireBurstCount", "type": "double", "value": 100},
+    {"name": "FireBurstInterval", "type": "double", "value": 1},
+    {"name": "FireAccuracy", "type": "double", "value": 0.02500000037252903},
+    {"name": "FireRecoil", "type": "double", "value": 0.5},
+    {"name": "FireVector", "type": "ptr", "value": null},
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_VHC_rocket402_missile"},
+        {"type": "double", "value": 0.7099999785423279},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 40}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": "HomingLaserBullet01"},
+    {
+      "name": "AmmoModel",
+      "type": "str",
+      "value": "app:/WEAPON/bullet_missile.rab"
+    },
+    {"name": "AmmoSpeed", "type": "double", "value": 10},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 0},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 0},
+    {"name": "AmmoAlive", "type": "double", "value": 80},
+    {"name": "AmmoDamage", "type": "double", "value": 3},
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 2},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 0.20000000298023224},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 0.5},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 0.5}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 10},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.10000000149011612},
+        {"type": "double", "value": 15},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 1},
+        {"type": "ptr", "value": null}
+      ]
+    },
+    {"name": "Ammo_EquipVoice", "type": "ptr", "value": null},
+    {
+      "name": "AmmoHitSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "common_damages_impactWD_homingFenrir"},
+        {"type": "double", "value": 0.8999999761581421},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 100}
+      ]
+    },
+    {"name": "MuzzleFlash", "type": "str", "value": "EfsMuzzleFlash"},
+    {
+      "name": "MuzzleFlash_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {
+          "name": "efarc",
+          "type": "str",
+          "value": "app:/weapon/effect/pale_laser_rifle01.efarc"
+        },
+        {"name": "esb", "type": "str", "value": "muzzle_flash01.esb"},
+        {
+          "name": "color",
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 0.20000000298023224},
+            {"type": "double", "value": 0.20000000298023224},
+            {"type": "double", "value": 1}
+          ]
+        },
+        {"name": "scale", "type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    },
+    {
+      "name": "resource",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "app:/WEAPON/bullet_missile.rab"},
+        {"type": "str", "value": "app:/weapon/effect/pale_laser_rifle01.efarc"}
+      ]
+    }
+  ],
+  "meta": {"id": null}
+}

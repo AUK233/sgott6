@@ -1,0 +1,352 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {"name": "xgs_scene_object_class", "type": "str", "value": "Weapon_Sub"},
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {"name": "animation", "type": "str", "value": "throwL_swing"},
+        {"name": "whole_body", "type": "double", "value": 0},
+        {"name": "animation_speed", "type": "double", "value": 1},
+        {"name": "is_manual_reload", "type": "double", "value": 0},
+        {
+          "name": "show_throw_guide",
+          "type": "ptr",
+          "value": [
+            {"name": "always_show", "type": "double", "value": 0},
+            {"name": "radius", "type": "double", "value": 5}
+          ]
+        },
+        {"name": "long_press_count", "type": "double", "value": 216000}
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "Ａ６０バイナリー弾"},
+    {"name": "name.en", "type": "str", "value": "A60 Binary Round"},
+    {"name": "name.cn", "type": "str", "value": "Ａ６０化學彈"},
+    {"name": "name.kr", "type": "str", "value": "A60 바이너리탄"},
+    {"name": "name.sc", "type": "str", "value": "Ａ６０化学弹"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/grenade.dds"
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/s_grenade_mg10.rab"},
+            {"type": "str", "value": "s_grenade_mg10.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/s_grenade_mg10.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300020002003e00240000005c00000080000000c000000000000100180000000100000030000000020000002800000084000000940000000200000044000000540000004400000000000000640000002000000020000000920000000000000010000000100000005a00000000000000babababa0000000000000000000000000000803f0000a0400000a0400000a0400000803f53474f00020100000000000020000000000000002000000000000000200000003000310000006800690064006500000073005f006700720065006e006100640065005f006d0067003100300000007300740061006e006400620079000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms_l"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "throw"},
+    {"name": "AimAnimation", "type": "str", "value": "aim_no_ik"},
+    {"name": "ChangeAnimation", "type": "str", "value": "throw_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "throw_reload1"},
+    {"name": "AmmoCount", "type": "double", "value": 1},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 1},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {"name": "ReloadTime", "type": "double", "value": 2000},
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 2},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0.20000000298023224},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 0},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {
+      "name": "FireVector",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.125},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Ranger_GL_throw"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": "NapalmBullet01"},
+    {
+      "name": "AmmoModel",
+      "type": "str",
+      "value": "app:/WEAPON/s_grenade_mg10.rab"
+    },
+    {"name": "AmmoSpeed", "type": "double", "value": 0.6000000238418579},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 1},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 1},
+    {"name": "AmmoAlive", "type": "double", "value": 600},
+    {"name": "AmmoDamage", "type": "double", "value": 1},
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 0},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 1},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1.5},
+        {"type": "double", "value": 0.5}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 1.2999999523162842}
+          ]
+        },
+        {"type": "double", "value": 0.05000000074505806},
+        {"type": "double", "value": 60},
+        {
+          "type": "ptr",
+          "value": [
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 0},
+                {"type": "double", "value": 0}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 0},
+                {"type": "double", "value": 0}
+              ]
+            },
+            {"type": "double", "value": 60},
+            {"type": "double", "value": 60},
+            {"type": "str", "value": "EfsBullet"},
+            {"type": "double", "value": 0.05000000074505806},
+            {"type": "double", "value": 0.10000000149011612},
+            {"type": "double", "value": 1.25},
+            {"type": "double", "value": 0.699999988079071},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 480},
+            {"type": "double", "value": 1},
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 0.25},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 1}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {
+                  "name": "efarc",
+                  "type": "str",
+                  "value": "app:/weapon/effect/ranger_poison_grenade.efarc"
+                },
+                {
+                  "name": "bullet",
+                  "type": "ptr",
+                  "value": [
+                    {"name": "esb", "type": "str", "value": "bullet.esb"},
+                    {"name": "scale", "type": "double", "value": 1},
+                    {
+                      "name": "color",
+                      "type": "ptr",
+                      "value": [
+                        {"type": "double", "value": 1},
+                        {"type": "double", "value": 1},
+                        {"type": "double", "value": 1},
+                        {"type": "double", "value": 1}
+                      ]
+                    },
+                    {
+                      "name": "ext",
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "name": "reflection",
+                          "type": "ptr",
+                          "value": [
+                            {"name": "type", "type": "double", "value": 1},
+                            {
+                              "name": "restitution",
+                              "type": "double",
+                              "value": 0.25
+                            }
+                          ]
+                        },
+                        {
+                          "name": "size_control",
+                          "type": "ptr",
+                          "value": [
+                            {
+                              "name": "add",
+                              "type": "double",
+                              "value": 0.10000000149011612
+                            }
+                          ]
+                        },
+                        {
+                          "name": "always_area_damage",
+                          "type": "double",
+                          "value": 1
+                        },
+                        {
+                          "name": "is_continue_damage",
+                          "type": "double",
+                          "value": 1
+                        },
+                        {
+                          "name": "continue_damage_interval",
+                          "type": "double",
+                          "value": 63
+                        },
+                        {"name": "hit_stop", "type": "double", "value": 1},
+                        {
+                          "name": "air_resist",
+                          "type": "double",
+                          "value": 0.949999988079071
+                        },
+                        {
+                          "name": "is_guard_enable",
+                          "type": "double",
+                          "value": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "weapon_Ranger_BinaryA60"},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 25}
+          ]
+        },
+        {"name": "is_distribute_damage", "type": "double", "value": 0}
+      ]
+    },
+    {"name": "Ammo_EquipVoice", "type": "ptr", "value": null},
+    {"name": "AmmoHitSe", "type": "ptr", "value": null},
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    },
+    {
+      "name": "resource",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "app:/WEAPON/s_grenade_mg10.rab"},
+        {
+          "type": "str",
+          "value": "app:/weapon/effect/ranger_poison_grenade.efarc"
+        }
+      ]
+    }
+  ],
+  "meta": {"id": null}
+}

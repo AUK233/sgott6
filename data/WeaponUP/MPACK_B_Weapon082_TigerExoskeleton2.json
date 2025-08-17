@@ -1,0 +1,503 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {
+      "name": "xgs_scene_object_class",
+      "type": "str",
+      "value": "Weapon_Accessory"
+    },
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 10},
+                {"type": "double", "value": 0.5}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 500},
+                {"type": "double", "value": 2}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 7},
+                {"type": "double", "value": 0}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 2},
+                {"type": "double", "value": 0}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 14},
+                {"type": "double", "value": 1}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 301},
+                {"type": "double", "value": 0.3499999940395355}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 305},
+                {"type": "double", "value": 1.7999999523162842}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 5}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "タイガー・スケルトン２"},
+    {"name": "name.en", "type": "str", "value": "Tiger Exoskeleton 2"},
+    {"name": "name.cn", "type": "str", "value": "猛虎裝甲２"},
+    {"name": "name.kr", "type": "str", "value": "타이거 스켈레톤 2"},
+    {"name": "name.sc", "type": "str", "value": "猛虎装甲２"},
+    {"name": "WeaponIcon", "type": "str", "value": "app:/weapon/icon/none"},
+    {"name": "BaseAnimation", "type": "str", "value": "none"},
+    {"name": "AimAnimation", "type": "str", "value": ""},
+    {"name": "ChangeAnimation", "type": "str", "value": ""},
+    {"name": "ReloadAnimation", "type": "str", "value": ""},
+    {"name": "AmmoCount", "type": "double", "value": 0},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 0},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {"name": "ReloadTime", "type": "double", "value": -1},
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}, {"type": "double", "value": 0}]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 1},
+    {"name": "FireBurstCount", "type": "double", "value": 0},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {"name": "FireVector", "type": "ptr", "value": null},
+    {"name": "FireSe", "type": "ptr", "value": null},
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": ""},
+    {"name": "AmmoModel", "type": "double", "value": 0},
+    {"name": "AmmoSpeed", "type": "double", "value": 0},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 0},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 0},
+    {"name": "AmmoAlive", "type": "double", "value": 0},
+    {"name": "AmmoDamage", "type": "double", "value": 0},
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 0},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 1},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {"name": "Ammo_CustomParameter", "type": "ptr", "value": null},
+    {"name": "Ammo_EquipVoice", "type": "ptr", "value": null},
+    {"name": "AmmoHitSe", "type": "ptr", "value": null},
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    }
+  ],
+  "meta": {
+    "id": "MPACK_B_Weapon082",
+    "level": 114.99999761581421,
+    "category": 209,
+    "unlockState": 0,
+    "dropRateModifier": 3,
+    "StarRating": null,
+    "nonRequest": 1,
+    "DLCWeapon": 2,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "行走速度"},
+              {"type": "str", "value": "200%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "装备重量对旋转惯性的影响"},
+              {"type": "str", "value": "50%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "后仰减少率"},
+              {"type": "str", "value": "100%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "中弹时移动速度下降"},
+              {"type": "str", "value": "0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "受到冲极波而倒地"},
+              {"type": "str", "value": "无"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "横向喷射速度"},
+              {"type": "str", "value": "180%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "冲刺间隔"},
+              {"type": "str", "value": "70%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "道具取得范围"},
+              {"type": "str", "value": "+400%"}
+            ]
+          }
+        ],
+        "Text": "新型的近身战用装甲。耐爆性能高，不会因爆炸冲击倒地。\n移动速度非常快。装备跳跃喷射器时会强化横向的喷射跳跃。装备辅助推进器时会缩短推进冲刺的再次使用间隔。\n道具的回收范围也很大。"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "行走速度"},
+              {"type": "str", "value": "200%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "裝備重量對旋轉慣性的影響"},
+              {"type": "str", "value": "50%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "後仰減少率"},
+              {"type": "str", "value": "100%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "中彈時移動速度下降"},
+              {"type": "str", "value": "0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "受到衝極波而倒地"},
+              {"type": "str", "value": "無"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "橫向噴射速度"},
+              {"type": "str", "value": "180%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "衝刺間隔"},
+              {"type": "str", "value": "70%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "道具取得範圍"},
+              {"type": "str", "value": "+400%"}
+            ]
+          }
+        ],
+        "Text": "新型的近身戰用裝甲。耐爆性能高，不會因爆炸衝擊倒地。\n移動速度非常快。裝備跳躍噴射器時會強化橫向的噴射跳躍。裝備輔助推進器時會縮短推進衝刺的再次使用間隔。\n道具的回收範圍也很大。"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Walking Speed"},
+              {"type": "str", "value": "200%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {
+                "type": "str",
+                "value": "Eqpt Weight Impact on Rotational Inertia"
+              },
+              {"type": "str", "value": "50%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Knock-Back Reduction Rate"},
+              {"type": "str", "value": "100%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Speed reduction when being hit"},
+              {"type": "str", "value": "0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Knocked down by blast wave"},
+              {"type": "str", "value": "No"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Horizontal Boost Speed"},
+              {"type": "str", "value": "180%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Dash Interval"},
+              {"type": "str", "value": "70%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Item acquisition range"},
+              {"type": "str", "value": "+400%"}
+            ]
+          }
+        ],
+        "Text": "New powered exoskeleton designed for close combat that is highly stabilized and won't get knocked over by explosions. Features a very fast walking speed and enhanced lateral boost jumps when equipped with jump boosters. When equipped with side thrusters, thruster dash reuse intervals are shorter.\nAlso has a wider range of item recovery."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "歩行速度"},
+              {"type": "str", "value": "200%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "装備重量の旋回慣性影響"},
+              {"type": "str", "value": "50%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ノックバックカット率"},
+              {"type": "str", "value": "100%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "被弾時速度低下"},
+              {"type": "str", "value": "0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "爆風によるダウン"},
+              {"type": "str", "value": "無"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "横方向のブースト速度"},
+              {"type": "str", "value": "180%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ダッシュ間隔"},
+              {"type": "str", "value": "70%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "アイテム取得範囲"},
+              {"type": "str", "value": "+400%"}
+            ]
+          }
+        ],
+        "Text": "新型の接近戦用スケルトン。耐爆性能が高く、爆風によって転倒しない。\n歩行速度が非常に速い。ジャンプブースター装着時は横方向へのブーストジャンプを強化。サイドスラスター装着時は、スラスターダッシュの再使用間隔を短縮する。\nアイテムの回収範囲も広い。"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "보행 속도"},
+              {"type": "str", "value": "200%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "장비 중량의 선회 관성 영향"},
+              {"type": "str", "value": "50%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "넉백 차단율"},
+              {"type": "str", "value": "100%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "피격 시 속도 저하"},
+              {"type": "str", "value": "0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "폭발 충격으로 인한 다운"},
+              {"type": "str", "value": "무"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "가로 방향 부스트 속도"},
+              {"type": "str", "value": "180%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "대시 간격"},
+              {"type": "str", "value": "70%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "아이템 획득 범위"},
+              {"type": "str", "value": "+400%"}
+            ]
+          }
+        ],
+        "Text": "접근전용 신형 스켈레톤. 내폭 성능이 뛰어나, 폭발 충격에 넘어지지 않는다.\n보행 속도가 몹시 빠르다. 점프 부스터를 장착하면 가로 방향으로 부스트 점프가 강화된다. 사이드 스러스터를 장착하면 스러스터 대시의 재사용 간격이 단축된다.\n아이템 회수 범위도 넓다."
+      }
+    }
+  }
+}

@@ -1,0 +1,668 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {
+      "name": "xgs_scene_object_class",
+      "type": "str",
+      "value": "Weapon_RadioContact"
+    },
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "common_call_loop"},
+        {"type": "str", "value": "common_call_end"}
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 0},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "高速爆撃機ＫＭ６Ｆ２"},
+    {"name": "name.en", "type": "str", "value": "High-Speed Bomber KM6 F2"},
+    {"name": "name.cn", "type": "str", "value": "高速爆擊機ＫＭ６Ｆ２"},
+    {"name": "name.kr", "type": "str", "value": "고속 폭격기 KM6 F2"},
+    {"name": "name.sc", "type": "str", "value": "高速爆击机ＫＭ６Ｆ２"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/transceiver.dds"
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/e_throw_transceiver.rab"},
+            {"type": "str", "value": "e_throw_transceiver.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/e_throw_transceiver.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300020002004800240000005c00000080000000c0000000000001001800000001000000300000000200000028000000840000008a00000002000000440000005400000044000000000000006400000020000000200000009c0000000000000010000000100000008200000000000000babababa0000000000000000000000000000803f0000a0400000a0400000a0400000803f53474f000201000000000000200000000000000020000000000000002000000030003100000065005f007400680072006f0077005f007400720061006e0073006300650069007600650072000000680069006400650000007300740061006e006400620079000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms_r"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "throw"},
+    {"name": "AimAnimation", "type": "str", "value": "aim_no_ik"},
+    {"name": "ChangeAnimation", "type": "str", "value": "throw_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "throw_reload1"},
+    {"name": "AmmoCount", "type": "double", "value": 1},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 2},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {
+      "name": "ReloadTime",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 800},
+        {"type": "double", "value": 21},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 10},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 120},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {
+      "name": "FireVector",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1.100000023841858}
+      ]
+    },
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Engineer_Kuubaku_throw"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": ""},
+    {
+      "name": "AmmoModel",
+      "type": "str",
+      "value": "app:/WEAPON/e_throw_marker04.rab"
+    },
+    {"name": "AmmoSpeed", "type": "double", "value": 1.2000000476837158},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 1},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 1},
+    {"name": "AmmoAlive", "type": "double", "value": 1800},
+    {
+      "name": "AmmoDamage",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 900},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 10},
+        {"type": "double", "value": 0.800000011920929},
+        {"type": "double", "value": 0.699999988079071},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 8},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 1},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.5}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 30},
+        {"type": "double", "value": 1},
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/object/Bomber501_2.sgo"},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 30},
+            {"type": "double", "value": 150},
+            {"type": "double", "value": 6},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 200},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 1},
+            {
+              "type": "ptr",
+              "value": [{"type": "double", "value": 0.4000000059604645}]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 0},
+                    {"type": "double", "value": 0}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 0},
+                    {"type": "double", "value": 0}
+                  ]
+                },
+                {"type": "double", "value": 150},
+                {"type": "double", "value": 0},
+                {"type": "str", "value": "SolidBullet01"},
+                {"type": "double", "value": 8},
+                {"type": "double", "value": 0},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 0},
+                {"type": "double", "value": 600},
+                {"type": "double", "value": 1},
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 0.20000000298023224},
+                    {"type": "double", "value": 0.20000000298023224},
+                    {"type": "double", "value": 3},
+                    {"type": "double", "value": 1}
+                  ]
+                },
+                {"type": "ptr", "value": [{"type": "double", "value": 0}]},
+                {"type": "double", "value": 0},
+                {"type": "double", "value": 0},
+                {"type": "double", "value": 0},
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 0},
+                    {
+                      "type": "str",
+                      "value": "weapon_KUBAKU_bakugekiPanzer_shot"
+                    },
+                    {"type": "double", "value": 0.5},
+                    {"type": "double", "value": 1},
+                    {"type": "double", "value": 20},
+                    {"type": "double", "value": 500}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 0},
+                    {
+                      "type": "str",
+                      "value": "common_damages_kuubaku_whalePanzer20"
+                    },
+                    {"type": "double", "value": 1},
+                    {"type": "double", "value": 1},
+                    {"type": "double", "value": 3},
+                    {"type": "double", "value": 100}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "カロン目標確認"},
+            {"type": "str", "value": "カロン発射機銃掃射"},
+            {"type": "str", "value": "カロン機銃掃射後"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ammo_EquipVoice",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "カロン出撃直後"},
+        {"type": "str", "value": "カロン支援不能"}
+      ]
+    },
+    {
+      "name": "AmmoHitSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "common_damages_explodeFrechette_M"},
+        {"type": "double", "value": 0.8913000226020813},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 200}
+      ]
+    },
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    },
+    {
+      "name": "resource",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "app:/WEAPON/e_throw_marker04.rab"},
+        {"type": "str", "value": "app:/object/Bomber501_2.sgo"}
+      ]
+    }
+  ],
+  "meta": {
+    "id": "eWeapon068",
+    "level": 50.49999952316284,
+    "category": 312,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [
+      {"type": "double", "value": 10},
+      {"type": "double", "value": 10}
+    ],
+    "nonRequest": 0,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "伤害"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 900},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 0.699999988079071},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "命中误差"},
+              {"type": "str", "value": "半径8.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "装填"},
+              {"type": "str", "value": "$0pt"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 800},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.30000001192092896},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "发射数"},
+              {"type": "str", "value": "150×1艘"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "爆炸范围"},
+              {"type": "str", "value": "----"}
+            ]
+          }
+        ],
+        "Text": "向高速爆击机请求机枪扫射的通讯器。\n会低空朝指示区域进行机枪扫射。\n虽然高速爆击机只有１架，但可用机枪持续朝远距离扫射，请求所需的功绩也不高。\n\n在按住攻击时，使用[[leftstick]]（移动键）与[[rightstick]]（鼠标操作）移动红色的空袭区域。放开攻击即确定空袭区域，开始进行攻击。\n\n需要在战场上取得一定的功绩（击破多数敌人）才能再次请求进行攻击。（伙伴的击破数也算入功绩）"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "傷害"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 900},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 0.699999988079071},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "命中誤差"},
+              {"type": "str", "value": "半徑8.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "裝填"},
+              {"type": "str", "value": "$0pt"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 800},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.30000001192092896},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "發射數"},
+              {"type": "str", "value": "150×1架"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "爆炸範圍"},
+              {"type": "str", "value": "----"}
+            ]
+          }
+        ],
+        "Text": "向高速爆擊機請求機鎗掃射的通訊器。\n會低空朝指示區域進行機鎗掃射。\n雖然高速爆擊機只有１架，但可用機鎗持續朝遠距離掃射，請求所需的功績也不高。\n\n在按住攻擊時，使用[[leftstick]]（移動鍵）與[[rightstick]]（滑鼠操作）移動紅色的空襲區域。放開攻擊即確定空襲區域，開始進行攻擊。\n\n需要在戰場上取得一定的功績（擊破多數敵人）才能再次請求進行攻擊。（夥伴的擊破數也算入功績）"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Damage"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 900},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 0.699999988079071},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Hit Error"},
+              {"type": "str", "value": "Radius 8.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Reload"},
+              {"type": "str", "value": "$0pt"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 800},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.30000001192092896},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Shots"},
+              {"type": "str", "value": "150×1 Units"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Blast Area"},
+              {"type": "str", "value": "----"}
+            ]
+          }
+        ],
+        "Text": "Use this communication system to request a strafe attack from a high-speed bomber.\nIt will come in to launch a low strafing run upon the target area.\nOnly one high-speed bomber, that will continuously fire its machineguns from a long distance, will show up upon request, but you also need less credit to request this.\n\nWhile holding down the attack button, use the [[leftstick]] (movement keys) and [[rightstick]] (mouse control) to move around the bombing area indicated in red. The bombing area is determined when the attack button is released. The attack is initiated.\n\nTo request another attack, certain achievements (many enemies destroyed) are required on the battlefield. Achievements include defeats by comrades."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ダメージ"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 900},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 0.699999988079071},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "着弾誤差"},
+              {"type": "str", "value": "半径8.0ｍ"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "リロード"},
+              {"type": "str", "value": "$0pt"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 800},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.30000001192092896},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "発射数"},
+              {"type": "str", "value": "150×1機"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "爆破範囲"},
+              {"type": "str", "value": "----"}
+            ]
+          }
+        ],
+        "Text": "高速爆撃機に機銃掃射を要請するための通信機。\n指示したエリアに、低空からの機銃掃射がおこなわれる。\n高速爆撃機は１機のみであるが、遠距離まで機銃掃射を続ける。要請に必要な功績も少ない。\n\n攻撃ボタンを押しながら、[[leftstick]]（移動キー）と[[rightstick]]（マウス操作）で赤く表示された空爆エリアを動かす。攻撃ボタンを放すと、空爆エリアを決定。攻撃が開始される。\n\n攻撃を再度要請するためには、戦場で一定の功績（多数の敵を撃破する）が必要である。（功績は仲間による撃破も含まれる）"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "대미지"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 900},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.800000011920929},
+                  {"type": "double", "value": 0.699999988079071},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "착탄 오차"},
+              {"type": "str", "value": "반경 8.0m"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "재장전"},
+              {"type": "str", "value": "$0pt"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 800},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.30000001192092896},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "발사 수"},
+              {"type": "str", "value": "150×1기"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "폭파 범위"},
+              {"type": "str", "value": "----"}
+            ]
+          }
+        ],
+        "Text": "고속 폭격기에 기총 소사를 요청하기 위한 통신기.\n지시한 구역에 저공 비행으로 기총 소사를 한다.\n고속 폭격기는 1대뿐이지만 기총 소사 범위가 넓고 요청에 필요한 공적도 적다.\n\n공격 버튼을 누른 상태에서 [[leftstick]](이동 키)과 [[rightstick]](마우스 조작)을 조작하면 빨갛게 표시된 공습 구역을 움직일 수 있다. 공격 버튼에서 손을 떼면 공습 구역이 결정되고 공격이 시작된다.\n\n재포격을 요청하려면 전쟁터에서 어느 정도 공적(많은 적을 격파)을 쌓아야 한다.(동료가 격파한 적도 공적에 포함된다)"
+      }
+    }
+  }
+}

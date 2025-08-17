@@ -1,0 +1,538 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {"name": "xgs_scene_object_class", "type": "str", "value": "Weapon_Sub"},
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {"name": "animation", "type": "str", "value": "vehicle_call"},
+        {"name": "whole_body", "type": "double", "value": 1},
+        {"name": "animation_speed", "type": "double", "value": 1}
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 0},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "コンバットフレーム ニクスＢ"},
+    {"name": "name.en", "type": "str", "value": "Powered Exoskeleton Nix B"},
+    {"name": "name.cn", "type": "str", "value": "戰鬥機體 尼克斯Ｂ"},
+    {"name": "name.kr", "type": "str", "value": "컴배트 프레임 닉스 B"},
+    {"name": "name.sc", "type": "str", "value": "战斗机体 尼克斯Ｂ"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/robo01.dds"
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/e_throw_marker02.rab"},
+            {"type": "str", "value": "e_throw_marker02.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/e_throw_marker01.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300020002002a00240000005c00000080000000c0000000000001001800000001000000300000000200000028000000840000008a00000002000000440000005400000044000000000000006400000020000000200000007e0000000000000010000000100000006400000000000000babababa0000000000000000000000000000803f0000a0400000a0400000a0400000803f53474f000201000000000000200000000000000020000000000000002000000030003100000062006f00640079000000680069006400650000007300740061006e006400620079000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms_r"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "throw"},
+    {"name": "AimAnimation", "type": "str", "value": "aim_no_ik"},
+    {"name": "ChangeAnimation", "type": "str", "value": "throw_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "throw_reload1"},
+    {"name": "AmmoCount", "type": "double", "value": 1},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 2},
+    {"name": "ReloadInit", "type": "double", "value": 0},
+    {
+      "name": "ReloadTime",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 7000},
+        {"type": "double", "value": 21},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 120},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {
+      "name": "FireVector",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.25},
+        {"type": "double", "value": 1.100000023841858}
+      ]
+    },
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Engineer_Vehicle_throw"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": "SmokeCandleBullet01"},
+    {
+      "name": "AmmoModel",
+      "type": "str",
+      "value": "app:/WEAPON/e_throw_marker02.rab"
+    },
+    {"name": "AmmoSpeed", "type": "double", "value": 0.4000000059604645},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 1},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 1},
+    {"name": "AmmoAlive", "type": "double", "value": 1800},
+    {"name": "AmmoDamage", "type": "double", "value": 1200},
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 40},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 1},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.5}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.05000000074505806},
+        {"type": "double", "value": 180},
+        {"type": "double", "value": 120},
+        {"type": "double", "value": 1},
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Object/v508_transport.sgo"},
+            {"type": "str", "value": "app:/object/v509_transportbox.sgo"},
+            {"type": "str", "value": "app:/Object/v504_begaruta_blue.sgo"},
+            {
+              "type": "ptr",
+              "value": [
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 1.5499999523162842},
+                    {"type": "double", "value": 1.2000000476837158}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 5.5},
+                    {"type": "double", "value": 0.004999999888241291},
+                    {"type": "double", "value": 20},
+                    {"type": "double", "value": 0.05999999865889549}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 20},
+                    {"type": "double", "value": 1.5},
+                    {"type": "double", "value": 45},
+                    {"type": "double", "value": 240},
+                    {"type": "double", "value": 0.2800000011920929},
+                    {"type": "double", "value": 50}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {"type": "double", "value": 20},
+                        {"type": "double", "value": 0.05000000074505806},
+                        {"type": "double", "value": 0.10000000149011612}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "ptr", "value": [{"type": "double", "value": 0}]},
+                    {"type": "ptr", "value": [{"type": "double", "value": 0}]},
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_504begaruta_gatling01_r.sgo"
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 0},
+                            {"type": "double", "value": 0}
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_504begaruta_gatling01_l.sgo"
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 0},
+                            {"type": "double", "value": 0}
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_504begaruta_missile01_r.sgo"
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 0},
+                            {"type": "double", "value": 0}
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ptr",
+                      "value": [
+                        {
+                          "type": "str",
+                          "value": "app:/weapon/v_504begaruta_missile01_l.sgo"
+                        },
+                        {
+                          "type": "ptr",
+                          "value": [
+                            {"type": "double", "value": 0},
+                            {"type": "double", "value": 0}
+                          ]
+                        }
+                      ]
+                    },
+                    {"type": "ptr", "value": [{"type": "double", "value": 0}]},
+                    {"type": "ptr", "value": [{"type": "double", "value": 0}]}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 0.019999999552965164},
+                    {"type": "double", "value": 0.10000000149011612}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "輸送部隊目標確認"},
+            {"type": "str", "value": "輸送部隊発射"},
+            {"type": "str", "value": "輸送部隊攻撃後"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ammo_EquipVoice",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "輸送部隊出撃直後"},
+        {"type": "str", "value": "輸送部隊支援不能"}
+      ]
+    },
+    {
+      "name": "AmmoHitSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Engineer_Vehicle_smoke"},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    },
+    {
+      "name": "resource",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "app:/WEAPON/e_throw_marker02.rab"},
+        {"type": "str", "value": "app:/Object/v508_transport.sgo"},
+        {"type": "str", "value": "app:/object/v509_transportbox.sgo"},
+        {"type": "str", "value": "app:/Object/v504_begaruta_blue.sgo"},
+        {"type": "str", "value": "app:/weapon/v_504begaruta_gatling01_r.sgo"},
+        {"type": "str", "value": "app:/weapon/v_504begaruta_gatling01_l.sgo"},
+        {"type": "str", "value": "app:/weapon/v_504begaruta_missile01_r.sgo"},
+        {"type": "str", "value": "app:/weapon/v_504begaruta_missile01_l.sgo"}
+      ]
+    }
+  ],
+  "meta": {
+    "id": "eWeapon360",
+    "level": 16.249999403953552,
+    "category": 309,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [{"type": "double", "value": 8}],
+    "nonRequest": 0,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "请求"},
+              {"type": "str", "value": "$0pt（起始值0％)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 7000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐用度"},
+              {"type": "str", "value": "1860"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操纵席：</font>驾驶\n转轮式加农炮（右） <font color=%dq%#00ffff%dq%>（弹数：600  伤害：28.8  射程：320.0m）</font>\n转轮式加农炮（左） <font color=%dq%#00ffff%dq%>（弹数：600  伤害：28.8  射程：320.0m）</font>\n飞弹发射架（右） <font color=%dq%#00ffff%dq%>（弹数：40  伤害：96.0 爆炸范围：半径8.0m）</font>\n飞弹发射架（左） <font color=%dq%#00ffff%dq%>（弹数：40  伤害：96.0 爆炸范围：半径8.0m）</font>\n\n搭乘者１名。\n战斗机体尼克斯的普及量产型。装甲比Ａ型来得厚，武装也更为强化。\n\n两臂装有特别为战斗机体开发的转轮式加农炮。能在近、中距离发挥强大的威力。\n两肩搭载飞弹发射架。飞弹会自动锁定在瞄准器（红框）内的敌人。\n\n因同时装备强大的转轮式加农炮与具有导引性能的飞弹，所以可应对各种局面。是足以进行量产的优秀机体，ＥＤＦ持有的战斗机体有九成都是Ｂ型。\n\n跳跃后，持续按住跳跃键，可继续喷射推进器。甚至能进行短时间的飞行。\n\n需要在战场上取得一定的功绩（击破多数敌人）才能请求投落。（伙伴的击破数也能列入功绩计算）"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "請求"},
+              {"type": "str", "value": "$0pt（起始值0％)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 7000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐用度"},
+              {"type": "str", "value": "1860"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操縱席：</font>駕駛\n轉輪式加農砲（右） <font color=%dq%#00ffff%dq%>（彈數：600  傷害：28.8  射程：320.0m）</font>\n轉輪式加農砲（左） <font color=%dq%#00ffff%dq%>（彈數：600  傷害：28.8  射程：320.0m）</font>\n飛彈發射架（右） <font color=%dq%#00ffff%dq%>（彈數：40  傷害：96.0 爆炸範圍：半徑8.0m）</font>\n飛彈發射架（左） <font color=%dq%#00ffff%dq%>（彈數：40  傷害：96.0 爆炸範圍：半徑8.0m）</font>\n\n搭乘者１名。\n戰鬥機體尼克斯的普及量產型。裝甲比Ａ型來得厚，武裝也更為強化。\n\n兩臂裝有特別為戰鬥機體開發的轉輪式加農砲。能在近、中距離發揮強大的威力。\n兩肩搭載飛彈發射架。飛彈會自動鎖定在瞄準器（紅框）內的敵人。\n\n因同時裝備強大的轉輪式加農砲與具有導引性能的飛彈，所以可應對各種局面。是足以進行量產的優秀機體，ＥＤＦ持有的戰鬥機體有九成都是Ｂ型。\n\n跳躍後，持續按住跳躍按鈕，可繼續噴射推進器。甚至能進行短時間的飛行。\n\n需要在戰場上取得一定的功績（擊破多數敵人）才能請求投落。（夥伴的擊破數也能列入功績計算）"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Re-request"},
+              {"type": "str", "value": "$0pt(Default 0 %)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 7000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Durability"},
+              {"type": "str", "value": "1860"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>Pilot Seat:</font> Driver\nRevolver Cannon (Right) <font color=%dq%#00ffff%dq%>(Shots:600 Damage:28.8 Range:320.0m)</font>\nRevolver Cannon (Left) <font color=%dq%#00ffff%dq%>(Shots:600 Damage:28.8 Range:320.0m)</font>\nMissile Pod (Right) <font color=%dq%#00ffff%dq%>(Shots:40 Damage:96.0 Blast Range:Radius 8.0m)</font>\nMissile Pod (Left) <font color=%dq%#00ffff%dq%>(Shots:40 Damage:96.0 Blast Range:Radius 8.0m)</font>\n\n1 person.\nA mass produced, general-purpose model of the Powered Exoskeleton Nix. It has thicker armor than the A model, and its firepower is also enhanced.\n\nHas customized Powered Exoskeleton Revolver Cannons on both arms. Making it especially deadly at mid and long range. \nBoth shoulders are armed with missile pods. The missiles can automatically lock-on enemy within the sights (red square).\n\nThis mass-produced yet effective model can handle most situations with its powerful Revolver Cannons and homing missiles. 90% of the EDF's Powered Exoskeletons are model B.\n\nAfter jumping, keep holding the jump button to continue activating jet thruster. It is even possible to fly for a short period of time.\n\nIn order to re-request this, you need to achieve a certain number of credits during the mission by defeating enemies. Your allies' kills will also help you earn credits."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "要請"},
+              {"type": "str", "value": "$0pt (初期値 0％)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 7000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐久度"},
+              {"type": "str", "value": "1860"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操縦席：</font>運転\nリボルバーカノン(右) <font color=%dq%#00ffff%dq%>（弾数：600  ダメージ：28.8  射程：320.0ｍ）</font>\nリボルバーカノン(左) <font color=%dq%#00ffff%dq%>（弾数：600  ダメージ：28.8  射程：320.0ｍ）</font>\nミサイルポッド（右） <font color=%dq%#00ffff%dq%>（弾数：40  ダメージ：96.0 爆破範囲：半径8.0ｍ）</font>\nミサイルポッド（左） <font color=%dq%#00ffff%dq%>（弾数：40  ダメージ：96.0 爆破範囲：半径8.0ｍ）</font>\n\n搭乗員１名。\nコンバットフレーム·ニクスの普及量産型。Ａ型に比べ、装甲が厚く、武装も強化されている。\n\n両腕には、コンバットフレームのために開発されたリボルバーカノンを内蔵。近、中距離では凄まじい威力を発揮する。\n両肩にはミサイルポッドを搭載。ミサイルは、サイト（赤い四角）内の敵を自動的にロックオンする。\n\n強力なリボルバーカノンと誘導性能のあるミサイルを同時に装備したことで、多彩な局面に対応可能となった。優秀な機体として量産が進められており、ＥＤＦが所持するコンバットフレームの９割がこのＢ型である。\n\nジャンプ後、ジャンプボタンを押し続けることによってスラスターを噴射。短時間なら飛行が可能である。\n\n投下を要請するためには、戦場で一定の功績（多数の敵を撃破）が必要である。（功績は仲間による撃破も含まれる）"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "요청"},
+              {"type": "str", "value": "$0pt(초기 값0%)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 7000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "내구도"},
+              {"type": "str", "value": "1860"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>조종석:</font> 운전\n리볼버 캐넌(우)<font color=%dq%#00ffff%dq%>(장탄 수: 600  대미지: 28.8  사거리: 320.0m )</font>\n리볼버 캐넌(좌)<font color=%dq%#00ffff%dq%>(장탄 수: 600  대미지: 28.8  사거리: 320.0m )</font>\n미사일 포드(우)<font color=%dq%#00ffff%dq%>(장탄 수: 40  대미지: 96.0  폭파 범위: 반경 8.0m )</font>\n미사일 포드(좌)<font color=%dq%#00ffff%dq%>(장탄 수: 40  대미지: 96.0  폭파 범위: 반경 8.0m )</font>\n\n탑승 인원 1명.\n컴배트 프레임 닉스의 보급 양산형. A형에 비해 장갑이 두껍고 무장도 강화됐다.\n\n양팔에는 컴배트 프레임용으로 개발된 리볼버 캐넌이 내장되어 있어 근거리, 중거리에서 강력한 위력을 발휘한다.\n양쪽 어깨에는 미사일 포드가 탑재되어 있다. 미사일은 사이트(빨간 사각형) 안의 적을 자동으로 조준한다.\n\n강력한 리볼버 캐넌과 유도 미사일을 동시에 장착함으로써 다양한 상황에 대응할 수 있게 됐다. 우수한 성능 덕분에 양산이 추진되어, EDF가 보유한 컴배트 프레임 중 B형이 90%에 달한다.\n\n점프 후, 점프 버튼을 길게 누르면 스러스터를 분사해 짧게나마 비행할 수 있다.\n\n투하를 요청하려면 전쟁터에서 어느 정도 공적(많은 적을 격파)을 쌓아야 한다. (동료가 격파한 적도 공적에 포함된다)"
+      }
+    }
+  }
+}

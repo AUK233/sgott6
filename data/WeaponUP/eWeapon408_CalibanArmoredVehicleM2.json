@@ -1,0 +1,449 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {"name": "xgs_scene_object_class", "type": "str", "value": "Weapon_Sub"},
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {"name": "animation", "type": "str", "value": "vehicle_call"},
+        {"name": "whole_body", "type": "double", "value": 1},
+        {"name": "animation_speed", "type": "double", "value": 1}
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 0},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "キャリバン装甲救護車両Ｍ２"},
+    {"name": "name.en", "type": "str", "value": "Caliban Armored Vehicle M2"},
+    {"name": "name.cn", "type": "str", "value": "卡利邦裝甲救護車Ｍ２"},
+    {"name": "name.kr", "type": "str", "value": "캘리번 장갑 구호 차량 M2"},
+    {"name": "name.sc", "type": "str", "value": "卡利邦装甲救护车Ｍ２"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/car03.dds"
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/e_throw_marker01.rab"},
+            {"type": "str", "value": "e_throw_marker01.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/e_throw_marker01.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300020002002a00240000005c00000080000000c0000000000001001800000001000000300000000200000028000000840000008a00000002000000440000005400000044000000000000006400000020000000200000007e0000000000000010000000100000006400000000000000babababa0000000000000000000000000000803f0000a0400000a0400000a0400000803f53474f000201000000000000200000000000000020000000000000002000000030003100000062006f00640079000000680069006400650000007300740061006e006400620079000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms_r"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "throw"},
+    {"name": "AimAnimation", "type": "str", "value": "aim_no_ik"},
+    {"name": "ChangeAnimation", "type": "str", "value": "throw_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "throw_reload1"},
+    {"name": "AmmoCount", "type": "double", "value": 1},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 2},
+    {"name": "ReloadInit", "type": "double", "value": 0.5},
+    {
+      "name": "ReloadTime",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 10000},
+        {"type": "double", "value": 21},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 8},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 120},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {
+      "name": "FireVector",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.25},
+        {"type": "double", "value": 1.100000023841858}
+      ]
+    },
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Engineer_Vehicle_throw"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 2},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": "SmokeCandleBullet01"},
+    {
+      "name": "AmmoModel",
+      "type": "str",
+      "value": "app:/WEAPON/e_throw_marker01.rab"
+    },
+    {"name": "AmmoSpeed", "type": "double", "value": 0.4000000059604645},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 1},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 1},
+    {"name": "AmmoAlive", "type": "double", "value": 1800},
+    {"name": "AmmoDamage", "type": "double", "value": 1500},
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 40},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 1},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.5}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.05000000074505806},
+        {"type": "double", "value": 180},
+        {"type": "double", "value": 120},
+        {"type": "double", "value": 1},
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Object/v508_transport.sgo"},
+            {"type": "str", "value": "app:/object/v509_transportbox.sgo"},
+            {"type": "str", "value": "app:/Object/v507_rescuetank.sgo"},
+            {
+              "type": "ptr",
+              "value": [
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 4.800000190734863},
+                    {"type": "double", "value": 4.800000190734863}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 0.10000000149011612},
+                    {"type": "double", "value": 10},
+                    {"type": "double", "value": 0.06499999761581421},
+                    {"type": "double", "value": 1.2000000476837158},
+                    {"type": "double", "value": 0.08500000089406967},
+                    {"type": "double", "value": 0.125}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 2},
+                    {"type": "double", "value": 6000}
+                  ]
+                },
+                {
+                  "type": "ptr",
+                  "value": [
+                    {
+                      "type": "str",
+                      "value": "app:/weapon/v_507_RescueUnit01.sgo"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "輸送部隊目標確認"},
+            {"type": "str", "value": "輸送部隊発射"},
+            {"type": "str", "value": "輸送部隊攻撃後"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ammo_EquipVoice",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "輸送部隊出撃直後"},
+        {"type": "str", "value": "輸送部隊支援不能"}
+      ]
+    },
+    {
+      "name": "AmmoHitSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Engineer_Vehicle_smoke"},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    },
+    {
+      "name": "resource",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "app:/WEAPON/e_throw_marker01.rab"},
+        {"type": "str", "value": "app:/Object/v508_transport.sgo"},
+        {"type": "str", "value": "app:/object/v509_transportbox.sgo"},
+        {"type": "str", "value": "app:/Object/v507_rescuetank.sgo"},
+        {"type": "str", "value": "app:/weapon/v_507_RescueUnit01.sgo"}
+      ]
+    }
+  ],
+  "meta": {
+    "id": "eWeapon408",
+    "level": 39.250001311302185,
+    "category": 307,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [{"type": "double", "value": 8}],
+    "nonRequest": 0,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "请求"},
+              {"type": "str", "value": "$0pt（起始值50％)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐用度"},
+              {"type": "str", "value": "7200"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操纵席：</font>驾驶\n<font color=%dq%#80ff80%dq%>治疗室１：</font>无（治疗） 回复总量:6000.0 回复量:2.0\n<font color=%dq%#80ff80%dq%>治疗室２：</font>无（治疗）\n<font color=%dq%#80ff80%dq%>治疗室３：</font>无（治疗）\n\n搭乘者４名。\n卡利邦装甲救护车的强化型，大幅提升了各式性能。治疗速度与治疗药的承载量都有旧型的两倍以上。移动性能也有提升，能够迅速前往伤患所在地。\n\n用于治疗士兵的救护车。规划运用于枪林弹雨的战场中，因此车体受到厚重的装甲保护。除了可乘坐１名驾驶外，后方治疗室可再让１〜3人搭乘。在治疗室的期间能接受治疗，装甲值会慢慢回复。虽然没有战斗能力，但在战场上可作为据点提供协助。此外，装载的治疗药数量有限。进行治疗后，显示“医疗装置”的数值就会减少，归零后，就无法再进行治疗。\n\n需要在战场上取得一定的功绩（击破多数敌人）才能请求投落。（伙伴的击破数也能列入功绩计算）"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "請求"},
+              {"type": "str", "value": "$0pt（起始值50％)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐用度"},
+              {"type": "str", "value": "7200"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操縱席：</font>駕駛\n<font color=%dq%#80ff80%dq%>治療室１：</font>無（治療） 回復總量:6000.0 回復量:2.0\n<font color=%dq%#80ff80%dq%>治療室２：</font>無（治療）\n<font color=%dq%#80ff80%dq%>治療室３：</font>無（治療）\n\n搭乘者４名。\n卡利邦裝甲救護車的強化型，大幅提升了各式性能。治療速度與治療藥的承載量都有舊型的兩倍以上。移動性能也有提升，能夠迅速前往傷患所在地。\n\n用於治療士兵的救護車。規劃運用於鎗林彈雨的戰場中，因此車體受到厚重的裝甲保護。除了可乘坐１名駕駛外，後方治療室可再讓１〜3人搭乘。在治療室的期間能接受治療，裝甲值會慢慢回復。雖然沒有戰鬥能力，但在戰場上可作為據點提供協助。此外，裝載的治療藥數量有限。進行治療後，顯示「醫療裝置」的數值就會減少，歸零後，就無法再進行治療。\n\n需要在戰場上取得一定的功績（擊破多數敵人）才能請求投落。（夥伴的擊破數也能列入功績計算）"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Re-request"},
+              {"type": "str", "value": "$0pt(Default 50 %)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Durability"},
+              {"type": "str", "value": "7200"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>Pilot Seat:</font> Driver\n<font color=%dq%#80ff80%dq%> Treatment Room 1:</font> None (Treatment) Recovery (Total):6000.0 Recovery:2.0\n<font color=%dq%#80ff80%dq%> Treatment Room 2:</font> None (Treatment)\n<font color=%dq%#80ff80%dq%> Treatment Room 3:</font> None (Treatment)\n\n4 people.\nAn enhanced model of the Caliban Armored Vehicle. It has improved in all aspects. When compared with traditional models, its healing is twice as much and it can carry twice as much medicine. Its movement speed is also faster, meaning that it is capable of getting to casualties quicker. \n\nA support vehicle used for troop recovery. Protected by thick armor to facilitate battlefield use. Aside from the pilot, there are rear compartments for up to three troops. While in these 'treatment rooms,' armor will recover piece by piece as the healing process unfolds. Although it has no combat ability, it can work as a stronghold on the field. The amount of medicine carried on board is limited. As treatment is being carried out, the recovery value of the medicinal equipment on board is displayed. When this value reaches zero, no more healing will be possible. \n\nIn order to re-request this, you need to achieve a certain number of credits during the mission by defeating enemies. Your allies' kills will also help you earn credits."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "要請"},
+              {"type": "str", "value": "$0pt (初期値 50％)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐久度"},
+              {"type": "str", "value": "7200"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>操縦席：</font>運転\n<font color=%dq%#80ff80%dq%>治療室１：</font>なし（治療） 回復総量:6000.0 回復量:2.0\n<font color=%dq%#80ff80%dq%>治療室２：</font>なし（治療）\n<font color=%dq%#80ff80%dq%>治療室３：</font>なし（治療）\n\n搭乗員４名。\nキャリバン装甲救護車両の強化型。あらゆる性能が大きく向上。従来型に比べ、倍以上の治療速度、治療薬の積載量を持っている。さらに走行速度も向上。迅速に負傷者のもとへ急行できるようになった。\n\n兵員の治療を目的とした救護車両。砲弾飛び交う戦場での運用を想定しており、車体は厚い装甲に守られている。操縦者１名の他、後部に治療室を持ち、１～３名が搭乗できる。治療室にいる間、治療がおこなわれ、少しずつアーマーが回復。戦闘能力は無いが、戦場での拠点として活躍できる。なお積載している治療薬の量は限られている。治療がおこなわれると「医療装置」と表示された値が減っていき、０になるとそれ以上の治療はできない。\n\n投下を要請するためには、戦場で一定の功績（多数の敵を撃破）が必要である。（功績は仲間による撃破も含まれる）"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "요청"},
+              {"type": "str", "value": "$0pt(초기 값50%)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 10000},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 8},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "내구도"},
+              {"type": "str", "value": "7200"}
+            ]
+          }
+        ],
+        "Text": "<font color=%dq%#80ff80%dq%>조종석:</font> 운전\n<font color=%dq%#80ff80%dq%>치료실 1:</font> 없음(치료) 　총 회복량:6000.0 　회복량:2.0\n<font color=%dq%#80ff80%dq%>치료실 2:</font> 없음(치료)\n<font color=%dq%#80ff80%dq%>치료실 3:</font> 없음(치료)\n\n탑승 인원 4명.\n캘리번 장갑 구호 차량의 강화형. 각종 성능이 크게 향상됐다. 기존 모델에 비해 두 배 이상 빠른 치료 속도, 두 배 이상 많은 치료약 적재량을 자랑한다. 주행 속도도 향상되어 부상자가 있는 곳까지 신속하게 출동할 수 있게 됐다.\n\n병사들을 치료하기 위한 구호 차량. 포탄이 쏟아지는 전쟁터에서 운용할 목적으로 만들어졌기 때문에 차체는 두꺼운 장갑으로 덮여 있다. 운전자 1명 외에 차량 뒤쪽 치료실에 1~3명이 탑승할 수 있다. 치료실에 탑승하면 치료가 이뤄지면서 조금씩 아머 내구도가 회복된다. 전투 능력은 없지만 전쟁터에서 거점으로 활용할 수 있다. 또한 치료약 적재량에는 한계가 있어 치료가 진행되면 「의료 장치」 수치가 줄어들며, 0이 되면 더 이상 치료가 불가능하다.\n\n투하를 요청하려면 전쟁터에서 어느 정도 공적(많은 적을 격파)을 쌓아야 한다. (동료가 격파한 적도 공적에 포함된다)"
+      }
+    }
+  }
+}

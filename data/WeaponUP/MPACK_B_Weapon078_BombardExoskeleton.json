@@ -1,0 +1,335 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {
+      "name": "xgs_scene_object_class",
+      "type": "str",
+      "value": "Weapon_Accessory"
+    },
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 10},
+                {"type": "double", "value": 1}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 11},
+                {"type": "double", "value": 1}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 500},
+                {"type": "double", "value": 0.25}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 9},
+                {"type": "double", "value": 0}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "ボンバード・スケルトン"},
+    {"name": "name.en", "type": "str", "value": "Bombard Exoskeleton"},
+    {"name": "name.cn", "type": "str", "value": "轟炸裝甲"},
+    {"name": "name.kr", "type": "str", "value": "밤바드 스켈레톤"},
+    {"name": "name.sc", "type": "str", "value": "轰炸装甲"},
+    {"name": "WeaponIcon", "type": "str", "value": "app:/weapon/icon/none"},
+    {"name": "BaseAnimation", "type": "str", "value": "none"},
+    {"name": "AimAnimation", "type": "str", "value": ""},
+    {"name": "ChangeAnimation", "type": "str", "value": ""},
+    {"name": "ReloadAnimation", "type": "str", "value": ""},
+    {"name": "AmmoCount", "type": "double", "value": 0},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 0},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {"name": "ReloadTime", "type": "double", "value": -1},
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}, {"type": "double", "value": 0}]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 1},
+    {"name": "FireBurstCount", "type": "double", "value": 0},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {"name": "FireVector", "type": "ptr", "value": null},
+    {"name": "FireSe", "type": "ptr", "value": null},
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": ""},
+    {"name": "AmmoModel", "type": "double", "value": 0},
+    {"name": "AmmoSpeed", "type": "double", "value": 0},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 0},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 0},
+    {"name": "AmmoAlive", "type": "double", "value": 0},
+    {"name": "AmmoDamage", "type": "double", "value": 0},
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 0},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 1},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {"name": "Ammo_CustomParameter", "type": "ptr", "value": null},
+    {"name": "Ammo_EquipVoice", "type": "ptr", "value": null},
+    {"name": "AmmoHitSe", "type": "ptr", "value": null},
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    }
+  ],
+  "meta": {
+    "id": "MPACK_B_Weapon078",
+    "level": 106.25,
+    "category": 209,
+    "unlockState": 0,
+    "dropRateModifier": 3,
+    "StarRating": null,
+    "nonRequest": 1,
+    "DLCWeapon": 2,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "装备重量对速度的影响"},
+              {"type": "str", "value": "0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "装备重量对旋转惯性的影响"},
+              {"type": "str", "value": "0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "后座力减轻"},
+              {"type": "str", "value": "100%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "行走速度"},
+              {"type": "str", "value": "25%"}
+            ]
+          }
+        ],
+        "Text": "射击战用的动力装甲。开发目的是稳定射击。\n内部搭载吸收炮击后座力的稳定器。腿部和手部的输出能力优秀，可减轻装备重量的影响。\n但因为是针对炮击时的姿势进行稳定化，因此移动性能较低。"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "裝備重量對速度的影響"},
+              {"type": "str", "value": "0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "裝備重量對旋轉慣性的影響"},
+              {"type": "str", "value": "0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "後座力減輕"},
+              {"type": "str", "value": "100%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "行走速度"},
+              {"type": "str", "value": "25%"}
+            ]
+          }
+        ],
+        "Text": "射擊戰用的動力裝甲。開發目的是穩定射擊。\n內部搭載吸收砲擊後座力的穩定器。腿部和手部的輸出能力優秀，可減輕裝備重量的影響。\n但因為是針對砲擊時的姿勢進行穩定化，因此移動性能較低。"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Eqpt Weight Impact on Speed"},
+              {"type": "str", "value": "0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {
+                "type": "str",
+                "value": "Eqpt Weight Impact on Rotational Inertia"
+              },
+              {"type": "str", "value": "0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Recoil Reduction"},
+              {"type": "str", "value": "100%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Walking Speed"},
+              {"type": "str", "value": "25%"}
+            ]
+          }
+        ],
+        "Text": "New powered exoskeleton designed to improve stability while shooting.\nBuilt-in stabilizers absorb gunfire recoil. It has excellent output in the legs and arms that balances the weight of its equipment.\nHowever, since it is specialized for posture stabilization during gunfire, its mobility is relatively low."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "装備重量の移動影響"},
+              {"type": "str", "value": "0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "装備重量の旋回慣性影響"},
+              {"type": "str", "value": "0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "反動軽減"},
+              {"type": "str", "value": "100%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "歩行速度"},
+              {"type": "str", "value": "25%"}
+            ]
+          }
+        ],
+        "Text": "射撃戦用パワードスケルトン。射撃の安定化を目的として開発された。\n砲撃時の反動を吸収するスタビライザーを内蔵。脚部、腕部の出力に優れ、装備重量の影響を軽減できる。\nただ、砲撃時の姿勢安定化に特化しているため、歩行性能は低い。"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "장비 중량의 이동 영향"},
+              {"type": "str", "value": "0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "장비 중량의 선회 관성 영향"},
+              {"type": "str", "value": "0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "반동 경감"},
+              {"type": "str", "value": "100%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "보행 속도"},
+              {"type": "str", "value": "25%"}
+            ]
+          }
+        ],
+        "Text": "사격전용 파워드 스켈레톤. 안정적으로 사격하기 위해 개발됐다.\n포격 시의 반동을 흡수해 주는 스태빌라이저가 내장되어 있다. 다리와 팔 부분의 출력이 강력해 장비 무게로 인한 영향을 완화해 준다.\n단, 포격 시의 자세 안정에 특화되어 있는 탓에 보행 성능이 낮다."
+      }
+    }
+  }
+}

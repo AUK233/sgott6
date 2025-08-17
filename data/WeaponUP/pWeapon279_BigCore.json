@@ -1,0 +1,596 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {
+      "name": "xgs_scene_object_class",
+      "type": "str",
+      "value": "Weapon_Accessory"
+    },
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 208},
+                {"type": "double", "value": 0.800000011920929}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 209},
+                {"type": "double", "value": 0.6499999761581421}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 204},
+                {"type": "double", "value": 0.5}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 203},
+                {"type": "double", "value": 0.4000000059604645}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 206},
+                {"type": "double", "value": 3}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 200},
+                {
+                  "type": "ptr",
+                  "value": [
+                    {"type": "double", "value": 0.6000000238418579},
+                    {"type": "double", "value": 0.6000000238418579},
+                    {"type": "double", "value": 0.6000000238418579}
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 210},
+                {"type": "double", "value": 4}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "ビッグコア"},
+    {"name": "name.en", "type": "str", "value": "Big Core"},
+    {"name": "name.cn", "type": "str", "value": "巨大核心"},
+    {"name": "name.kr", "type": "str", "value": "빅 코어"},
+    {"name": "name.sc", "type": "str", "value": "巨大核心"},
+    {"name": "WeaponIcon", "type": "str", "value": "app:/weapon/icon/none"},
+    {"name": "BaseAnimation", "type": "str", "value": "none"},
+    {"name": "AimAnimation", "type": "str", "value": ""},
+    {"name": "ChangeAnimation", "type": "str", "value": ""},
+    {"name": "ReloadAnimation", "type": "str", "value": ""},
+    {"name": "AmmoCount", "type": "double", "value": 0},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 748.9983520507812},
+            {"type": "double", "value": 45},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 10},
+            {"type": "double", "value": -0.30000001192092896},
+            {"type": "double", "value": 0.75},
+            {"type": "double", "value": 1}
+          ]
+        },
+        {"type": "double", "value": 300}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 0},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {"name": "ReloadTime", "type": "double", "value": -1},
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}, {"type": "double", "value": 0}]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 1},
+    {"name": "FireBurstCount", "type": "double", "value": 0},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {"name": "FireVector", "type": "ptr", "value": null},
+    {"name": "FireSe", "type": "ptr", "value": null},
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": ""},
+    {"name": "AmmoModel", "type": "double", "value": 0},
+    {"name": "AmmoSpeed", "type": "double", "value": 0},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 0},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 0},
+    {"name": "AmmoAlive", "type": "double", "value": 0},
+    {"name": "AmmoDamage", "type": "double", "value": 0},
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 0},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 1},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {"name": "Ammo_CustomParameter", "type": "ptr", "value": null},
+    {"name": "Ammo_EquipVoice", "type": "ptr", "value": null},
+    {"name": "AmmoHitSe", "type": "ptr", "value": null},
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    }
+  ],
+  "meta": {
+    "id": "pWeapon279",
+    "level": 33.000001311302185,
+    "category": 120,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [{"type": "double", "value": 10}],
+    "nonRequest": 1,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "能量上限"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 748.9983520507812},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": -0.30000001192092896},
+                  {"type": "double", "value": 0.75},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "充能"},
+              {"type": "str", "value": "36.0（每秒）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "紧急充能"},
+              {"type": "str", "value": "$0（每秒）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 73.02733612060547},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": -0.30000001192092896},
+                  {"type": "double", "value": 0.75},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "飞行耗能"},
+              {"type": "str", "value": "112.3（每秒）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "喷射耗能"},
+              {"type": "str", "value": "33.7"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "武器充能速度"},
+              {"type": "str", "value": "+200%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "飞行性能"},
+              {"type": "str", "value": "大幅降低"}
+            ]
+          }
+        ],
+        "Text": "大型电浆核心。藉由扩大核心装备，成功让各项性能获得大幅提升。特别是能量储存上限、对武器的能量供给速度都提升为旧型的数倍以上。\n但装备重量增加，导致飞行能力下降。"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "能量上限"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 748.9983520507812},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": -0.30000001192092896},
+                  {"type": "double", "value": 0.75},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "充能"},
+              {"type": "str", "value": "36.0（每秒）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "緊急充能"},
+              {"type": "str", "value": "$0（每秒）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 73.02733612060547},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": -0.30000001192092896},
+                  {"type": "double", "value": 0.75},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "飛行耗能"},
+              {"type": "str", "value": "112.3（每秒）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "噴射耗能"},
+              {"type": "str", "value": "33.7"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "武器充能速度"},
+              {"type": "str", "value": "+200%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "飛行性能"},
+              {"type": "str", "value": "大幅降低"}
+            ]
+          }
+        ],
+        "Text": "大型電漿核心。藉由擴大核心裝備，成功讓各項性能獲得大幅提升。特別是能量儲存上限、對武器的能量供給速度都提升為舊型的數倍以上。\n但裝備重量增加，導致飛行能力下降。"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Maximum Energy"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 748.9983520507812},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": -0.30000001192092896},
+                  {"type": "double", "value": 0.75},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Charge"},
+              {"type": "str", "value": "36.0 per sec"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Emergency Charge"},
+              {"type": "str", "value": "$0 per sec"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 73.02733612060547},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": -0.30000001192092896},
+                  {"type": "double", "value": 0.75},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Flight Consumption"},
+              {"type": "str", "value": "112.3 per sec"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Boost Consumption"},
+              {"type": "str", "value": "33.7"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Weapon Charge Speed"},
+              {"type": "str", "value": "+200%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Flying Ability"},
+              {"type": "str", "value": "Greatly Reduced"}
+            ]
+          }
+        ],
+        "Text": "A big Plasma Core. It has been improved on various aspects by increasing the size of the core unit. In particular, the maximum energy it can accumulate, and the speed of supplying power to weapons are several times of the previous models.\nHowever, its flying ability is slightly reduced as a trade-off of the increased weight of the unit."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "最大エネルギー"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 748.9983520507812},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": -0.30000001192092896},
+                  {"type": "double", "value": 0.75},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "チャージ"},
+              {"type": "str", "value": "36.0（毎秒）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "緊急チャージ"},
+              {"type": "str", "value": "$0（毎秒）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 73.02733612060547},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": -0.30000001192092896},
+                  {"type": "double", "value": 0.75},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "飛行消費"},
+              {"type": "str", "value": "112.3（毎秒）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ブースト消費"},
+              {"type": "str", "value": "33.7"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "武器チャージ速度"},
+              {"type": "str", "value": "+200%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "飛行性能"},
+              {"type": "str", "value": "大幅低下"}
+            ]
+          }
+        ],
+        "Text": "大型プラズマコア。コアユニットを大型化したことで、各性能を大きく向上させることに成功。特に、エネルギー最大蓄積量、武器へのパワー供給速度は、従来型の数倍にまで高まった。\nしかし、ユニットの重量が増したため、飛行能力は低下してしまう。"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "최대 에너지"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 748.9983520507812},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": -0.30000001192092896},
+                  {"type": "double", "value": 0.75},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "충전"},
+              {"type": "str", "value": "36.0 (매초)"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "긴급 충전"},
+              {"type": "str", "value": "$0 (매초)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 73.02733612060547},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": -0.30000001192092896},
+                  {"type": "double", "value": 0.75},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "비행 소비"},
+              {"type": "str", "value": "112.3 (매초)"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "부스트 소비"},
+              {"type": "str", "value": "33.7"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "무기 충전 속도"},
+              {"type": "str", "value": "+200%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "비행 성능"},
+              {"type": "str", "value": "대폭 저하"}
+            ]
+          }
+        ],
+        "Text": "대형 플라스마 코어. 코어 유닛을 대형화함으로써 각종 성능을 크게 향상시키는 데 성공했다. 특히 에너지 최대 축적량과 무기 파워 공급 속도는 기존 모델의 몇 배로 향상됐다.\n하지만 유닛이 무거워진 탓에 비행 능력이 저하된다."
+      }
+    }
+  }
+}

@@ -1,0 +1,574 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {"name": "xgs_scene_object_class", "type": "str", "value": "Weapon_Swing"},
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "str", "value": "sword_thrush"},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 1},
+                {"type": "double", "value": 1.25},
+                {"type": "double", "value": 0}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "str", "value": "sword_thrush2"},
+                {"type": "double", "value": 2},
+                {"type": "double", "value": 1.5},
+                {"type": "double", "value": 1.5},
+                {"type": "double", "value": 1.5},
+                {"type": "double", "value": 0}
+              ]
+            },
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "str", "value": "sword_thrush3"},
+                {"type": "double", "value": 2},
+                {"type": "double", "value": 1.5},
+                {"type": "double", "value": 2},
+                {"type": "double", "value": 1.75},
+                {"type": "double", "value": 0}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "電刃刀 零式"},
+    {"name": "name.en", "type": "str", "value": "Power Blade Zero"},
+    {"name": "name.cn", "type": "str", "value": "電刃刀 零式"},
+    {"name": "name.kr", "type": "str", "value": "전인도 영식"},
+    {"name": "name.sc", "type": "str", "value": "电刃刀 零式"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/h_impact_blade03.dds"
+    },
+    {
+      "name": "Sight_animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/HUD/sight17.rab"},
+            {"type": "str", "value": "sight17.mdb"}
+          ]
+        },
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/h_impact_blade03.rab"},
+            {"type": "str", "value": "h_impact_blade03.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/h_impact_blade03.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300040002005e00240000005c000000c0000000b001000000000100180000000100000030000000020000002800000074010000b60100000200000084000000940000008400000000000000a400000040000000600000005a0100000100000040000000500000006001000001000000400000004000000066010000000000003000000030000000720100000000000050010000000000000000000064000000400100000000000000000000ac000000babababa0000000000000000000000000000803fcdcc4c3dcdcc4c3dcdcc4c3d0000803f53474f000201000000000000200000000000000020000000000000002000000053474f00020100000100000020000000010000002c0000000000000034000000030000000b0000001e00000008000000000000006e0061006d0065000000cf30f330de30fc30555c8b95005212ff2cff36ff12ff0000000053474f00020100000100000020000000010000002c0000000000000034000000030000000b0000001e00000008000000000000006e0061006d0065000000cf30f330de30fc30555c8b95005212ff2cff36ff13ff000000003000310000006300680061007200670065005f006c007600320000006300680061007200670065005f006c007600330000006600690072006500000073006500000073006c0069006400650000007300740061006e006400620079000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "arms"},
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "backWeapon"},
+            {"type": "str", "value": "attach"}
+          ]
+        }
+      ]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "base"},
+    {"name": "AimAnimation", "type": "str", "value": "aim_hammer"},
+    {"name": "ChangeAnimation", "type": "str", "value": "hammer_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "hammer_reload1"},
+    {"name": "AmmoCount", "type": "double", "value": 8},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 0},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {"name": "ReloadTime", "type": "double", "value": 100},
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 1},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0.5},
+    {"name": "FireVector", "type": "ptr", "value": null},
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Fencer_SWD_0shiki"},
+        {"type": "double", "value": 0.8999999761581421},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 3},
+        {"type": "double", "value": 25}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 4},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": "EfsBullet"},
+    {"name": "AmmoModel", "type": "double", "value": 0},
+    {"name": "AmmoSpeed", "type": "double", "value": 7},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 0},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 0},
+    {"name": "AmmoAlive", "type": "double", "value": 4},
+    {"name": "AmmoDamage", "type": "double", "value": 200},
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 0},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 1},
+    {"name": "AmmoSize", "type": "double", "value": 1},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 4},
+        {"type": "double", "value": 1.75},
+        {"type": "double", "value": 1.5},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {
+          "name": "efarc",
+          "type": "str",
+          "value": "app:/weapon/effect/fencer_sword_stab.efarc"
+        },
+        {
+          "name": "bullet",
+          "type": "ptr",
+          "value": [
+            {"name": "esb", "type": "str", "value": "bullet01.esb"},
+            {"name": "scale", "type": "double", "value": 3}
+          ]
+        },
+        {
+          "name": "hit",
+          "type": "ptr",
+          "value": [
+            {"name": "esb", "type": "str", "value": "hit01.esb"},
+            {"name": "scale", "type": "double", "value": 4},
+            {"name": "mark_type", "type": "double", "value": 0}
+          ]
+        }
+      ]
+    },
+    {"name": "Ammo_EquipVoice", "type": "ptr", "value": null},
+    {
+      "name": "AmmoHitSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Common_hitSound_swd"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 50}
+      ]
+    },
+    {"name": "MuzzleFlash", "type": "str", "value": "EfsMuzzleFlash"},
+    {
+      "name": "MuzzleFlash_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {
+          "name": "efarc",
+          "type": "str",
+          "value": "app:/weapon/effect/fencer_sword_stab.efarc"
+        },
+        {"name": "esb", "type": "str", "value": "fire01.esb"},
+        {
+          "name": "color",
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 0.25},
+            {"type": "double", "value": 0.10000000149011612},
+            {"type": "double", "value": 0.07500000298023224},
+            {"type": "double", "value": 1}
+          ]
+        },
+        {"name": "scale", "type": "double", "value": 4}
+      ]
+    },
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    },
+    {
+      "name": "resource",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": "app:/weapon/effect/fencer_sword_stab.efarc"},
+        {"type": "str", "value": "app:/weapon/effect/fencer_sword_stab.efarc"}
+      ]
+    }
+  ],
+  "meta": {
+    "id": "DLC_h_Katana01",
+    "level": 0.4999999888241291,
+    "category": 201,
+    "unlockState": 3,
+    "dropRateModifier": 1,
+    "StarRating": null,
+    "nonRequest": 1,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "第一击"},
+              {"type": "str", "value": "（伤害:[贯穿]200.0 射程:35.0m）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "第二击"},
+              {"type": "str", "value": "（伤害:[贯穿]300.0 射程:42.0m）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "第三击"},
+              {"type": "str", "value": "（伤害:[贯穿]300.0 射程:49.0m）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "挥动速度"},
+              {"type": "str", "value": "1.0"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "对护罩"},
+              {"type": "str", "value": "无"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "弹数"},
+              {"type": "str", "value": "8"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "装填"},
+              {"type": "str", "value": "1.7秒"}
+            ]
+          }
+        ],
+        "Text": "专为近战而设计的剑刃。可以产生光之利刃切断敌人。\n攻击范围非常短，必须靠近敌人身边才能命中，但破坏力惊人。\n\n与原力巨刃不同，无需蓄积力量就可以使用。因此，即使只装备在一只手上，也能有效地运用。\n\n为了有效运用此武器，会在动力装甲的背部加装“跳跃喷射器”。按下装备使用键后，会往前进方向进行被称为喷射跳跃的跳跃行动。"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "第一擊"},
+              {"type": "str", "value": "（傷害:[貫穿]200.0 射程:35.0m）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "第二擊"},
+              {"type": "str", "value": "（傷害:[貫穿]300.0 射程:42.0m）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "第三擊"},
+              {"type": "str", "value": "（傷害:[貫穿]300.0 射程:49.0m）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "揮動速度"},
+              {"type": "str", "value": "1.0"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "對護盾"},
+              {"type": "str", "value": "無"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "彈數"},
+              {"type": "str", "value": "8"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "裝填"},
+              {"type": "str", "value": "1.7秒"}
+            ]
+          }
+        ],
+        "Text": "專為近戰而設計的劍刃。可以產生光之利刃切斷敵人。\n攻擊範圍非常短，必須靠近敵人身邊才能命中，但破壞力驚人。\n\n與原力巨刃不同，無需蓄積力量就可以使用。因此，即使只裝備在一隻手上，也能有效地運用。\n\n為了有效運用此武器，會在動力裝甲的背部加裝「跳躍噴射器」。按下使用裝備按鈕後，會往前進方向進行被稱為噴射跳躍的跳躍行動。"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Blade 1"},
+              {"type": "str", "value": "(Damage:[PT]200.0 Range:35.0m)"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Blade 2"},
+              {"type": "str", "value": "(Damage:[PT]300.0 Range:42.0m)"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Blade 3"},
+              {"type": "str", "value": "(Damage:[PT]300.0 Range:49.0m)"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Ready Speed"},
+              {"type": "str", "value": "1.0"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Vs. Shield"},
+              {"type": "str", "value": "No"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Capacity"},
+              {"type": "str", "value": "8"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Reload"},
+              {"type": "str", "value": "1.7 sec"}
+            ]
+          }
+        ],
+        "Text": "A blade for close combat. It produces a jet of light to slash the enemy.\nIts range is very short, forcing the user to attack point-blank. However, it delivers massively destructive blows.\n\nUnlike the Force Blade, it can be swung without too much effort. Therefore, it can be used effectively even when wielded single-handedly.\n\nTo use this weapon effectively, the back of your powered exoskeleton must be equipped with a Jump Booster. Press the use button to perform a %dq%boost jump%dq% forward."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "初太刀"},
+              {"type": "str", "value": "（ダメージ:[貫通]200.0 射程:35.0ｍ）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "弐の太刀"},
+              {"type": "str", "value": "（ダメージ:[貫通]300.0 射程:42.0ｍ）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "参の太刀"},
+              {"type": "str", "value": "（ダメージ:[貫通]300.0 射程:49.0ｍ）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "振り速度"},
+              {"type": "str", "value": "1.0"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "対シールド"},
+              {"type": "str", "value": "無し"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "弾数"},
+              {"type": "str", "value": "8"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "リロード"},
+              {"type": "str", "value": "1.7秒"}
+            ]
+          }
+        ],
+        "Text": "近接戦用のブレード。光の刃を生み出し、敵を切断する。\n射程距離は非常に短く、敵の懐に飛び込まねば命中しない。しかし、そのぶん破壊力は凄まじい。\n\nフォース·ブレードと異なり、パワーの蓄積なしで使用できる。そのため、片手だけの装備でも効果的な運用が可能。\n\nこの武装を効果的に運用するため、パワードスケルトンの背部には「ジャンプブースター」が装着される。装備使用ボタンを押すと、進行方向にブーストジャンプと呼ばれる跳躍をおこなう。"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "첫 공격"},
+              {"type": "str", "value": "(대미지:[관통]200.0 사정거리:35.0m )"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "두 번째 공격"},
+              {"type": "str", "value": "(대미지:[관통]300.0 사정거리:42.0m )"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "세 번째 공격"},
+              {"type": "str", "value": "(대미지:[관통]300.0 사정거리:49.0m )"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "휘두르기 속도"},
+              {"type": "str", "value": "1.0"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "실드 유효 공격"},
+              {"type": "str", "value": "없음"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "장탄 수"},
+              {"type": "str", "value": "8"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "재장전"},
+              {"type": "str", "value": "1.7초"}
+            ]
+          }
+        ],
+        "Text": "근접전용 블레이드. 빛의 칼날을 만들어 적을 절단한다.\n사거리가 매우 짧아, 적에게 바짝 다가가지 않으면 명중시킬 수 없다. 그러나 그만큼 파괴력은 굉장하다.\n\n포스 블레이드와 달리 파워를 축적하지 않고도 사용할 수 있다. 그 덕분에 한 손에만 장비해도 효과적으로 운용할 수 있다.\n\n이 무장을 효과적으로 운용하기 위해 파워드 스켈레톤 등 쪽에 「점프 부스터」가 장착되어 있다. 장비 사용 버튼을 누르면 부스트 점프를 사용해 진행 방향으로 도약한다."
+      }
+    }
+  }
+}

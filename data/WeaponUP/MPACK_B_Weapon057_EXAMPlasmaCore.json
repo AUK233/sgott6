@@ -1,0 +1,460 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {
+      "name": "xgs_scene_object_class",
+      "type": "str",
+      "value": "Weapon_Accessory"
+    },
+    {"name": "custom_parameter", "type": "ptr", "value": null},
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "ＥＸＡＭプラズマコア"},
+    {"name": "name.en", "type": "str", "value": "EXAM Plasma Core"},
+    {"name": "name.cn", "type": "str", "value": "ＥＸＡＭ電漿核心"},
+    {"name": "name.kr", "type": "str", "value": "EXAM 플라스마 코어"},
+    {"name": "name.sc", "type": "str", "value": "ＥＸＡＭ电浆核心"},
+    {"name": "WeaponIcon", "type": "str", "value": "app:/weapon/icon/none"},
+    {"name": "BaseAnimation", "type": "str", "value": "none"},
+    {"name": "AimAnimation", "type": "str", "value": ""},
+    {"name": "ChangeAnimation", "type": "str", "value": ""},
+    {"name": "ReloadAnimation", "type": "str", "value": ""},
+    {"name": "AmmoCount", "type": "double", "value": 0},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 1920},
+            {"type": "double", "value": 45},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 10},
+            {"type": "double", "value": -0.30000001192092896},
+            {"type": "double", "value": 0.75},
+            {"type": "double", "value": 1}
+          ]
+        },
+        {"type": "double", "value": 120}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 0},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {"name": "ReloadTime", "type": "double", "value": -1},
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}, {"type": "double", "value": 0}]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 1},
+    {"name": "FireBurstCount", "type": "double", "value": 0},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {"name": "FireVector", "type": "ptr", "value": null},
+    {"name": "FireSe", "type": "ptr", "value": null},
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 0},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": ""},
+    {"name": "AmmoModel", "type": "double", "value": 0},
+    {"name": "AmmoSpeed", "type": "double", "value": 0},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 0},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 0},
+    {"name": "AmmoAlive", "type": "double", "value": 0},
+    {"name": "AmmoDamage", "type": "double", "value": 0},
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 0},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 1},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {"name": "Ammo_CustomParameter", "type": "ptr", "value": null},
+    {"name": "Ammo_EquipVoice", "type": "ptr", "value": null},
+    {"name": "AmmoHitSe", "type": "ptr", "value": null},
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    }
+  ],
+  "meta": {
+    "id": "MPACK_B_Weapon057",
+    "level": 114.99999761581421,
+    "category": 120,
+    "unlockState": 0,
+    "dropRateModifier": 3,
+    "StarRating": [{"type": "double", "value": 10}],
+    "nonRequest": 1,
+    "DLCWeapon": 2,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "能量上限"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1920},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": -0.30000001192092896},
+                  {"type": "double", "value": 0.75},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "充能"},
+              {"type": "str", "value": "115.2（每秒）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "紧急充能"},
+              {"type": "str", "value": "$0（每秒）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 288},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": -0.30000001192092896},
+                  {"type": "double", "value": 0.75},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "飞行耗能"},
+              {"type": "str", "value": "288.0（每秒）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "喷射耗能"},
+              {"type": "str", "value": "86.4"}
+            ]
+          }
+        ],
+        "Text": "最高性能的电浆核心。ＶＺ电浆核心经过修改，能量存量大幅增加。"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "能量上限"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1920},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": -0.30000001192092896},
+                  {"type": "double", "value": 0.75},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "充能"},
+              {"type": "str", "value": "115.2（每秒）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "緊急充能"},
+              {"type": "str", "value": "$0（每秒）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 288},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": -0.30000001192092896},
+                  {"type": "double", "value": 0.75},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "飛行耗能"},
+              {"type": "str", "value": "288.0（每秒）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "噴射耗能"},
+              {"type": "str", "value": "86.4"}
+            ]
+          }
+        ],
+        "Text": "最高性能的電漿核心。ＶＺ電漿核心經過修改，能量存量大幅增加。"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Maximum Energy"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1920},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": -0.30000001192092896},
+                  {"type": "double", "value": 0.75},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Charge"},
+              {"type": "str", "value": "115.2 per sec"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Emergency Charge"},
+              {"type": "str", "value": "$0 per sec"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 288},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": -0.30000001192092896},
+                  {"type": "double", "value": 0.75},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Flight Consumption"},
+              {"type": "str", "value": "288.0 per sec"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Boost Consumption"},
+              {"type": "str", "value": "86.4"}
+            ]
+          }
+        ],
+        "Text": "Highest performance Plasma Core. The VZ Plasma Core's energy capacity has been taken to a whole new level."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "最大エネルギー"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1920},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": -0.30000001192092896},
+                  {"type": "double", "value": 0.75},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "チャージ"},
+              {"type": "str", "value": "115.2（毎秒）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "緊急チャージ"},
+              {"type": "str", "value": "$0（毎秒）"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 288},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": -0.30000001192092896},
+                  {"type": "double", "value": 0.75},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "飛行消費"},
+              {"type": "str", "value": "288.0（毎秒）"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ブースト消費"},
+              {"type": "str", "value": "86.4"}
+            ]
+          }
+        ],
+        "Text": "最高性能のプラズマコア。ＶＺプラズマコアが改修され、エネルギー容量が大きく増加した。"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "최대 에너지"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 1920},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": -0.30000001192092896},
+                  {"type": "double", "value": 0.75},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "충전"},
+              {"type": "str", "value": "115.2 (매초)"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "긴급 충전"},
+              {"type": "str", "value": "$0 (매초)"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 288},
+                  {"type": "double", "value": 45},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": -0.30000001192092896},
+                  {"type": "double", "value": 0.75},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "비행 소비"},
+              {"type": "str", "value": "288.0 (매초)"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "부스트 소비"},
+              {"type": "str", "value": "86.4"}
+            ]
+          }
+        ],
+        "Text": "최고 성능의 플라스마 코어. VZ 플라스마 코어를 개량하여, 에너지 용량이 큰 폭으로 증가했다."
+      }
+    }
+  }
+}

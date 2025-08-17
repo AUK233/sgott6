@@ -1,0 +1,410 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {
+      "name": "xgs_scene_object_class",
+      "type": "str",
+      "value": "Weapon_LaserMarker"
+    },
+    {"name": "custom_parameter", "type": "ptr", "value": null},
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "レーザー誘導装置"},
+    {"name": "name.en", "type": "str", "value": "Laser Guide Kit"},
+    {"name": "name.cn", "type": "str", "value": "雷射導引裝置"},
+    {"name": "name.kr", "type": "str", "value": "레이저 유도 장치"},
+    {"name": "name.sc", "type": "str", "value": "激光导引装置"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/targetmarker.dds"
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/e_targetmarker_normal01.rab"},
+            {"type": "str", "value": "e_targetmarker_normal01.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/e_targetmarker_normal01.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300040006007400240000007c000000f000000074020000000001001800000001000100300000000200000048000000380200004402000002000000c4000000d4000000b400000000000000140100001e0200002402000002000000d4000000c4000000e400000000000000f400000040000000700000005c0200000000000030000000600000002c02000001000000300000005000000004020000010000003000000040000000de0100000100000016020000000000000000000060010000060200000000000000000000a4000000f60100000000000000000000e8000000babababa0000000000000000000000000000803f00000000355eba3dc520303e0000803f0ad7a33c0ad7a33c0ad7a33c0000803fcdcc4c3dcdcc4c3dcdcc4c3d0000803fde55af3d4ce397bd2ac88fbd0000803fa5915bbd320288bf945305400000803f53474f000201000000000000200000000000000020000000000000002000000053474f00020100000100000020000000010000002c000000000000003400000003000000090000001e00000008000000000000006e0061006d006500000025ff2effea30ed30fc30c930d330fc30d7300000000053474f00020100000100000020000000010000002c0000000000000034000000030000000b0000001e00000008000000000000006e0061006d0065000000bf30fc30b230c330c830de30fc30ab30fc30555c8b950000000053474f00020100000100000020000000010000002c0000000000000034000000030000000c0000001e00000008000000000000006e0061006d0065000000bf30fc30b230c330c830de30fc30ab30fc30899558308b30000030003100000049004b00000062006f00640079000000720065006c006f00610064005f0065006e0064000000720065006c006f00610064005f006c006f006f0070000000720065006c006f00610064005f007300740061007200740000007300650000007300740061006e006400620079000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "arms_r"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "hand"},
+    {"name": "AimAnimation", "type": "str", "value": "aim"},
+    {"name": "ChangeAnimation", "type": "str", "value": "hand_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "hand_reload1"},
+    {"name": "AmmoCount", "type": "double", "value": 1},
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 0},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {"name": "ReloadTime", "type": "double", "value": 0},
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 0},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {"name": "FireVector", "type": "ptr", "value": null},
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "str", "value": "weapon_Engineer_LM_laserMark"},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 25}
+      ]
+    },
+    {"name": "FireLoadSe", "type": "ptr", "value": null},
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 1},
+    {"name": "SecondaryFire_Parameter", "type": "double", "value": 4},
+    {"name": "AmmoClass", "type": "str", "value": ""},
+    {"name": "AmmoModel", "type": "double", "value": 0},
+    {
+      "name": "AmmoSpeed",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 700},
+        {"type": "double", "value": 16},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 10},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {"name": "AmmoOwnerMove", "type": "double", "value": 0},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 0},
+    {"name": "AmmoAlive", "type": "double", "value": 1},
+    {"name": "AmmoDamage", "type": "double", "value": 0},
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 0},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 1},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.25},
+        {"type": "double", "value": 0.25},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 3}, {"type": "double", "value": 3}]
+    },
+    {"name": "Ammo_EquipVoice", "type": "ptr", "value": null},
+    {"name": "AmmoHitSe", "type": "ptr", "value": null},
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    }
+  ],
+  "meta": {
+    "id": "eLockonMarkerL01",
+    "level": 0.9999999776482582,
+    "category": 305,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [{"type": "double", "value": 10}],
+    "nonRequest": 1,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "照射距离"},
+              {"type": "str", "value": "$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 700},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "锁定速度"},
+              {"type": "str", "value": "3.0倍"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "锁定距离"},
+              {"type": "str", "value": "3.0倍"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "缩放"},
+              {"type": "str", "value": "4.0倍"}
+            ]
+          }
+        ],
+        "Text": "向我方装备的“追踪机能武器（飞弹等）”传达锁定资讯的装置。装置本身没有攻击力。\n藉由持续照射激光让“我方持有的追踪武器”辨识照射地点为锁定对象，藉此进行锁定。此时锁定所需的时间也会大幅缩短。距离甚至还可更加拉长，追踪武器与激光照射地点之间的距离即使是“该追踪武器原本可锁定距离”的３倍仍可进行锁定。（譬如剑兵持有武器的锁定时间为３秒，锁定距离为１００公尺。空袭兵使用此装置，朝距离剑兵３００公尺远的地点照射激光，剑兵的飞弹会在１秒后锁定该处）\n\n武器锁定的并非激光照射的物体，而是“激光照射的地点”。我方发射的飞弹是往“激光照射地点”飞去。因此，若在发射后移动激光照射地点，飞弹也会改变方向飞往该处。所以在命中目标前，必须持续照射激光。\n\n对每个敌人都只能发射一枚飞弹，唯有对激光的照射地点可多次进行锁定。能用多枚飞弹攻击同一个目标。\n\n剑兵用的飞弹大多都要透过此装置支援。当剑兵有装备飞弹时，就应该携带此装置。"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "照射距離"},
+              {"type": "str", "value": "$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 700},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "鎖定速度"},
+              {"type": "str", "value": "3.0倍"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "鎖定距離"},
+              {"type": "str", "value": "3.0倍"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "縮放"},
+              {"type": "str", "value": "4.0倍"}
+            ]
+          }
+        ],
+        "Text": "向我方裝備的「追蹤機能武器（飛彈等）」傳達鎖定資訊的裝置。裝置本身沒有攻擊力。\n藉由持續照射雷射光讓「我方持有的追蹤武器」辨識照射地點為鎖定對象，藉此進行鎖定。此時鎖定所需的時間也會大幅縮短。距離甚至還可更加拉長，追蹤武器與雷射照射地點之間的距離即使是「該追蹤武器原本可鎖定距離」的３倍仍可進行鎖定。（譬如劍兵持有武器的鎖定時間為３秒，鎖定距離為１００公尺。空襲兵使用此裝置，朝距離劍兵３００公尺遠的地點照射雷射，劍兵的飛彈會在１秒後鎖定該處）\n\n武器鎖定的並非雷射照射的物體，而是「雷射照射的地點」。我方發射的飛彈是往「雷射照射地點」飛去。因此，若在發射後移動雷射照射地點，飛彈也會改變方向飛往該處。所以在命中目標前，必須持續照射雷射。\n\n對每個敵人都只能發射一枚飛彈，唯有對雷射的照射地點可多次進行鎖定。能用多枚飛彈攻擊同一個目標。\n\n劍兵用的飛彈大多都要透過此裝置支援。當劍兵有裝備飛彈時，就應該攜帶此裝置。"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Projection Range"},
+              {"type": "str", "value": "$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 700},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Lock-on Speed"},
+              {"type": "str", "value": "3.0x"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Lock-on Range"},
+              {"type": "str", "value": "3.0x"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Zoom"},
+              {"type": "str", "value": "4.0x"}
+            ]
+          }
+        ],
+        "Text": "Device that sends the lock-on information to your allies' homing weapons (missiles, etc.) The device has no ability to attack by itself. \n \nBy projecting a laser to a spot, it 'paints' the target, confirming the location for an allied lock-on target weapon. The lock-on time for your allies' homing weapons is greatly reduced. Also, the range is extended up to 3 times their own range. (For example, if the Fencer has a weapon with a lock-on speed of 3 seconds and a lock-on distance of 100m, he can lock on the target that is up to 300 meters away 1 sec later when the Air Raider uses this weapon.)\n \nThe homing weapon locks on to the point indicated by this weapon, not the enemy itself. When your allies launch the homing missile, it will head in the direction indicated by the laser. Therefore, if the laser is moved after launch, the missile will move accordingly. For that reason, the laser needs to be maintained until the target is hit.\n \nUsually only one missile can be launched per lock-on, but it is possible to have multiple lock-ons for the laser point. It is therefore possible to launch multiple missiles at one target.  \n \nThe majority of Fencer missiles rely on the support of this device. When Fencers are equipping missiles, you should equip this device as well."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "照射距離"},
+              {"type": "str", "value": "$0ｍ"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 700},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ロックオン速度"},
+              {"type": "str", "value": "3.0倍"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ロックオン距離"},
+              {"type": "str", "value": "3.0倍"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ズーム"},
+              {"type": "str", "value": "4.0倍"}
+            ]
+          }
+        ],
+        "Text": "味方が装備する「追尾機能を持つ兵器（ミサイルなど）」に対し、ロックオン用情報を伝達する装置。この装置自体に攻撃力はない。\nレーザー光線を照射し続けることで、「味方が持つ追尾兵器」が照射地点をロックオン対象として認識。ロックオンが可能となる。この時、ロックオンに必要な時間も大幅に短縮。さらに距離に関しても延長され、追尾兵器とレーザー照射地点の距離が「その追尾兵器が本来ロックオン可能な距離」の３倍までならロックオンできる。（例えば、フェンサーがロックオン時間３秒、ロックオン距離１００メートルの武器を持っていたとする。エアレイダーがこの装置を使い、フェンサーから３００メートル離れた地点にレーザーを照射すると、１秒後にフェンサーのミサイルはその場所をロックオンする）\n\nロックオンされるのはレーザー照射された対象物ではなく、あくまで「レーザー照射地点」である。発射された味方のミサイルは「レーザーの照射地点」に向かって飛ぶ。そのため、発射後にレーザーの照射地点を動かせば、その地点に向かってミサイルも向きを変える。そのため目標に命中するまでの間、レーザー照射を続けなければならない。\n\nまた本来１体の敵には１発のミサイルしか発射できないが、レーザー照射地点だけは、複数回のロックオンが可能。１つの目標に複数のミサイルを撃ち込むことができる。\n\nフェンサー用のミサイルは多くがこの装置による支援を前提としている。フェンサーがミサイルを装備している場合は、これを持っていくべきだろう。"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "발사 거리"},
+              {"type": "str", "value": "$0m"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 700},
+                  {"type": "double", "value": 16},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "조준 속도"},
+              {"type": "str", "value": "3.0배"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "조준 거리"},
+              {"type": "str", "value": "3.0배"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "확대 배율"},
+              {"type": "str", "value": "4.0배"}
+            ]
+          }
+        ],
+        "Text": "아군이 장비한 「추적 기능 탑재 병기(미사일 등)」에 조준 정보를 전달하는 장치. 이 장치 자체에는 공격력이 없다.\n레이저 광선을 쏘면 「아군의 추적 병기」가 조사 지점을 조준 대상으로 인식해 조준할 수 있게 된다. 이때 조준 소요 시간이 대폭 단축되며, 조준 거리도 연장되어 「해당 추적 병기가 원래 조준 가능한 거리」의 3배까지 조준할 수 있게 된다. (예를 들어 펜서가 조준 시간 3초, 조준 거리 100m짜리 무기를 가지고 있을 경우, 에어 레이더가 이 장치를 사용해 펜서와 300m 떨어진 지점에 레이저를 쏘면 1초 후에 펜서의 미사일이 그 지점을 조준한다)\n\n조준 대상은 레이저가 가리키는 물체가 아니라 어디까지나 「레이저 조사 지점」이므로 발사된 아군의 미사일은 「레이저 조사 지점」으로 날아간다. 따라서 미사일이 발사된 후에 레이저 조사 지점을 움직이면 미사일도 해당 지점으로 선회한다. 이 때문에 목표에 명중할 때까지 계속 레이저를 쏴야 한다.\n\n또한 기본적으로 적 하나에 발사할 수 있는 미사일은 1발뿐이지만, 레이저 조사 지점은 여러 번 조준이 가능하기 때문에 하나의 목표에 복수의 미사일을 쏠 수 있다.\n\n펜서용 미사일은 대부분이 이 장치의 지원을 전제로 만들어졌으므로, 펜서가 미사일을 장비하고 있다면 반드시 이 장치를 챙기는 것이 좋다."
+      }
+    }
+  }
+}

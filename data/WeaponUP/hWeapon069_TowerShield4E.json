@@ -1,0 +1,685 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {"name": "xgs_scene_object_class", "type": "str", "value": "Weapon_Shield"},
+    {
+      "name": "custom_parameter",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.8500000238418579},
+        {"type": "double", "value": 1.2999999523162842},
+        {"type": "double", "value": 0.019999999552965164},
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 0.699999988079071},
+            {"type": "double", "value": 0.5},
+            {"type": "double", "value": 0.5}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 0.4000000059604645},
+            {"type": "double", "value": 0.5},
+            {"type": "double", "value": 0.10000000149011612}
+          ]
+        },
+        {"type": "double", "value": 0},
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "shield_guard"},
+            {"type": "double", "value": 2}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "shield_guard_end"},
+            {"type": "double", "value": 2}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "shield_bash"},
+            {"type": "double", "value": 1.5}
+          ]
+        }
+      ]
+    },
+    {"name": "use_underground", "type": "double", "value": 1},
+    {"name": "FireCondition", "type": "double", "value": 0},
+    {"name": "name.ja", "type": "str", "value": "タワーシールド４Ｅ"},
+    {"name": "name.en", "type": "str", "value": "Tower Shield 4E"},
+    {"name": "name.cn", "type": "str", "value": "高塔護盾４Ｅ"},
+    {"name": "name.kr", "type": "str", "value": "타워 실드 4E"},
+    {"name": "name.sc", "type": "str", "value": "高塔护盾４Ｅ"},
+    {
+      "name": "WeaponIcon",
+      "type": "str",
+      "value": "app:/weapon/icon/shield_large01.dds"
+    },
+    {
+      "name": "animation_model",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "str", "value": "app:/Weapon/h_shield_large01.rab"},
+            {"type": "str", "value": "h_shield_large01.mdb"}
+          ]
+        },
+        {"type": "str", "value": "app:/Weapon/h_shield_large01.cas"},
+        {
+          "type": "extra",
+          "value": {
+            "format": "hex",
+            "data": "4d4142000f000000830000000300040003006400240000005c000000e000000044020000000001001800000001000000300000000200000028000000080200000e02000002000000c4000000b4000000a400000000000000d400000040000000800000001c02000002000000500000007000000016020000000000004000000060000000d8010000020000005000000050000000d401000000000000fc010000000000000000000094000000f2010000000004420000000064000000dc0100000000000000000000d0000000cc0100000000f841000000001c010000babababa0000000000000000000000000000803fcdcc4c3dcdcc4c3dcdcc4c3d0000803f000080be00000000000000000000803f53474f000201000000000000200000000000000020000000000000002000000053474f00020100000100000020000000010000002c0000000000000034000000030000000e0000001e00000008000000000000006e0061006d0065000000d530a730f330b530fc30b730fc30eb30c9302eff555c8b958b95cb59000053474f00020100000100000020000000010000002c0000000000000034000000030000000e0000001e00000008000000000000006e0061006d0065000000d530a730f330b530fc30b730fc30eb30c9302effce530d7d8b95cb59000053474f00020100000100000020000000010000002c0000000000000034000000030000000e0000001e00000008000000000000006e0061006d0065000000d530a730f330b530fc30b730fc30eb30c9302effce530d7d8c5b864e000030003100000062006f0064007900000063006c006f0073006500000063006c006f00730065005f007300740061007400650000006f00700065006e0000006f00700065006e005f00730074006100740065000000730065000000c5886b58000000000000"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ModelConstraint",
+      "type": "ptr",
+      "value": [{"type": "str", "value": "armsFlip"}]
+    },
+    {"name": "BaseAnimation", "type": "str", "value": "base"},
+    {"name": "AimAnimation", "type": "str", "value": "aim_shield"},
+    {"name": "ChangeAnimation", "type": "str", "value": "shield_change1"},
+    {"name": "ReloadAnimation", "type": "str", "value": "shield_reload1"},
+    {
+      "name": "AmmoCount",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 7000},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 10},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {
+      "name": "EnergyChargeRequire",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": -1},
+        {"type": "double", "value": -1}
+      ]
+    },
+    {"name": "ReloadType", "type": "double", "value": 0},
+    {"name": "ReloadInit", "type": "double", "value": 1},
+    {
+      "name": "ReloadTime",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 900},
+        {"type": "double", "value": 21},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 5},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 0.5},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "AngleAdjust", "type": "double", "value": 0},
+    {"name": "LockonType", "type": "double", "value": 0},
+    {"name": "LockonTargetType", "type": "double", "value": 0},
+    {"name": "Lockon_DistributionType", "type": "double", "value": 0},
+    {"name": "Lockon_FireEndToClear", "type": "double", "value": 1},
+    {"name": "Lockon_AutoTimeOut", "type": "double", "value": 1},
+    {"name": "LockonRange", "type": "double", "value": 0},
+    {
+      "name": "LockonAngle",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.30000001192092896},
+        {"type": "double", "value": 0.30000001192092896}
+      ]
+    },
+    {"name": "LockonTime", "type": "double", "value": 0},
+    {"name": "LockonFailedTime", "type": "double", "value": 0},
+    {"name": "LockonHoldTime", "type": "double", "value": 0},
+    {"name": "FireType", "type": "double", "value": 0},
+    {"name": "FireSpreadType", "type": "double", "value": 0},
+    {"name": "FireSpreadWidth", "type": "double", "value": 0},
+    {"name": "FireCount", "type": "double", "value": 1},
+    {"name": "FireInterval", "type": "double", "value": 1},
+    {"name": "FireBurstCount", "type": "double", "value": 1},
+    {"name": "FireBurstInterval", "type": "double", "value": 0},
+    {"name": "FireAccuracy", "type": "double", "value": 0},
+    {"name": "FireRecoil", "type": "double", "value": 0},
+    {"name": "FireVector", "type": "ptr", "value": null},
+    {
+      "name": "FireSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Fencer_SLD_bash_tower_lv3"},
+        {"type": "double", "value": 0.7078999876976013},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 25}
+      ]
+    },
+    {
+      "name": "FireLoadSe",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "str", "value": "weapon_Fencer_SLD_on_tower_lv3"},
+        {"type": "double", "value": 0.39809998869895935},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 1},
+        {"type": "double", "value": 20}
+      ]
+    },
+    {"name": "ShellCaseDischargeSe", "type": "ptr", "value": null},
+    {"name": "SecondaryFire_Type", "type": "double", "value": 6},
+    {
+      "name": "SecondaryFire_Parameter",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 0}]
+    },
+    {"name": "AmmoClass", "type": "str", "value": "ShieldBashBullet01"},
+    {"name": "AmmoModel", "type": "double", "value": 0},
+    {"name": "AmmoSpeed", "type": "double", "value": 4},
+    {"name": "AmmoOwnerMove", "type": "double", "value": 0},
+    {"name": "AmmoGravityFactor", "type": "double", "value": 0},
+    {"name": "AmmoAlive", "type": "double", "value": 8},
+    {"name": "AmmoDamage", "type": "double", "value": 0},
+    {
+      "name": "AmmoDamageReduce",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}, {"type": "double", "value": 1}]
+    },
+    {"name": "AmmoExplosion", "type": "double", "value": 0},
+    {"name": "AmmoIsPenetration", "type": "double", "value": 0},
+    {"name": "AmmoSize", "type": "double", "value": 15},
+    {"name": "AmmoHitSizeAdjust", "type": "double", "value": 1},
+    {"name": "AmmoHitImpulseAdjust", "type": "double", "value": 1},
+    {
+      "name": "AmmoColor",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0.4000000059604645},
+        {"type": "double", "value": 0.17499999701976776},
+        {"type": "double", "value": 0.15000000596046448},
+        {"type": "double", "value": 1}
+      ]
+    },
+    {
+      "name": "Ammo_CustomParameter",
+      "type": "ptr",
+      "value": [
+        {"type": "double", "value": 0},
+        {"type": "double", "value": 0.5}
+      ]
+    },
+    {"name": "Ammo_EquipVoice", "type": "ptr", "value": null},
+    {"name": "AmmoHitSe", "type": "ptr", "value": null},
+    {"name": "MuzzleFlash", "type": "str", "value": ""},
+    {"name": "MuzzleFlash_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ShellCase",
+      "type": "ptr",
+      "value": [
+        {"type": "str", "value": ""},
+        {"type": "str", "value": ""},
+        {"type": "double", "value": 0}
+      ]
+    },
+    {"name": "ShellCase_CustomParameter", "type": "ptr", "value": null},
+    {
+      "name": "ExtPrams",
+      "type": "ptr",
+      "value": [{"type": "double", "value": 1}]
+    }
+  ],
+  "meta": {
+    "id": "hWeapon069",
+    "level": 57.249999046325684,
+    "category": 202,
+    "unlockState": 0,
+    "dropRateModifier": 1,
+    "StarRating": [
+      {"type": "double", "value": 10},
+      {"type": "double", "value": 5}
+    ],
+    "nonRequest": 1,
+    "DLCWeapon": 0,
+    "Desc": {
+      "SC": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐用度"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 7000},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "装填"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 15},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "防御角度"},
+              {"type": "str", "value": "149度"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "伤害防御率"},
+              {"type": "str", "value": "85.0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "物理反转范围"},
+              {"type": "str", "value": "15 半径"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "反转时降低耐用度"},
+              {"type": "str", "value": "2.00%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "平时的速度"},
+              {"type": "str", "value": "(速度:70% 旋转:50%)"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "举盾时的速度"},
+              {"type": "str", "value": "(速度:40% 旋转:50%[过重])"}
+            ]
+          }
+        ],
+        "Text": "大型护盾。举盾时的减伤性能相当优秀，耐用度也很高。但其重量较难采取敏捷的行动。\n\n按住攻击键时会持续举着盾牌，可减少来自正前方的伤害。（可防御的角度会因盾牌而不同，记载于“防御角度”中）\n部分武器“可在举起盾牌时发动攻击”。攻击时必须用到全身的战锤和巨刃虽然不行，但若是爆破刺枪或单手能发射的武器，便可在举起盾牌时发动攻击。\n持续受到攻击时会导致热量上升。一旦上升到极限，在冷却完毕之前都无法使用。\n\n盾牌内装有名为“防护罩”的装置。此装置能形成１８０度反转物理运动的磁场。按下装备使用键即可启动防护罩。虽然只有一瞬间，但只要能抓准时机，就能反弹一切攻击。"
+      },
+      "CN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐用度"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 7000},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "裝填"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 15},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "防禦角度"},
+              {"type": "str", "value": "149度"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "傷害防禦率"},
+              {"type": "str", "value": "85.0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "物理反轉範圍"},
+              {"type": "str", "value": "15 半徑"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "反轉時降低耐用度"},
+              {"type": "str", "value": "2.00%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "平時的速度"},
+              {"type": "str", "value": "(速度:70% 旋轉:50%)"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "舉盾時的速度"},
+              {"type": "str", "value": "(速度:40% 旋轉:50%[過重])"}
+            ]
+          }
+        ],
+        "Text": "大型護盾。舉盾時的減傷性能相當優秀，耐用度也很高。但其重量較難採取敏捷的行動。\n\n按住攻擊按鈕時會持續舉著盾牌，可減少來自正前方的傷害。（可防禦的角度會因盾牌而不同，記載於「防禦角度」中）\n部分武器「可在舉起盾牌時發動攻擊」。攻擊時必須用到全身的戰鎚和巨刃雖然不行，但若是爆破刺鎗或單手能發射的武器，便可在舉起盾牌時發動攻擊。\n持續受到攻擊時會導致熱量上升。一旦上升到極限，在冷卻完畢之前都無法使用。\n\n盾牌內裝有名為「防護罩」的裝置。此裝置能形成１８０度反轉物理運動的磁場。按下使用裝備按鈕即可啟動防護罩。雖然只有一瞬間，但只要能抓準時機，就能反彈一切攻擊。"
+      },
+      "EN": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Durability"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 7000},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Reload"},
+              {"type": "str", "value": "$0 sec"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 15},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Defense Angle"},
+              {"type": "str", "value": "149 Degrees"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Damage Defense"},
+              {"type": "str", "value": "85.0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Physical Reverse Range"},
+              {"type": "str", "value": "15 Radius"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Reversal Durability Drop"},
+              {"type": "str", "value": "2.00%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Normal Speed"},
+              {"type": "str", "value": "(Speed:70% Rotation:50%)"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "Stance Speed"},
+              {"type": "str", "value": "(Speed:40% Rotation:50%[Ultra Heavy])"}
+            ]
+          }
+        ],
+        "Text": "A large shield with excellent damage reduction capabilities and high durability, but a hefty weight that makes it a bit unwieldy.\n\nHolding the attack button will keep raising the shield and reduce Damage coming from the front. (The defense angle differs based on shields. Please refer to %dq%Defense Angle.%dq%)\nSome weapons allow you to attack with the shield raised. While it is not possible to pair the shield with a hammer or blade that requires full body usage, it is possible to attack with the Blasthole Spear and other weapons that can be fired with one hand when the shield is raised. \nThe heat will increase as it continues to absorb attacks. When it reaches the limit, it won't be usable again until it has cooled down. \n\nThere is a device called Deflector installed inside the shield.  It forms a magnetic field which reverses physical motion by 180 degrees. The Deflector is activated with the use button. It can repel any attack with the right timing."
+      },
+      "JA": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "耐久度"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 7000},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "リロード"},
+              {"type": "str", "value": "$0秒"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 15},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "防御角度"},
+              {"type": "str", "value": "149度"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "ダメージ防御率"},
+              {"type": "str", "value": "85.0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "物理反転範囲"},
+              {"type": "str", "value": "15 半径"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "反転時の耐久度低下"},
+              {"type": "str", "value": "2.00%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "通常時の速度"},
+              {"type": "str", "value": "(速度:70% 旋回:50%)"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "構え中の速度"},
+              {"type": "str", "value": "(速度:40% 旋回:50%[超重])"}
+            ]
+          }
+        ],
+        "Text": "大型の盾。かまえた時のダメージ減少性能に優れ、耐久度も高い。だが、その重量ゆえに素早い運用は難しい。\n\n攻撃ボタンを押し続けている間、盾をかまえ続け、正面方向からのダメージを減少させる。（防御可能な角度は盾によって異なり、「防御角度」として記載されている）\n武器によっては「盾をかまえながらの攻撃」が可能。攻撃時に全身を使わねばならないハンマーやブレードでは不可能だが、ブラストホール·スピアや片手で発射できる武器の場合は、盾をかまえながら攻撃できる。\n攻撃を受け続けると熱量が上昇。限界に達すると冷却が完了するまで使用不可能となる。\n\n盾の内部には「ディフレクター」と呼ばれる装置が組み込まれている。これは、物理運動を１８０度反転させる磁場を形成する装置である。装備使用ボタンでディフレクターを起動。一瞬しか作動しないが、タイミングを合わせることができれば、あらゆる攻撃をはね返すことができる。"
+      },
+      "KR": {
+        "Ability": [
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "내구도"},
+              {"type": "str", "value": "$0"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 7000},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 0},
+                  {"type": "double", "value": 10},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 0}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "재장전"},
+              {"type": "str", "value": "$0초"},
+              {
+                "type": "ptr",
+                "value": [
+                  {"type": "double", "value": 15},
+                  {"type": "double", "value": 21},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 5},
+                  {"type": "double", "value": 1},
+                  {"type": "double", "value": 0.5},
+                  {"type": "double", "value": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "방어 각도"},
+              {"type": "str", "value": "149도"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "대미지 방어율"},
+              {"type": "str", "value": "85.0%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "물리 반전 범위"},
+              {"type": "str", "value": "15 반경"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "반전 시 내구도 저하"},
+              {"type": "str", "value": "2.00%"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "평상시 속도"},
+              {"type": "str", "value": "(속도:70% 선회:50%)"}
+            ]
+          },
+          {
+            "type": "ptr",
+            "value": [
+              {"type": "str", "value": "방어 중 속도"},
+              {"type": "str", "value": "(속도:40% 선회:50%[초중])"}
+            ]
+          }
+        ],
+        "Text": "대형 방패. 방어 시의 대미지 경감 성능이 뛰어나고 내구도도 높다. 하지만 무게 때문에 민첩하게 운용하기는 어렵다.\n\n공격 버튼을 길게 누르면 방패로 방어해 정면 대미지를 줄일 수 있다. (방어할 수 있는 각도는 방패에 따라 다르며 「방어 각도」로 기재되어 있다)\n무기에 따라서는 「방패로 방어 중일 때도 공격」할 수 있다. 공격 시에 온몸을 써야 하는 해머나 블레이드는 사용이 불가능하지만, 블래스트홀 스피어나 한 손으로 발사할 수 있는 무기일 경우에는 방패로 방어 중일 때도 공격이 가능하다.\n계속해서 공격을 받으면 열량이 상승하고, 한계에 달하면 냉각이 완료될 때까지 사용이 불가능하다.\n\n어깨 내부에는 물리 운동을 180도 반전시키는 자기장 형성 장치 「디플렉터」가 내장되어 있다. 장비 사용 버튼을 누르면 디플렉터가 기동된다. 아주 짧은 순간밖에 작동되지 않지만 타이밍을 잘 맞추면 온갖 공격을 튕겨낼 수 있다."
+      }
+    }
+  }
+}

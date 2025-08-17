@@ -1,0 +1,2375 @@
+{
+  "format": "DSGO",
+  "endian": "LE",
+  "variables": [
+    {
+      "name": "table",
+      "type": "ptr",
+      "value": [
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "app:/Mission/EDF6/M000B"},
+            {"type": "str", "value": "EDF6/M000B"},
+            {"type": "ptr", "value": [{"type": "double", "value": 1}]},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "BGM_E6M23_MissionDystopia"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 65}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "app:/Mission/EDF6/M001"},
+            {"type": "str", "value": "EDF6/M001"},
+            {"type": "ptr", "value": [{"type": "double", "value": 2}]},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "BGM_E6M23_MissionDystopia"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 65}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 2},
+            {"type": "str", "value": "app:/Mission/EDF6/M002"},
+            {"type": "str", "value": "EDF6/M002"},
+            {"type": "ptr", "value": [{"type": "double", "value": 3}]},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "BGM_E6M23_MissionDystopia"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 65}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 3},
+            {"type": "str", "value": "app:/Mission/EDF6/M003"},
+            {"type": "str", "value": "EDF6/M003"},
+            {"type": "ptr", "value": [{"type": "double", "value": 4}]},
+            {"type": "double", "value": 3},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "BGM_E6M23_MissionDystopia"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 65}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 4},
+            {"type": "str", "value": "app:/Mission/EDF6/M003_5"},
+            {"type": "str", "value": "EDF6/M003_5"},
+            {"type": "ptr", "value": [{"type": "double", "value": 5}]},
+            {"type": "double", "value": 4},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "BGM_E6M23_MissionDystopia"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 65}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 5},
+            {"type": "str", "value": "app:/Mission/EDF6/M004"},
+            {"type": "str", "value": "EDF6/M004"},
+            {"type": "ptr", "value": [{"type": "double", "value": 6}]},
+            {"type": "double", "value": 5},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "BGM_E6M23_MissionDystopia"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 65}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 6},
+            {"type": "str", "value": "app:/Mission/EDF6/M005"},
+            {"type": "str", "value": "EDF6/M005"},
+            {"type": "ptr", "value": [{"type": "double", "value": 7}]},
+            {"type": "double", "value": 6},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "BGM_E6M23_MissionDystopia"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 65}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 7},
+            {"type": "str", "value": "app:/Mission/EDF6/M006"},
+            {"type": "str", "value": "EDF6/M006"},
+            {"type": "ptr", "value": [{"type": "double", "value": 8}]},
+            {"type": "double", "value": 7},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "BGM_E6M23_MissionDystopia"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 65}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 8},
+            {"type": "str", "value": "app:/Mission/EDF6/M007"},
+            {"type": "str", "value": "EDF6/M007"},
+            {"type": "ptr", "value": [{"type": "double", "value": 9}]},
+            {"type": "double", "value": 8},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "BGM_E6M23_MissionDystopia"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 65}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 9},
+            {"type": "str", "value": "app:/Mission/EDF6/M008"},
+            {"type": "str", "value": "EDF6/M008"},
+            {"type": "ptr", "value": [{"type": "double", "value": 10}]},
+            {"type": "double", "value": 9},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 3},
+            {"type": "str", "value": "BGM_E6M24_MissionZetsumetsu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 66}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 10},
+            {"type": "str", "value": "app:/Mission/EDF6/M009"},
+            {"type": "str", "value": "EDF6/M009"},
+            {"type": "ptr", "value": [{"type": "double", "value": 11}]},
+            {"type": "double", "value": 10},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 3},
+            {"type": "str", "value": "BGM_E6M24_MissionZetsumetsu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 66}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 11},
+            {"type": "str", "value": "app:/Mission/EDF6/M009_5"},
+            {"type": "str", "value": "EDF6/M009_5"},
+            {"type": "ptr", "value": [{"type": "double", "value": 12}]},
+            {"type": "double", "value": 11},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 3},
+            {"type": "str", "value": "BGM_E6M24_MissionZetsumetsu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 66}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 12},
+            {"type": "str", "value": "app:/Mission/EDF6/M011"},
+            {"type": "str", "value": "EDF6/M011"},
+            {"type": "ptr", "value": [{"type": "double", "value": 13}]},
+            {"type": "double", "value": 12},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 3},
+            {"type": "str", "value": "BGM_E6M24_MissionZetsumetsu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 66}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 13},
+            {"type": "str", "value": "app:/Mission/EDF6/RM015"},
+            {"type": "str", "value": "EDF6/RM015"},
+            {"type": "ptr", "value": [{"type": "double", "value": 14}]},
+            {"type": "double", "value": 13},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 14},
+            {"type": "str", "value": "app:/Mission/EDF6/RM015_3"},
+            {"type": "str", "value": "EDF6/RM015_3"},
+            {"type": "ptr", "value": [{"type": "double", "value": 15}]},
+            {"type": "double", "value": 14},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 15},
+            {"type": "str", "value": "app:/Mission/EDF6/M013_5"},
+            {"type": "str", "value": "EDF6/M013_5"},
+            {"type": "ptr", "value": [{"type": "double", "value": 16}]},
+            {"type": "double", "value": 15},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 16},
+            {"type": "str", "value": "app:/Mission/EDF6/M015_5"},
+            {"type": "str", "value": "EDF6/M015_5"},
+            {"type": "ptr", "value": [{"type": "double", "value": 17}]},
+            {"type": "double", "value": 16},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 17},
+            {"type": "str", "value": "app:/Mission/EDF6/RM010"},
+            {"type": "str", "value": "EDF6/RM010"},
+            {"type": "ptr", "value": [{"type": "double", "value": 18}]},
+            {"type": "double", "value": 17},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 18},
+            {"type": "str", "value": "app:/Mission/EDF6/M017"},
+            {"type": "str", "value": "EDF6/M017"},
+            {"type": "ptr", "value": [{"type": "double", "value": 19}]},
+            {"type": "double", "value": 18},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 19},
+            {"type": "str", "value": "app:/Mission/EDF6/M018_5"},
+            {"type": "str", "value": "EDF6/M018_5"},
+            {"type": "ptr", "value": [{"type": "double", "value": 20}]},
+            {"type": "double", "value": 19},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 20},
+            {"type": "str", "value": "app:/Mission/EDF6/M027"},
+            {"type": "str", "value": "EDF6/M027"},
+            {"type": "ptr", "value": [{"type": "double", "value": 21}]},
+            {"type": "double", "value": 20},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 21},
+            {"type": "str", "value": "app:/Mission/EDF6/M027_5"},
+            {"type": "str", "value": "EDF6/M027_5"},
+            {"type": "ptr", "value": [{"type": "double", "value": 22}]},
+            {"type": "double", "value": 21},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 22},
+            {"type": "str", "value": "app:/Mission/EDF6/RM019_5"},
+            {"type": "str", "value": "EDF6/RM019_5"},
+            {"type": "ptr", "value": [{"type": "double", "value": 23}]},
+            {"type": "double", "value": 22},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 23},
+            {"type": "str", "value": "app:/Mission/EDF6/M028"},
+            {"type": "str", "value": "EDF6/M028"},
+            {"type": "ptr", "value": [{"type": "double", "value": 24}]},
+            {"type": "double", "value": 23},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 24},
+            {"type": "str", "value": "app:/Mission/EDF6/RM025A"},
+            {"type": "str", "value": "EDF6/RM025A"},
+            {"type": "ptr", "value": [{"type": "double", "value": 25}]},
+            {"type": "double", "value": 24},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 25},
+            {"type": "str", "value": "app:/Mission/EDF6/M206"},
+            {"type": "str", "value": "EDF6/M206"},
+            {"type": "ptr", "value": [{"type": "double", "value": 26}]},
+            {"type": "double", "value": 25},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 26},
+            {"type": "str", "value": "app:/Mission/EDF6/M022_5"},
+            {"type": "str", "value": "EDF6/M022_5"},
+            {"type": "ptr", "value": [{"type": "double", "value": 27}]},
+            {"type": "double", "value": 26},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 27},
+            {"type": "str", "value": "app:/Mission/EDF6/M029"},
+            {"type": "str", "value": "EDF6/M029"},
+            {"type": "ptr", "value": [{"type": "double", "value": 28}]},
+            {"type": "double", "value": 27},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 28},
+            {"type": "str", "value": "app:/Mission/EDF6/M029_1"},
+            {"type": "str", "value": "EDF6/M029_1"},
+            {"type": "ptr", "value": [{"type": "double", "value": 29}]},
+            {"type": "double", "value": 28},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 29},
+            {"type": "str", "value": "app:/Mission/EDF6/RM041"},
+            {"type": "str", "value": "EDF6/RM041"},
+            {"type": "ptr", "value": [{"type": "double", "value": 30}]},
+            {"type": "double", "value": 29},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 30},
+            {"type": "str", "value": "app:/Mission/EDF6/M029_4"},
+            {"type": "str", "value": "EDF6/M029_4"},
+            {"type": "ptr", "value": [{"type": "double", "value": 31}]},
+            {"type": "double", "value": 30},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 31},
+            {"type": "str", "value": "app:/Mission/EDF6/M205"},
+            {"type": "str", "value": "EDF6/M205"},
+            {"type": "ptr", "value": [{"type": "double", "value": 32}]},
+            {"type": "double", "value": 31},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 32},
+            {"type": "str", "value": "app:/Mission/EDF6/RM058"},
+            {"type": "str", "value": "EDF6/RM058"},
+            {"type": "ptr", "value": [{"type": "double", "value": 33}]},
+            {"type": "double", "value": 32},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 33},
+            {"type": "str", "value": "app:/Mission/EDF6/M029_2"},
+            {"type": "str", "value": "EDF6/M029_2"},
+            {"type": "ptr", "value": [{"type": "double", "value": 34}]},
+            {"type": "double", "value": 33},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 34},
+            {"type": "str", "value": "app:/Mission/EDF6/RM090A"},
+            {"type": "str", "value": "EDF6/RM090A"},
+            {"type": "ptr", "value": [{"type": "double", "value": 35}]},
+            {"type": "double", "value": 34},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 35},
+            {"type": "str", "value": "app:/Mission/EDF6/M029_5"},
+            {"type": "str", "value": "EDF6/M029_5"},
+            {"type": "ptr", "value": [{"type": "double", "value": 36}]},
+            {"type": "double", "value": 35},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 36},
+            {"type": "str", "value": "app:/Mission/EDF6/RM081"},
+            {"type": "str", "value": "EDF6/RM081"},
+            {"type": "ptr", "value": [{"type": "double", "value": 37}]},
+            {"type": "double", "value": 36},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 37},
+            {"type": "str", "value": "app:/Mission/EDF6/M031B"},
+            {"type": "str", "value": "EDF6/M031B"},
+            {"type": "ptr", "value": [{"type": "double", "value": 38}]},
+            {"type": "double", "value": 37},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "BGM_E6M23_MissionDystopia"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 66}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 38},
+            {"type": "str", "value": "app:/Mission/EDF6/M032"},
+            {"type": "str", "value": "EDF6/M032"},
+            {"type": "ptr", "value": [{"type": "double", "value": 39}]},
+            {"type": "double", "value": 38},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "BGM_E6M23_MissionDystopia"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 66}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 39},
+            {"type": "str", "value": "app:/Mission/EDF6/M003_5B"},
+            {"type": "str", "value": "EDF6/M003_5B"},
+            {"type": "ptr", "value": [{"type": "double", "value": 40}]},
+            {"type": "double", "value": 39},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "BGM_E6M23_MissionDystopia"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 66}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 40},
+            {"type": "str", "value": "app:/Mission/EDF6/M034"},
+            {"type": "str", "value": "EDF6/M034"},
+            {"type": "ptr", "value": [{"type": "double", "value": 41}]},
+            {"type": "double", "value": 40},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "BGM_E6M23_MissionDystopia"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 66}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 41},
+            {"type": "str", "value": "app:/Mission/EDF6/M035B"},
+            {"type": "str", "value": "EDF6/M035B"},
+            {"type": "ptr", "value": [{"type": "double", "value": 42}]},
+            {"type": "double", "value": 41},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 3},
+            {"type": "str", "value": "BGM_E6M24_MissionZetsumetsu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 68}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 42},
+            {"type": "str", "value": "app:/Mission/EDF6/M036"},
+            {"type": "str", "value": "EDF6/M036"},
+            {"type": "ptr", "value": [{"type": "double", "value": 43}]},
+            {"type": "double", "value": 42},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 3},
+            {"type": "str", "value": "BGM_E6M24_MissionZetsumetsu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 68}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 43},
+            {"type": "str", "value": "app:/Mission/EDF6/M037"},
+            {"type": "str", "value": "EDF6/M037"},
+            {"type": "ptr", "value": [{"type": "double", "value": 44}]},
+            {"type": "double", "value": 43},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 3},
+            {"type": "str", "value": "BGM_E6M24_MissionZetsumetsu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 68}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 44},
+            {"type": "str", "value": "app:/Mission/EDF6/M038"},
+            {"type": "str", "value": "EDF6/M038"},
+            {"type": "ptr", "value": [{"type": "double", "value": 45}]},
+            {"type": "double", "value": 44},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 3},
+            {"type": "str", "value": "BGM_E6M24_MissionZetsumetsu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 68}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 45},
+            {"type": "str", "value": "app:/Mission/EDF6/M039"},
+            {"type": "str", "value": "EDF6/M039"},
+            {"type": "ptr", "value": [{"type": "double", "value": 46}]},
+            {"type": "double", "value": 45},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 3},
+            {"type": "str", "value": "BGM_E6M24_MissionZetsumetsu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 68}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 46},
+            {"type": "str", "value": "app:/Mission/EDF6/RM015B2"},
+            {"type": "str", "value": "EDF6/RM015B2"},
+            {"type": "ptr", "value": [{"type": "double", "value": 47}]},
+            {"type": "double", "value": 46},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 47},
+            {"type": "str", "value": "app:/Mission/EDF6/RM015_3B"},
+            {"type": "str", "value": "EDF6/RM015_3B"},
+            {"type": "ptr", "value": [{"type": "double", "value": 48}]},
+            {"type": "double", "value": 47},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 48},
+            {"type": "str", "value": "app:/Mission/EDF6/M046"},
+            {"type": "str", "value": "EDF6/M046"},
+            {"type": "ptr", "value": [{"type": "double", "value": 49}]},
+            {"type": "double", "value": 48},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 49},
+            {"type": "str", "value": "app:/Mission/EDF6/M140A"},
+            {"type": "str", "value": "EDF6/M140A"},
+            {"type": "ptr", "value": [{"type": "double", "value": 50}]},
+            {"type": "double", "value": 49},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 50},
+            {"type": "str", "value": "app:/Mission/EDF6/RM025B"},
+            {"type": "str", "value": "EDF6/RM025B"},
+            {"type": "ptr", "value": [{"type": "double", "value": 51}]},
+            {"type": "double", "value": 50},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 51},
+            {"type": "str", "value": "app:/Mission/EDF6/M047"},
+            {"type": "str", "value": "EDF6/M047"},
+            {"type": "ptr", "value": [{"type": "double", "value": 52}]},
+            {"type": "double", "value": 51},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 52},
+            {"type": "str", "value": "app:/Mission/EDF6/M047_5"},
+            {"type": "str", "value": "EDF6/M047_5"},
+            {"type": "ptr", "value": [{"type": "double", "value": 53}]},
+            {"type": "double", "value": 52},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 53},
+            {"type": "str", "value": "app:/Mission/EDF6/M048"},
+            {"type": "str", "value": "EDF6/M048"},
+            {"type": "ptr", "value": [{"type": "double", "value": 54}]},
+            {"type": "double", "value": 53},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 54},
+            {"type": "str", "value": "app:/Mission/EDF6/M203"},
+            {"type": "str", "value": "EDF6/M203"},
+            {"type": "ptr", "value": [{"type": "double", "value": 55}]},
+            {"type": "double", "value": 54},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 55},
+            {"type": "str", "value": "app:/Mission/EDF6/RM020"},
+            {"type": "str", "value": "EDF6/RM020"},
+            {"type": "ptr", "value": [{"type": "double", "value": 56}]},
+            {"type": "double", "value": 55},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 56},
+            {"type": "str", "value": "app:/Mission/EDF6/M083_7"},
+            {"type": "str", "value": "EDF6/M083_7"},
+            {"type": "ptr", "value": [{"type": "double", "value": 57}]},
+            {"type": "double", "value": 56},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 57},
+            {"type": "str", "value": "app:/Mission/EDF6/M049_5"},
+            {"type": "str", "value": "EDF6/M049_5"},
+            {"type": "ptr", "value": [{"type": "double", "value": 58}]},
+            {"type": "double", "value": 57},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 40}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 58},
+            {"type": "str", "value": "app:/Mission/EDF6/M049_6"},
+            {"type": "str", "value": "EDF6/M049_6"},
+            {"type": "ptr", "value": [{"type": "double", "value": 59}]},
+            {"type": "double", "value": 58},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 40}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 59},
+            {"type": "str", "value": "app:/Mission/EDF6/M050"},
+            {"type": "str", "value": "EDF6/M050"},
+            {"type": "ptr", "value": [{"type": "double", "value": 60}]},
+            {"type": "double", "value": 59},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 40}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 60},
+            {"type": "str", "value": "app:/Mission/EDF6/M051"},
+            {"type": "str", "value": "EDF6/M051"},
+            {"type": "ptr", "value": [{"type": "double", "value": 61}]},
+            {"type": "double", "value": 60},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 61},
+            {"type": "str", "value": "app:/Mission/EDF6/M048_5"},
+            {"type": "str", "value": "EDF6/M048_5"},
+            {"type": "ptr", "value": [{"type": "double", "value": 62}]},
+            {"type": "double", "value": 61},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 62},
+            {"type": "str", "value": "app:/Mission/EDF6/RM034A"},
+            {"type": "str", "value": "EDF6/RM034A"},
+            {"type": "ptr", "value": [{"type": "double", "value": 63}]},
+            {"type": "double", "value": 62},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 63},
+            {"type": "str", "value": "app:/Mission/EDF6/M045"},
+            {"type": "str", "value": "EDF6/M045"},
+            {"type": "ptr", "value": [{"type": "double", "value": 64}]},
+            {"type": "double", "value": 63},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 64},
+            {"type": "str", "value": "app:/Mission/EDF6/M045_5"},
+            {"type": "str", "value": "EDF6/M045_5"},
+            {"type": "ptr", "value": [{"type": "double", "value": 65}]},
+            {"type": "double", "value": 64},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 65},
+            {"type": "str", "value": "app:/Mission/EDF6/M046_5"},
+            {"type": "str", "value": "EDF6/M046_5"},
+            {"type": "ptr", "value": [{"type": "double", "value": 66}]},
+            {"type": "double", "value": 65},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 66},
+            {"type": "str", "value": "app:/Mission/EDF6/M253"},
+            {"type": "str", "value": "EDF6/M253"},
+            {"type": "ptr", "value": [{"type": "double", "value": 67}]},
+            {"type": "double", "value": 66},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 67},
+            {"type": "str", "value": "app:/Mission/EDF6/M029_7"},
+            {"type": "str", "value": "EDF6/M029_7"},
+            {"type": "ptr", "value": [{"type": "double", "value": 68}]},
+            {"type": "double", "value": 67},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 68},
+            {"type": "str", "value": "app:/Mission/EDF6/M049"},
+            {"type": "str", "value": "EDF6/M049"},
+            {"type": "ptr", "value": [{"type": "double", "value": 69}]},
+            {"type": "double", "value": 68},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 69},
+            {"type": "str", "value": "app:/Mission/EDF6/RM044"},
+            {"type": "str", "value": "EDF6/RM044"},
+            {"type": "ptr", "value": [{"type": "double", "value": 70}]},
+            {"type": "double", "value": 69},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 70},
+            {"type": "str", "value": "app:/Mission/EDF6/M052"},
+            {"type": "str", "value": "EDF6/M052"},
+            {"type": "ptr", "value": [{"type": "double", "value": 71}]},
+            {"type": "double", "value": 70},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 71},
+            {"type": "str", "value": "app:/Mission/EDF6/M250"},
+            {"type": "str", "value": "EDF6/M250"},
+            {"type": "ptr", "value": [{"type": "double", "value": 72}]},
+            {"type": "double", "value": 71},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 72},
+            {"type": "str", "value": "app:/Mission/EDF6/RM090B"},
+            {"type": "str", "value": "EDF6/RM090B"},
+            {"type": "ptr", "value": [{"type": "double", "value": 73}]},
+            {"type": "double", "value": 72},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 73},
+            {"type": "str", "value": "app:/Mission/EDF6/M055"},
+            {"type": "str", "value": "EDF6/M055"},
+            {"type": "ptr", "value": [{"type": "double", "value": 74}]},
+            {"type": "double", "value": 73},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M29_MissionEDF5"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 74},
+            {"type": "str", "value": "app:/Mission/EDF6/M031C"},
+            {"type": "str", "value": "EDF6/M031C"},
+            {"type": "ptr", "value": [{"type": "double", "value": 75}]},
+            {"type": "double", "value": 74},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "BGM_E6M23_MissionDystopia"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 66}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 75},
+            {"type": "str", "value": "app:/Mission/EDF6/M071"},
+            {"type": "str", "value": "EDF6/M071"},
+            {"type": "ptr", "value": [{"type": "double", "value": 76}]},
+            {"type": "double", "value": 75},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "BGM_E6M23_MissionDystopia"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 66}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 76},
+            {"type": "str", "value": "app:/Mission/EDF6/M061_5"},
+            {"type": "str", "value": "EDF6/M061_5"},
+            {"type": "ptr", "value": [{"type": "double", "value": 77}]},
+            {"type": "double", "value": 76},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "BGM_E6M23_MissionDystopia"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 66}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 77},
+            {"type": "str", "value": "app:/Mission/EDF6/M062B"},
+            {"type": "str", "value": "EDF6/M062B"},
+            {"type": "ptr", "value": [{"type": "double", "value": 78}]},
+            {"type": "double", "value": 77},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 3},
+            {"type": "str", "value": "BGM_E6M24_MissionZetsumetsu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 68}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 78},
+            {"type": "str", "value": "app:/Mission/EDF6/M063"},
+            {"type": "str", "value": "EDF6/M063"},
+            {"type": "ptr", "value": [{"type": "double", "value": 79}]},
+            {"type": "double", "value": 78},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 3},
+            {"type": "str", "value": "BGM_E6M24_MissionZetsumetsu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 68}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 79},
+            {"type": "str", "value": "app:/Mission/EDF6/M064_5"},
+            {"type": "str", "value": "EDF6/M064_5"},
+            {"type": "ptr", "value": [{"type": "double", "value": 80}]},
+            {"type": "double", "value": 79},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 3},
+            {"type": "str", "value": "BGM_E6M24_MissionZetsumetsu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 68}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 80},
+            {"type": "str", "value": "app:/Mission/EDF6/M065"},
+            {"type": "str", "value": "EDF6/M065"},
+            {"type": "ptr", "value": [{"type": "double", "value": 81}]},
+            {"type": "double", "value": 80},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 3},
+            {"type": "str", "value": "BGM_E6M24_MissionZetsumetsu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 68}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 81},
+            {"type": "str", "value": "app:/Mission/EDF6/M066"},
+            {"type": "str", "value": "EDF6/M066"},
+            {"type": "ptr", "value": [{"type": "double", "value": 82}]},
+            {"type": "double", "value": 81},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 3},
+            {"type": "str", "value": "BGM_E6M24_MissionZetsumetsu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 68}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 82},
+            {"type": "str", "value": "app:/Mission/EDF6/RM005"},
+            {"type": "str", "value": "EDF6/RM005"},
+            {"type": "ptr", "value": [{"type": "double", "value": 83}]},
+            {"type": "double", "value": 82},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.10000000149011612},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 83},
+            {"type": "str", "value": "app:/Mission/EDF6/RM006"},
+            {"type": "str", "value": "EDF6/RM006"},
+            {"type": "ptr", "value": [{"type": "double", "value": 84}]},
+            {"type": "double", "value": 83},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.10000000149011612},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 84},
+            {"type": "str", "value": "app:/Mission/EDF6/RM009"},
+            {"type": "str", "value": "EDF6/RM009"},
+            {"type": "ptr", "value": [{"type": "double", "value": 85}]},
+            {"type": "double", "value": 84},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.10000000149011612},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 85},
+            {"type": "str", "value": "app:/Mission/EDF6/RM008"},
+            {"type": "str", "value": "EDF6/RM008"},
+            {"type": "ptr", "value": [{"type": "double", "value": 86}]},
+            {"type": "double", "value": 85},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.10000000149011612},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 86},
+            {"type": "str", "value": "app:/Mission/EDF6/M083_5"},
+            {"type": "str", "value": "EDF6/M083_5"},
+            {"type": "ptr", "value": [{"type": "double", "value": 87}]},
+            {"type": "double", "value": 86},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 87},
+            {"type": "str", "value": "app:/Mission/EDF6/M081"},
+            {"type": "str", "value": "EDF6/M081"},
+            {"type": "ptr", "value": [{"type": "double", "value": 88}]},
+            {"type": "double", "value": 87},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 88},
+            {"type": "str", "value": "app:/Mission/EDF6/M079_2"},
+            {"type": "str", "value": "EDF6/M079_2"},
+            {"type": "ptr", "value": [{"type": "double", "value": 89}]},
+            {"type": "double", "value": 88},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 89},
+            {"type": "str", "value": "app:/Mission/EDF6/M207"},
+            {"type": "str", "value": "EDF6/M207"},
+            {"type": "ptr", "value": [{"type": "double", "value": 90}]},
+            {"type": "double", "value": 89},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 90},
+            {"type": "str", "value": "app:/Mission/EDF6/M080"},
+            {"type": "str", "value": "EDF6/M080"},
+            {"type": "ptr", "value": [{"type": "double", "value": 91}]},
+            {"type": "double", "value": 90},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 91},
+            {"type": "str", "value": "app:/Mission/EDF6/M108"},
+            {"type": "str", "value": "EDF6/M108"},
+            {"type": "ptr", "value": [{"type": "double", "value": 92}]},
+            {"type": "double", "value": 91},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 92},
+            {"type": "str", "value": "app:/Mission/EDF6/M130D"},
+            {"type": "str", "value": "EDF6/M130D"},
+            {"type": "ptr", "value": [{"type": "double", "value": 93}]},
+            {"type": "double", "value": 92},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 93},
+            {"type": "str", "value": "app:/Mission/EDF6/M083_4"},
+            {"type": "str", "value": "EDF6/M083_4"},
+            {"type": "ptr", "value": [{"type": "double", "value": 94}]},
+            {"type": "double", "value": 93},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 94},
+            {"type": "str", "value": "app:/Mission/EDF6/M070"},
+            {"type": "str", "value": "EDF6/M070"},
+            {"type": "ptr", "value": [{"type": "double", "value": 95}]},
+            {"type": "double", "value": 94},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.20000000298023224},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 95},
+            {"type": "str", "value": "app:/Mission/EDF6/M083_8"},
+            {"type": "str", "value": "EDF6/M083_8"},
+            {"type": "ptr", "value": [{"type": "double", "value": 96}]},
+            {"type": "double", "value": 95},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 96},
+            {"type": "str", "value": "app:/Mission/EDF6/RM034B"},
+            {"type": "str", "value": "EDF6/RM034B"},
+            {"type": "ptr", "value": [{"type": "double", "value": 97}]},
+            {"type": "double", "value": 96},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 97},
+            {"type": "str", "value": "app:/Mission/EDF6/M105"},
+            {"type": "str", "value": "EDF6/M105"},
+            {"type": "ptr", "value": [{"type": "double", "value": 98}]},
+            {"type": "double", "value": 97},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 98},
+            {"type": "str", "value": "app:/Mission/EDF6/M113"},
+            {"type": "str", "value": "EDF6/M113"},
+            {"type": "ptr", "value": [{"type": "double", "value": 99}]},
+            {"type": "double", "value": 98},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 99},
+            {"type": "str", "value": "app:/Mission/EDF6/RM091"},
+            {"type": "str", "value": "EDF6/RM091"},
+            {"type": "ptr", "value": [{"type": "double", "value": 100}]},
+            {"type": "double", "value": 99},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 100},
+            {"type": "str", "value": "app:/Mission/EDF6/M204"},
+            {"type": "str", "value": "EDF6/M204"},
+            {"type": "ptr", "value": [{"type": "double", "value": 101}]},
+            {"type": "double", "value": 100},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 101},
+            {"type": "str", "value": "app:/Mission/EDF6/M029_6"},
+            {"type": "str", "value": "EDF6/M029_6"},
+            {"type": "ptr", "value": [{"type": "double", "value": 102}]},
+            {"type": "double", "value": 101},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 102},
+            {"type": "str", "value": "app:/Mission/EDF6/RM091_4"},
+            {"type": "str", "value": "EDF6/RM091_4"},
+            {"type": "ptr", "value": [{"type": "double", "value": 103}]},
+            {"type": "double", "value": 102},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 103},
+            {"type": "str", "value": "app:/Mission/EDF6/M082"},
+            {"type": "str", "value": "EDF6/M082"},
+            {"type": "ptr", "value": [{"type": "double", "value": 104}]},
+            {"type": "double", "value": 103},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 104},
+            {"type": "str", "value": "app:/Mission/EDF6/M092"},
+            {"type": "str", "value": "EDF6/M092"},
+            {"type": "ptr", "value": [{"type": "double", "value": 105}]},
+            {"type": "double", "value": 104},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 105},
+            {"type": "str", "value": "app:/Mission/EDF6/M093_2"},
+            {"type": "str", "value": "EDF6/M093_2"},
+            {"type": "ptr", "value": [{"type": "double", "value": 106}]},
+            {"type": "double", "value": 105},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 106},
+            {"type": "str", "value": "app:/Mission/EDF6/M031D"},
+            {"type": "str", "value": "EDF6/M031D"},
+            {"type": "ptr", "value": [{"type": "double", "value": 107}]},
+            {"type": "double", "value": 106},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 3},
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "BGM_E6M23_MissionDystopia"},
+            {"type": "double", "value": 0.8999999761581421},
+            {"name": "flags", "type": "double", "value": 24}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 107},
+            {"type": "str", "value": "app:/Mission/EDF6/M092_5"},
+            {"type": "str", "value": "EDF6/M092_5"},
+            {"type": "ptr", "value": [{"type": "double", "value": 108}]},
+            {"type": "double", "value": 107},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 3},
+            {"type": "double", "value": 2},
+            {"type": "str", "value": "BGM_E6M03_YomigaettaMirai"},
+            {"type": "double", "value": 0.8999999761581421},
+            {"name": "flags", "type": "double", "value": 24}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 108},
+            {"type": "str", "value": "app:/Mission/EDF6/M093"},
+            {"type": "str", "value": "EDF6/M093"},
+            {"type": "ptr", "value": [{"type": "double", "value": 109}]},
+            {"type": "double", "value": 108},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 3},
+            {"type": "double", "value": 2},
+            {"type": "str", "value": "BGM_E6M03_YomigaettaMirai"},
+            {"type": "double", "value": 0.8999999761581421},
+            {"name": "flags", "type": "double", "value": 24}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 109},
+            {"type": "str", "value": "app:/Mission/EDF6/M094"},
+            {"type": "str", "value": "EDF6/M094"},
+            {"type": "ptr", "value": [{"type": "double", "value": 110}]},
+            {"type": "double", "value": 109},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 3},
+            {"type": "double", "value": 2},
+            {"type": "str", "value": "BGM_E6M03_YomigaettaMirai"},
+            {"type": "double", "value": 0.8999999761581421},
+            {"name": "flags", "type": "double", "value": 24}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 110},
+            {"type": "str", "value": "app:/Mission/EDF6/M095B"},
+            {"type": "str", "value": "EDF6/M095B"},
+            {"type": "ptr", "value": [{"type": "double", "value": 111}]},
+            {"type": "double", "value": 110},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 3},
+            {"type": "str", "value": "BGM_E6M24_MissionZetsumetsu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 68}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 111},
+            {"type": "str", "value": "app:/Mission/EDF6/M096"},
+            {"type": "str", "value": "EDF6/M096"},
+            {"type": "ptr", "value": [{"type": "double", "value": 112}]},
+            {"type": "double", "value": 111},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 3},
+            {"type": "str", "value": "BGM_E6M24_MissionZetsumetsu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 68}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 112},
+            {"type": "str", "value": "app:/Mission/EDF6/M097"},
+            {"type": "str", "value": "EDF6/M097"},
+            {"type": "ptr", "value": [{"type": "double", "value": 113}]},
+            {"type": "double", "value": 112},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 3},
+            {"type": "str", "value": "BGM_E6M24_MissionZetsumetsu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 68}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 113},
+            {"type": "str", "value": "app:/Mission/EDF6/M098"},
+            {"type": "str", "value": "EDF6/M098"},
+            {"type": "ptr", "value": [{"type": "double", "value": 114}]},
+            {"type": "double", "value": 113},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 3},
+            {"type": "str", "value": "BGM_E6M24_MissionZetsumetsu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 68}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 114},
+            {"type": "str", "value": "app:/Mission/EDF6/M099"},
+            {"type": "str", "value": "EDF6/M099"},
+            {"type": "ptr", "value": [{"type": "double", "value": 115}]},
+            {"type": "double", "value": 114},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 3},
+            {"type": "str", "value": "BGM_E6M24_MissionZetsumetsu"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 68}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 115},
+            {"type": "str", "value": "app:/Mission/EDF6/RM000"},
+            {"type": "str", "value": "EDF6/RM000"},
+            {"type": "ptr", "value": [{"type": "double", "value": 116}]},
+            {"type": "double", "value": 115},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E5S02_EDFHonbu"},
+            {"type": "double", "value": 0.10000000149011612},
+            {"name": "flags", "type": "double", "value": 520}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 116},
+            {"type": "str", "value": "app:/Mission/EDF6/RM003"},
+            {"type": "str", "value": "EDF6/RM003"},
+            {"type": "ptr", "value": [{"type": "double", "value": 117}]},
+            {"type": "double", "value": 116},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.10000000149011612},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 117},
+            {"type": "str", "value": "app:/Mission/EDF6/RM016B"},
+            {"type": "str", "value": "EDF6/RM016B"},
+            {"type": "ptr", "value": [{"type": "double", "value": 118}]},
+            {"type": "double", "value": 117},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 118},
+            {"type": "str", "value": "app:/Mission/EDF6/M049_7"},
+            {"type": "str", "value": "EDF6/M049_7"},
+            {"type": "ptr", "value": [{"type": "double", "value": 119}]},
+            {"type": "double", "value": 118},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 40}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 119},
+            {"type": "str", "value": "app:/Mission/EDF6/M083"},
+            {"type": "str", "value": "EDF6/M083"},
+            {"type": "ptr", "value": [{"type": "double", "value": 120}]},
+            {"type": "double", "value": 119},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 120},
+            {"type": "str", "value": "app:/Mission/EDF6/M107"},
+            {"type": "str", "value": "EDF6/M107"},
+            {"type": "ptr", "value": [{"type": "double", "value": 121}]},
+            {"type": "double", "value": 120},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 121},
+            {"type": "str", "value": "app:/Mission/EDF6/M112"},
+            {"type": "str", "value": "EDF6/M112"},
+            {"type": "ptr", "value": [{"type": "double", "value": 122}]},
+            {"type": "double", "value": 121},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 122},
+            {"type": "str", "value": "app:/Mission/EDF6/M049_8"},
+            {"type": "str", "value": "EDF6/M049_8"},
+            {"type": "ptr", "value": [{"type": "double", "value": 123}]},
+            {"type": "double", "value": 122},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 40}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 123},
+            {"type": "str", "value": "app:/Mission/EDF6/M104"},
+            {"type": "str", "value": "EDF6/M104"},
+            {"type": "ptr", "value": [{"type": "double", "value": 124}]},
+            {"type": "double", "value": 123},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 124},
+            {"type": "str", "value": "app:/Mission/EDF6/M029_3"},
+            {"type": "str", "value": "EDF6/M029_3"},
+            {"type": "ptr", "value": [{"type": "double", "value": 125}]},
+            {"type": "double", "value": 124},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 125},
+            {"type": "str", "value": "app:/Mission/EDF6/M254"},
+            {"type": "str", "value": "EDF6/M254"},
+            {"type": "ptr", "value": [{"type": "double", "value": 126}]},
+            {"type": "double", "value": 125},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 126},
+            {"type": "str", "value": "app:/Mission/EDF6/M117"},
+            {"type": "str", "value": "EDF6/M117"},
+            {"type": "ptr", "value": [{"type": "double", "value": 127}]},
+            {"type": "double", "value": 126},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 127},
+            {"type": "str", "value": "app:/Mission/EDF6/M115"},
+            {"type": "str", "value": "EDF6/M115"},
+            {"type": "ptr", "value": [{"type": "double", "value": 128}]},
+            {"type": "double", "value": 127},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 128},
+            {"type": "str", "value": "app:/Mission/EDF6/M051_5"},
+            {"type": "str", "value": "EDF6/M051_5"},
+            {"type": "ptr", "value": [{"type": "double", "value": 129}]},
+            {"type": "double", "value": 128},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 129},
+            {"type": "str", "value": "app:/Mission/EDF6/M103"},
+            {"type": "str", "value": "EDF6/M103"},
+            {"type": "ptr", "value": [{"type": "double", "value": 130}]},
+            {"type": "double", "value": 129},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 130},
+            {"type": "str", "value": "app:/Mission/EDF6/M252"},
+            {"type": "str", "value": "EDF6/M252"},
+            {"type": "ptr", "value": [{"type": "double", "value": 131}]},
+            {"type": "double", "value": 130},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 131},
+            {"type": "str", "value": "app:/Mission/EDF6/M116"},
+            {"type": "str", "value": "EDF6/M116"},
+            {"type": "ptr", "value": [{"type": "double", "value": 132}]},
+            {"type": "double", "value": 131},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.699999988079071},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 132},
+            {"type": "str", "value": "app:/Mission/EDF6/M031E"},
+            {"type": "str", "value": "EDF6/M031E"},
+            {"type": "ptr", "value": [{"type": "double", "value": 133}]},
+            {"type": "double", "value": 132},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 3},
+            {"type": "double", "value": 2},
+            {"type": "str", "value": "BGM_E6M03_YomigaettaMirai"},
+            {"type": "double", "value": 1},
+            {"name": "flags", "type": "double", "value": 24}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 133},
+            {"type": "str", "value": "app:/Mission/EDF6/M093_3"},
+            {"type": "str", "value": "EDF6/M093_3"},
+            {"type": "ptr", "value": [{"type": "double", "value": 134}]},
+            {"type": "double", "value": 133},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 3},
+            {"type": "double", "value": 2},
+            {"type": "str", "value": "BGM_E6M03_YomigaettaMirai"},
+            {"type": "double", "value": 1},
+            {"name": "flags", "type": "double", "value": 24}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 134},
+            {"type": "str", "value": "app:/Mission/EDF6/M118"},
+            {"type": "str", "value": "EDF6/M118"},
+            {"type": "ptr", "value": [{"type": "double", "value": 135}]},
+            {"type": "double", "value": 134},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 3},
+            {"type": "double", "value": 2},
+            {"type": "str", "value": "BGM_E6M03_YomigaettaMirai"},
+            {"type": "double", "value": 1},
+            {"name": "flags", "type": "double", "value": 24}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 135},
+            {"type": "str", "value": "app:/Mission/EDF6/M118_5"},
+            {"type": "str", "value": "EDF6/M118_5"},
+            {"type": "ptr", "value": [{"type": "double", "value": 136}]},
+            {"type": "double", "value": 135},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 3},
+            {"type": "double", "value": 2},
+            {"type": "str", "value": "BGM_E6M03_YomigaettaMirai"},
+            {"type": "double", "value": 1},
+            {"name": "flags", "type": "double", "value": 24}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 136},
+            {"type": "str", "value": "app:/Mission/EDF6/M120"},
+            {"type": "str", "value": "EDF6/M120"},
+            {
+              "type": "ptr",
+              "value": [
+                {"type": "double", "value": 137},
+                {"type": "double", "value": 138},
+                {"type": "double", "value": 139},
+                {"type": "double", "value": 140},
+                {"type": "double", "value": 141},
+                {"type": "double", "value": 142}
+              ]
+            },
+            {"type": "double", "value": 136},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 3},
+            {"type": "double", "value": 2},
+            {"type": "str", "value": "BGM_E6M03_YomigaettaMirai"},
+            {"type": "double", "value": 1},
+            {"name": "flags", "type": "double", "value": 152}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 137},
+            {"type": "str", "value": "app:/Mission/EDF6/M033_5"},
+            {"type": "str", "value": "EDF6/M033_5"},
+            {"type": "ptr", "value": null},
+            {"type": "double", "value": 39},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "BGM_E6M23_MissionDystopia"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 66}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 138},
+            {"type": "str", "value": "app:/Mission/EDF6/M130C"},
+            {"type": "str", "value": "EDF6/M130C"},
+            {"type": "ptr", "value": null},
+            {"type": "double", "value": 75},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 2},
+            {"type": "double", "value": 1},
+            {"type": "str", "value": "BGM_E6M23_MissionDystopia"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 66}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 139},
+            {"type": "str", "value": "app:/Mission/EDF6/M131"},
+            {"type": "str", "value": "EDF6/M131"},
+            {"type": "ptr", "value": null},
+            {"type": "double", "value": 133},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 3},
+            {"type": "double", "value": 2},
+            {"type": "str", "value": "BGM_E6M03_YomigaettaMirai"},
+            {"type": "double", "value": 0.8999999761581421},
+            {"name": "flags", "type": "double", "value": 24}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 140},
+            {"type": "str", "value": "app:/Mission/EDF6/M140B"},
+            {"type": "str", "value": "EDF6/M140B"},
+            {"type": "ptr", "value": [{"type": "double", "value": 143}]},
+            {"type": "double", "value": 117},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 264}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 141},
+            {"type": "str", "value": "app:/Mission/EDF6/M114B"},
+            {"type": "str", "value": "EDF6/M114B"},
+            {"type": "ptr", "value": null},
+            {"type": "double", "value": 127},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 142},
+            {"type": "str", "value": "app:/Mission/EDF6/M081B"},
+            {"type": "str", "value": "EDF6/M081B"},
+            {"type": "ptr", "value": null},
+            {"type": "double", "value": 129},
+            {"type": "double", "value": 1},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 0},
+            {"type": "str", "value": "BGM_E6M25_MissionYusei"},
+            {"type": "double", "value": 0.5},
+            {"name": "flags", "type": "double", "value": 8}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 143},
+            {"type": "str", "value": "app:/Mission/EDF6/M148"},
+            {"type": "str", "value": "EDF6/M148"},
+            {"type": "ptr", "value": [{"type": "double", "value": 144}]},
+            {"type": "double", "value": 143},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 3},
+            {"type": "double", "value": 2},
+            {"type": "str", "value": "BGM_E6M28_MissionClimax"},
+            {"type": "double", "value": 1},
+            {"name": "flags", "type": "double", "value": 24}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 144},
+            {"type": "str", "value": "app:/Mission/EDF6/M149"},
+            {"type": "str", "value": "EDF6/M149"},
+            {"type": "ptr", "value": [{"type": "double", "value": 145}]},
+            {"type": "double", "value": 144},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 3},
+            {"type": "double", "value": 2},
+            {"type": "str", "value": "BGM_E6M28_MissionClimax"},
+            {"type": "double", "value": 1},
+            {"name": "flags", "type": "double", "value": 24}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 145},
+            {"type": "str", "value": "app:/Mission/EDF6/M123"},
+            {"type": "str", "value": "EDF6/M123"},
+            {"type": "ptr", "value": [{"type": "double", "value": 146}]},
+            {"type": "double", "value": 145},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 3},
+            {"type": "double", "value": 2},
+            {"type": "str", "value": "BGM_E6M28_MissionClimax"},
+            {"type": "double", "value": 1},
+            {"name": "flags", "type": "double", "value": 24}
+          ]
+        },
+        {
+          "type": "ptr",
+          "value": [
+            {"type": "double", "value": 146},
+            {"type": "str", "value": "app:/Mission/EDF6/M152"},
+            {"type": "str", "value": "EDF6/M152"},
+            {"type": "ptr", "value": [{"type": "double", "value": 147}]},
+            {"type": "double", "value": 146},
+            {"type": "double", "value": 0},
+            {"type": "double", "value": 3},
+            {"type": "double", "value": 2},
+            {"type": "str", "value": "BGM_E6M27_MissionFinal"},
+            {"type": "double", "value": 1},
+            {"name": "flags", "type": "double", "value": 24}
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {"id": null}
+}
