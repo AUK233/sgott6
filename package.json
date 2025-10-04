@@ -6,9 +6,11 @@
   "bin": "sgott.js",
   "scripts": {
     "test": "node ./test/tabledata.js",
+    "test2": "node ./test/addmission.js",
     "build-sgott": "pkg -t node16-win -o ./release/sgott6.exe ./sgott.js",
     "build-strap": "pkg -t node16-win -o ./release/sgottstrap6.exe ./sgottstrap/sgottstrap.js",
     "build": "npm run build-sgott && npm run build-strap",
+    "build-addmission": "pkg -t node16-win -o ./release/addmission.exe ./test/addmission.js",
     "install": "npm install"
   },
   "repository": {
